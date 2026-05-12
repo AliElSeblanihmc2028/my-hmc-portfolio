@@ -1,0 +1,18 @@
+---
+title: "My Portfolio"
+image: images/headshot.png
+about:
+  template: jolla
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:aelseblani@g.hmc.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ali-el-seblani-596499322/
+    - icon: github
+      text: Github
+      href: https://github.com/AliElSeblanihmc2028
+---
+
+Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at [Harvey Mudd College](https://www.hmc.edu/) interested in mechanical and electrical engineering. I'm currently doing a Manufacturing Engineering internship for General Motors at their Autonomous Robotic Center. I am also a Machine Shop Proctor and work on the mechanical subteam for the FSAE team.
