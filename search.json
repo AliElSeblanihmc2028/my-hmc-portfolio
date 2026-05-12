@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Engineering Project | Sept – Oct 2025\n\n\n\n\n\n\nHammer Front\n\n\n\n\n\n\n\nHammer Back\n\n\n\n\n\nDesigned and manufactured a machinist’s hammer from raw materials, following a process router and technical drawings while machining components to precision tolerances within thousandths of an inch.\nWhat I Did\n\nFollowed a process router and technical drawings to manufacture each component from raw materials\nMachined all components to tolerances within thousandths of an inch of technical specifications\nCalibrated and operated a lathe and mill to work with steel and nylon\nApplied manufacturing techniques including drilling, tapping, heat treatment, and tempering\n\nView Technical Drawings"
+  },
+  {
+    "objectID": "projects.html#machinists-hammer",
+    "href": "projects.html#machinists-hammer",
+    "title": "Projects",
+    "section": "",
+    "text": "Engineering Project | Sept – Oct 2025\n\n\n\n\n\n\nHammer Front\n\n\n\n\n\n\n\nHammer Back\n\n\n\n\n\nDesigned and manufactured a machinist’s hammer from raw materials, following a process router and technical drawings while machining components to precision tolerances within thousandths of an inch.\nWhat I Did\n\nFollowed a process router and technical drawings to manufacture each component from raw materials\nMachined all components to tolerances within thousandths of an inch of technical specifications\nCalibrated and operated a lathe and mill to work with steel and nylon\nApplied manufacturing techniques including drilling, tapping, heat treatment, and tempering\n\nView Technical Drawings"
+  },
+  {
+    "objectID": "projects.html#autonomous-ocean-profiling-robot-for-climate-monitoring",
+    "href": "projects.html#autonomous-ocean-profiling-robot-for-climate-monitoring",
+    "title": "Projects",
+    "section": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "text": "Autonomous Ocean Profiling Robot for Climate Monitoring\nEngineering Project | Jan – May 2026\n\n\n\n\n\n\nAUV Robot\n\n\n\n\n\n\n\nIsometric PCB View\n\n\n\n\n\n\n\nTop Down PCB View\n\n\n\n\n\nSensor Interfaces\n\n\n\n\n\n\nPressure Sensor Interface\n\n\n\n\n\n\n\nThermistor Interface\n\n\n\n\n\n\n\nUV Sensor Interface\n\n\n\n\n\nDesigned and developed a fully functional Autonomous Underwater Robot to collect and process pressure, temperature, and UV data at depths of up to 3 meters in marine environments at Dana Point.\nWhat I Did\n\nLed electrical system design, implementing 3 analog circuits with voltage-to-voltage, current-to-voltage, and resistance-to-voltage interfaces\nEngineered UV, pressure, and temperature sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution and prevent clipping on the Teensy 4.0\nDeveloped calibration protocols accounting for noise, sensor non-linearity, and degradation for accurate underwater measurements\nDesigned and fabricated a mechanically stable system maintaining neutral buoyancy in saltwater while minimizing axial tilt\nDeveloped a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths\nCreated MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis\n\nView Technical Paper | View Poster"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in mechanical and electrical engineering. I’m currently doing a Manufacturing Engineering internship for General Motors at their Autonomous Robotic Center. I am also a Machine Shop Proctor and work on the mechanical subteam for the FSAE team."
+  }
+]
