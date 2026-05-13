@@ -3,7 +3,7 @@ title: "Flexible Measuring Laser"
 toc: false
 ---
 
-![Flexible Measuring Laser](../images/Flexible_photo.png){width=100%}
+![Flexible Measuring Laser](../images/Flexible_photo.png){.hero-image}
 
 ## Overview
 

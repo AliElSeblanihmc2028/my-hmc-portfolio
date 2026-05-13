@@ -3,7 +3,7 @@ title: "Submersible Robot with Kp Control"
 toc: false
 ---
 
-![Submersible Robot](../images/E79_robot.png){width=100%}
+![Submersible Robot](../images/E79_robot.png){.hero-image}
 
 ## Overview
 
