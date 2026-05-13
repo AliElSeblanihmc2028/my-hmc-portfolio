@@ -1,0 +1,26 @@
+---
+title: "Software Engineer & ML Intern"
+toc: false
+---
+
+![Dasion](../images/bigdasionlogo.png){width=100%}
+
+## Overview
+
+Benchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity.
+
+## Contributions
+
+- Benchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data
+- Developed data preprocessing pipeline in Python using ML libraries to automate image cleaning and augmentation, reducing data preparation time by an estimate of 35%
+- Engineered an emotion-based music recommender using the Spotify API, enabling users to receive curated playlists based on emotional state and intensity
+
+## Skills
+
+Python, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition
+
+## Links
+
+[Dasion](https://data-to-decision.com/)
+
+[Back to Work Experience](../work_experience.qmd)

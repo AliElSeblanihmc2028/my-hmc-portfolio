@@ -1,0 +1,23 @@
+---
+title: "Submersible Robot with Kp Control"
+toc: false
+---
+
+![Submersible Robot](../images/E79_robot.png){width=100%}
+
+## Overview
+
+Constructed an underwater remotely operated vehicle (ROV) to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge. Assembled a PCB containing the MCP6002 OpAmp to return output voltages modeled and analyzed in LabVIEW.
+
+## Contributions
+
+- Constructed an underwater ROV to retrieve temperature, pressure, and other signals in lake environments
+- Utilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection
+- Assembled a PCB containing the MCP6002 OpAmp to return output voltages
+- Modeled and analyzed output voltages in LabVIEW
+
+## Skills
+
+LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding
+
+[Back to Projects](../projects.qmd)

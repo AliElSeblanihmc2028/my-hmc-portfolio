@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - images/
+    - project-pages/
 
 website:
   title: "My Portfolio"
@@ -21,6 +22,5 @@ format:
       - brand
     css: styles.css
     toc: true
-
 
 

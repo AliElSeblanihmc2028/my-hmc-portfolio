@@ -4,50 +4,30 @@ toc: false
 ---
 
 ## Dasion
+**May 2025 – Aug 2025 | Claremont, CA**
 
-### Software Engineer & ML Intern
+```{=html}
+<div class="project-grid">
+  <a href="project-pages/dasion.html" class="project-card logo-card">
+    <img src="images/bigdasionlogo.png" alt="Dasion"/>
+    <div class="project-card-overlay">
+      <h3>Software Engineer & ML Intern</h3>
+      <p>Python, Machine Learning, Data Preprocessing, Spotify API</p>
+    </div>
+  </a>
+</div>
+```
 
-:::: {layout="[60,40]"}
-::: {}
-![Dasion](images/bigdasionlogo.png){width=100%}
-:::
-::: {}
-**Overview:**
+## Harvey Mudd College | Machine Shop Proctor
 
-Benchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity.
-
-**Skills:**
-
-Python, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition
-
-[Dasion](https://data-to-decision.com/)
-
-</details>
-:::
-::::
-
----
-
-## Harvey Mudd College
-
-### Machine Shop Proctor
-
-:::: {layout="[60,40]"}
-::: {}
-![Machine Shop](images/machine-shopPic.jpg){width=100%}
-:::
-::: {}
-**Overview:**
-
-Regulated a space with 20+ heavy machines including mills, lathes, and CNC machines, promoting proper machine handling practices for 80+ students each semester. Guided students in Introduction to Engineering Design and Manufacturing and Mechanical Design courses on how to read and follow process routers and technical drawings to create a machinist's hammer to specification.
-
-**Skills:**
-
-Machine Shop Safety, Machining, Tooling, Manufacturing Processes, Student Mentorship
-
-[HMC Machine Shop](https://sites.google.com/g.hmc.edu/hmc-machine-shop/home?authuser=0)
-
-
-</details>
-:::
-::::
+```{=html}
+<div class="project-grid">
+  <a href="project-pages/machineshop.html" class="project-card">
+    <img src="images/machine-shopPic.jpg" alt="Machine Shop"/>
+    <div class="project-card-overlay">
+      <h3>Harvey Mudd College | Machine Shop Proctor</h3>
+      <p>Machine Shop Safety, Machining, Tooling, Manufacturing Processes</p>
+    </div>
+  </a>
+</div>
+```
