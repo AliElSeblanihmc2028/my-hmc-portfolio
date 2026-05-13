@@ -1,0 +1,28 @@
+---
+title: "Work Experience"
+toc: false
+---
+
+## Harvey Mudd College
+
+### Machine Shop Proctor
+
+:::: {layout="[60,40]"}
+::: {}
+![Machine Shop](images/machine-shopPic.jpg){width=100%}
+:::
+
+::: {}
+**Overview:**
+
+Regulated a space with 20+ heavy machines including mills, lathes, and CNC machines, promoting proper machine handling practices for 80+ students each semester. Guided students in Introduction to Engineering Design and Manufacturing and Mechanical Design courses on how to read and follow process routers and technical drawings to create a machinist's hammer to specification.
+
+**Skills:**
+
+Machine Shop Safety, Machining, Tooling, Manufacturing Processes, Student Mentorship
+
+[Learn More: HMC Machine Shop](https://sites.google.com/g.hmc.edu/hmc-machine-shop/home?authuser=0)
+
+</details>
+:::
+::::
