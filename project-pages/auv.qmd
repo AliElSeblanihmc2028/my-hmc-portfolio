@@ -3,7 +3,7 @@ title: "Autonomous Ocean Profiling Robot for Climate Monitoring"
 toc: false
 ---
 
-![AUV Robot](../images/AUV.JPEG){width=100%}
+![AUV Robot](../images/AUV.JPEG){.hero-image}
 
 ## Overview
 

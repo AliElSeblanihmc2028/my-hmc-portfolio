@@ -3,7 +3,7 @@ title: "Machinist's Hammer"
 toc: false
 ---
 
-![Hammer Front](../images/Hammer-front.jpg){width=100%}
+![Hammer Front](../images/Hammer-front.jpg){.hero-image}
 
 ## Overview
 

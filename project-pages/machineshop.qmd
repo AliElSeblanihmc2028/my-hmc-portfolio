@@ -3,7 +3,7 @@ title: "Machine Shop Proctor"
 toc: false
 ---
 
-![Machine Shop](../images/machine-shopPic.jpg){width=100%}
+![Machine Shop](../images/machine-shopPic.jpg){.hero-image}
 
 ## Overview
 
