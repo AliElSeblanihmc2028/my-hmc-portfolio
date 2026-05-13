@@ -57,6 +57,22 @@ C++, MATLAB, PCB Design, Sensor Calibration
 
 </details>
 
+<details>
+<summary>View Results</summary>
+
+:::: {layout-ncol=3}
+::: {}
+![Depth vs. Desired Depth over Time — shows the robot successfully reaching and maintaining each target depth waypoint.](images/DepthvDes.png){width=100%}
+:::
+::: {}
+![Temperature vs. Depth — displays the temperature profile collected by the thermistor sensor as the robot descended.](images/Tempdes.png){width=100%}
+:::
+::: {}
+![UV Intensity vs. Depth — shows ultraviolet light intensity measured by the UV sensor at varying depths decaying in an exponential fashion.](images/UVdes.png){width=100%}
+:::
+::::
+
+</details>
 ---
 
 ## Systems Engineering (E79)
