@@ -4,21 +4,21 @@
     "href": "work_experience.html",
     "title": "Work Experience",
     "section": "",
-    "text": "Dasion\n\n\n\n\nOverview:\nBenchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity.\nSkills:\nPython, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition\nDasion"
+    "text": "May 2025 – Aug 2025 | Claremont, CA\n\n  \n    \n    \n      \n      Python, Machine Learning, Data Preprocessing, Spotify API"
   },
   {
     "objectID": "work_experience.html#dasion",
     "href": "work_experience.html#dasion",
     "title": "Work Experience",
     "section": "",
-    "text": "Dasion\n\n\n\n\nOverview:\nBenchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity.\nSkills:\nPython, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition\nDasion"
+    "text": "May 2025 – Aug 2025 | Claremont, CA\n\n  \n    \n    \n      \n      Python, Machine Learning, Data Preprocessing, Spotify API"
   },
   {
-    "objectID": "work_experience.html#harvey-mudd-college",
-    "href": "work_experience.html#harvey-mudd-college",
+    "objectID": "work_experience.html#harvey-mudd-college-machine-shop-proctor",
+    "href": "work_experience.html#harvey-mudd-college-machine-shop-proctor",
     "title": "Work Experience",
-    "section": "Harvey Mudd College",
-    "text": "Harvey Mudd College\n\nMachine Shop Proctor\n\n\n\n\n\n\nMachine Shop\n\n\n\n\nOverview:\nRegulated a space with 20+ heavy machines including mills, lathes, and CNC machines, promoting proper machine handling practices for 80+ students each semester. Guided students in Introduction to Engineering Design and Manufacturing and Mechanical Design courses on how to read and follow process routers and technical drawings to create a machinist’s hammer to specification.\nSkills:\nMachine Shop Safety, Machining, Tooling, Manufacturing Processes, Student Mentorship\nHMC Machine Shop"
+    "section": "Harvey Mudd College | Machine Shop Proctor",
+    "text": "Harvey Mudd College | Machine Shop Proctor\n\n  \n    \n    \n      Harvey Mudd College | Machine Shop Proctor\n      Machine Shop Safety, Machining, Tooling, Manufacturing Processes"
   },
   {
     "objectID": "index.html",
@@ -28,32 +28,249 @@
     "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in mechanical and electrical engineering. I’m currently doing a Manufacturing Engineering internship for General Motors at their Autonomous Robotic Center. I am also a Machine Shop Proctor and work on the mechanical subteam for the FSAE team."
   },
   {
+    "objectID": "project-pages/auv.html",
+    "href": "project-pages/auv.html",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "",
+    "text": "AUV Robot"
+  },
+  {
+    "objectID": "project-pages/auv.html#overview",
+    "href": "project-pages/auv.html#overview",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "Overview",
+    "text": "Overview\nDesigned and developed a fully functional Autonomous Underwater Robot capable of collecting pressure, temperature, and UV data at depths of up to 3 meters in marine environments at Dana Point. Led the electrical system design, implementing 3 analog circuits with unique interfaces and extensive calibration protocols to ensure accurate underwater measurements. Engineered sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution on the Teensy 4.0. Developed a C++ algorithm for autonomous depth control and MATLAB scripts to visualize collected climate data."
+  },
+  {
+    "objectID": "project-pages/auv.html#contributions",
+    "href": "project-pages/auv.html#contributions",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "Contributions",
+    "text": "Contributions\n\nLed electrical system design, implementing 3 analog circuits with voltage-to-voltage, current-to-voltage, and resistance-to-voltage interfaces\nEngineered UV, pressure, and temperature sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution and prevent clipping on the Teensy 4.0\nDeveloped calibration protocols accounting for noise, sensor non-linearity, and degradation for accurate underwater measurements\nDesigned and fabricated a mechanically stable system maintaining neutral buoyancy in saltwater while minimizing axial tilt\nDeveloped a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths\nCreated MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis"
+  },
+  {
+    "objectID": "project-pages/auv.html#pcb-images",
+    "href": "project-pages/auv.html#pcb-images",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "PCB Images",
+    "text": "PCB Images\n\n\n\n\n\n\nIsometric PCB View\n\n\n\n\n\n\n\nTop Down PCB View"
+  },
+  {
+    "objectID": "project-pages/auv.html#sensor-interfaces",
+    "href": "project-pages/auv.html#sensor-interfaces",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "Sensor Interfaces",
+    "text": "Sensor Interfaces\n\n\n\n\n\n\nPressure Sensor Interface\n\n\n\n\n\n\n\nThermistor Interface\n\n\n\n\n\n\n\nUV Sensor Interface"
+  },
+  {
+    "objectID": "project-pages/auv.html#results",
+    "href": "project-pages/auv.html#results",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "Results",
+    "text": "Results\n\n\n\n\n\n\nDepth vs. Desired Depth over Time — shows the robot successfully reaching and maintaining each target depth waypoint.\n\n\n\n\n\n\n\nTemperature vs. Depth — displays the temperature profile collected by the thermistor sensor as the robot descended.\n\n\n\n\n\n\n\nUV Intensity vs. Depth — shows ultraviolet light intensity measured by the UV sensor at varying depths."
+  },
+  {
+    "objectID": "project-pages/auv.html#files",
+    "href": "project-pages/auv.html#files",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "Files",
+    "text": "Files\nView Technical Paper | View Poster\nBack to Projects"
+  },
+  {
+    "objectID": "project-pages/hammer.html",
+    "href": "project-pages/hammer.html",
+    "title": "Machinist’s Hammer",
+    "section": "",
+    "text": "Hammer Front"
+  },
+  {
+    "objectID": "project-pages/hammer.html#overview",
+    "href": "project-pages/hammer.html#overview",
+    "title": "Machinist’s Hammer",
+    "section": "Overview",
+    "text": "Overview\nManufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements. Applied turning, facing, milling, tapping, and heat treatment processes to achieve specified mechanical properties."
+  },
+  {
+    "objectID": "project-pages/hammer.html#contributions",
+    "href": "project-pages/hammer.html#contributions",
+    "title": "Machinist’s Hammer",
+    "section": "Contributions",
+    "text": "Contributions\n\nFollowed a process router and technical drawings to manufacture each component from raw materials\nMachined all components to tolerances within thousandths of an inch of technical specifications\nCalibrated and operated a lathe and mill to work with steel and nylon\nApplied manufacturing techniques including drilling, tapping, heat treatment, and tempering"
+  },
+  {
+    "objectID": "project-pages/hammer.html#skills",
+    "href": "project-pages/hammer.html#skills",
+    "title": "Machinist’s Hammer",
+    "section": "Skills",
+    "text": "Skills\nGD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment"
+  },
+  {
+    "objectID": "project-pages/hammer.html#files",
+    "href": "project-pages/hammer.html#files",
+    "title": "Machinist’s Hammer",
+    "section": "Files",
+    "text": "Files\nView Technical Drawings\nBack to Projects"
+  },
+  {
+    "objectID": "project-pages/laser.html",
+    "href": "project-pages/laser.html",
+    "title": "Flexible Measuring Laser",
+    "section": "",
+    "text": "Flexible Measuring Laser"
+  },
+  {
+    "objectID": "project-pages/laser.html#overview",
+    "href": "project-pages/laser.html#overview",
+    "title": "Flexible Measuring Laser",
+    "section": "Overview",
+    "text": "Overview\nDesigned a precision rack and pinion Z-axis measurement system for SEM sample preparation achieving less than 1mm accuracy, preventing damage within the SEM chamber. Integrated a laser and photosensor with a slew bearing for radial motion to detect the tallest point on samples of variable height. Optimized durability through full material and fatigue analysis, selecting powder nylon for superior wear resistance and dimensional stability. Delivered a scalable, easily replicable design that improves SEM workflow safety and prevents $1000+ in potential equipment damage from improper sample height."
+  },
+  {
+    "objectID": "project-pages/laser.html#contributions",
+    "href": "project-pages/laser.html#contributions",
+    "title": "Flexible Measuring Laser",
+    "section": "Contributions",
+    "text": "Contributions\n\nDesigned a precision rack and pinion Z-axis measurement system achieving less than 1mm accuracy for SEM sample preparation\nIntegrated a laser and photosensor along with a slew bearing for radial motion to detect the tallest point on samples of variable height\nOptimized durability through full material and fatigue analysis, selecting powder nylon (SLS nylon) for superior wear resistance, strength, and dimensional stability under high cycle use\nDelivered a scalable, easily replicable design that improves SEM workflow safety and prevents $1000+ in potential equipment damage from improper sample height"
+  },
+  {
+    "objectID": "project-pages/laser.html#skills",
+    "href": "project-pages/laser.html#skills",
+    "title": "Flexible Measuring Laser",
+    "section": "Skills",
+    "text": "Skills\nCAD, Rack and Pinion Design, Fatigue Analysis, Material Selection, SLS Nylon, SEM Sample Preparation"
+  },
+  {
+    "objectID": "project-pages/laser.html#files",
+    "href": "project-pages/laser.html#files",
+    "title": "Flexible Measuring Laser",
+    "section": "Files",
+    "text": "Files\nView Technical Drawings, BOM & Process Router\nBack to Projects"
+  },
+  {
+    "objectID": "project-pages/machineshop.html",
+    "href": "project-pages/machineshop.html",
+    "title": "Machine Shop Proctor",
+    "section": "",
+    "text": "Machine Shop"
+  },
+  {
+    "objectID": "project-pages/machineshop.html#overview",
+    "href": "project-pages/machineshop.html#overview",
+    "title": "Machine Shop Proctor",
+    "section": "Overview",
+    "text": "Overview\nRegulated a space with 20+ heavy machines including mills, lathes, and CNC machines, promoting proper machine handling practices for 80+ students each semester. Guided students in Introduction to Engineering Design and Manufacturing and Mechanical Design courses on how to read and follow process routers and technical drawings to create a machinist’s hammer to specification."
+  },
+  {
+    "objectID": "project-pages/machineshop.html#contributions",
+    "href": "project-pages/machineshop.html#contributions",
+    "title": "Machine Shop Proctor",
+    "section": "Contributions",
+    "text": "Contributions\n\nRegulated a space with 20+ heavy machines (mills, lathes, CNC machines, etc.), promoting proper machine handling practices for 80+ students each semester\nGuided students in Introduction to Engineering Design and Manufacturing and Mechanical Design on how to read and follow process routers and technical drawings to create a machinist’s hammer to specification\nParticipated in weekly trainings that built up knowledge of machining, tooling, and manufacturing processes"
+  },
+  {
+    "objectID": "project-pages/machineshop.html#skills",
+    "href": "project-pages/machineshop.html#skills",
+    "title": "Machine Shop Proctor",
+    "section": "Skills",
+    "text": "Skills\nMachine Shop Safety, Machining, Tooling, Manufacturing Processes, Student Mentorship"
+  },
+  {
+    "objectID": "project-pages/machineshop.html#links",
+    "href": "project-pages/machineshop.html#links",
+    "title": "Machine Shop Proctor",
+    "section": "Links",
+    "text": "Links\nHMC Machine Shop\nBack to Work Experience"
+  },
+  {
+    "objectID": "project-pages/dasion.html",
+    "href": "project-pages/dasion.html",
+    "title": "Software Engineer & ML Intern",
+    "section": "",
+    "text": "Dasion"
+  },
+  {
+    "objectID": "project-pages/dasion.html#overview",
+    "href": "project-pages/dasion.html#overview",
+    "title": "Software Engineer & ML Intern",
+    "section": "Overview",
+    "text": "Overview\nBenchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity."
+  },
+  {
+    "objectID": "project-pages/dasion.html#contributions",
+    "href": "project-pages/dasion.html#contributions",
+    "title": "Software Engineer & ML Intern",
+    "section": "Contributions",
+    "text": "Contributions\n\nBenchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data\nDeveloped data preprocessing pipeline in Python using ML libraries to automate image cleaning and augmentation, reducing data preparation time by an estimate of 35%\nEngineered an emotion-based music recommender using the Spotify API, enabling users to receive curated playlists based on emotional state and intensity"
+  },
+  {
+    "objectID": "project-pages/dasion.html#skills",
+    "href": "project-pages/dasion.html#skills",
+    "title": "Software Engineer & ML Intern",
+    "section": "Skills",
+    "text": "Skills\nPython, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition"
+  },
+  {
+    "objectID": "project-pages/dasion.html#links",
+    "href": "project-pages/dasion.html#links",
+    "title": "Software Engineer & ML Intern",
+    "section": "Links",
+    "text": "Links\nDasion\nBack to Work Experience"
+  },
+  {
+    "objectID": "project-pages/rov.html",
+    "href": "project-pages/rov.html",
+    "title": "Submersible Robot with Kp Control",
+    "section": "",
+    "text": "Submersible Robot"
+  },
+  {
+    "objectID": "project-pages/rov.html#overview",
+    "href": "project-pages/rov.html#overview",
+    "title": "Submersible Robot with Kp Control",
+    "section": "Overview",
+    "text": "Overview\nConstructed an underwater remotely operated vehicle (ROV) to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge. Assembled a PCB containing the MCP6002 OpAmp to return output voltages modeled and analyzed in LabVIEW."
+  },
+  {
+    "objectID": "project-pages/rov.html#contributions",
+    "href": "project-pages/rov.html#contributions",
+    "title": "Submersible Robot with Kp Control",
+    "section": "Contributions",
+    "text": "Contributions\n\nConstructed an underwater ROV to retrieve temperature, pressure, and other signals in lake environments\nUtilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection\nAssembled a PCB containing the MCP6002 OpAmp to return output voltages\nModeled and analyzed output voltages in LabVIEW"
+  },
+  {
+    "objectID": "project-pages/rov.html#skills",
+    "href": "project-pages/rov.html#skills",
+    "title": "Submersible Robot with Kp Control",
+    "section": "Skills",
+    "text": "Skills\nLabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding\nBack to Projects"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "AUV Robot\n\n\n\n\nOverview:\nDesigned and developed a fully functional Autonomous Underwater Robot capable of collecting pressure, temperature, and UV data at depths of up to 3 meters in marine environments at Dana Point. Led the electrical system design, implementing 3 analog circuits with unique interfaces and extensive calibration protocols to ensure accurate underwater measurements. Engineered sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution on the Teensy 4.0. Developed a C++ algorithm for autonomous depth control and MATLAB scripts to visualize collected climate data.\nSkills:\nC++, MATLAB, PCB Design, Sensor Calibration\n\n\nShow More\n\n\nLed electrical system design, implementing 3 analog circuits with voltage-to-voltage, current-to-voltage, and resistance-to-voltage interfaces\nEngineered UV, pressure, and temperature sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution and prevent clipping on the Teensy 4.0\nDeveloped calibration protocols accounting for noise, sensor non-linearity, and degradation for accurate underwater measurements\nDesigned and fabricated a mechanically stable system maintaining neutral buoyancy in saltwater while minimizing axial tilt\nDeveloped a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths\nCreated MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis\n\n\n\n\n\n\n\nView More Photos & Files\n\nPCB Images\n\n\n\n\n\n\nIsometric PCB View\n\n\n\n\n\n\n\nTop Down PCB View\n\n\n\n\n\nSensor Interfaces\n\n\n\n\n\n\nPressure Sensor Interface\n\n\n\n\n\n\n\nThermistor Interface\n\n\n\n\n\n\n\nUV Sensor Interface\n\n\n\n\n\nView Technical Paper | View Poster\n\n\n\nView Results\n\n\n\n\n\n\n\nDepth vs. Desired Depth over Time — shows the robot successfully reaching and maintaining each target depth waypoint.\n\n\n\n\n\n\n\nTemperature vs. Depth — displays the temperature profile collected by the thermistor sensor as the robot descended.\n\n\n\n\n\n\n\nUV Intensity vs. Depth — shows ultraviolet light intensity measured by the UV sensor at varying depths decaying in an exponential fashion."
+    "text": "C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design"
   },
   {
     "objectID": "projects.html#experimental-engineering-e80",
     "href": "projects.html#experimental-engineering-e80",
     "title": "Projects",
     "section": "",
-    "text": "AUV Robot\n\n\n\n\nOverview:\nDesigned and developed a fully functional Autonomous Underwater Robot capable of collecting pressure, temperature, and UV data at depths of up to 3 meters in marine environments at Dana Point. Led the electrical system design, implementing 3 analog circuits with unique interfaces and extensive calibration protocols to ensure accurate underwater measurements. Engineered sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution on the Teensy 4.0. Developed a C++ algorithm for autonomous depth control and MATLAB scripts to visualize collected climate data.\nSkills:\nC++, MATLAB, PCB Design, Sensor Calibration\n\n\nShow More\n\n\nLed electrical system design, implementing 3 analog circuits with voltage-to-voltage, current-to-voltage, and resistance-to-voltage interfaces\nEngineered UV, pressure, and temperature sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution and prevent clipping on the Teensy 4.0\nDeveloped calibration protocols accounting for noise, sensor non-linearity, and degradation for accurate underwater measurements\nDesigned and fabricated a mechanically stable system maintaining neutral buoyancy in saltwater while minimizing axial tilt\nDeveloped a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths\nCreated MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis\n\n\n\n\n\n\n\nView More Photos & Files\n\nPCB Images\n\n\n\n\n\n\nIsometric PCB View\n\n\n\n\n\n\n\nTop Down PCB View\n\n\n\n\n\nSensor Interfaces\n\n\n\n\n\n\nPressure Sensor Interface\n\n\n\n\n\n\n\nThermistor Interface\n\n\n\n\n\n\n\nUV Sensor Interface\n\n\n\n\n\nView Technical Paper | View Poster\n\n\n\nView Results\n\n\n\n\n\n\n\nDepth vs. Desired Depth over Time — shows the robot successfully reaching and maintaining each target depth waypoint.\n\n\n\n\n\n\n\nTemperature vs. Depth — displays the temperature profile collected by the thermistor sensor as the robot descended.\n\n\n\n\n\n\n\nUV Intensity vs. Depth — shows ultraviolet light intensity measured by the UV sensor at varying depths decaying in an exponential fashion."
+    "text": "C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design"
   },
   {
     "objectID": "projects.html#systems-engineering-e79",
     "href": "projects.html#systems-engineering-e79",
     "title": "Projects",
     "section": "Systems Engineering (E79)",
-    "text": "Systems Engineering (E79)\n\nSubmersible Robot with Kp Control\n\n\n\n\n\n\nSubmersible Robot\n\n\n\n\nOverview:\nConstructed an underwater remotely operated vehicle (ROV) to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge. Assembled a PCB containing the MCP6002 OpAmp to return output voltages modeled and analyzed in LabVIEW.\nSkills:\nLabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding\n\n\nShow More\n\n\nConstructed an underwater ROV to retrieve temperature, pressure, and other signals in lake environments\nUtilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection\nAssembled a PCB containing the MCP6002 OpAmp to return output voltages\nModeled and analyzed output voltages in LabVIEW"
+    "text": "Systems Engineering (E79)\n\n  \n    \n    \n      Submersible Robot with Kp Control\n      LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM"
   },
   {
     "objectID": "projects.html#engineering-design-manufacturing-e4",
     "href": "projects.html#engineering-design-manufacturing-e4",
     "title": "Projects",
     "section": "Engineering Design & Manufacturing (E4)",
-    "text": "Engineering Design & Manufacturing (E4)\n\nFlexible Measuring Laser\n\n\n\n\n\n\nFlexible Measuring Laser\n\n\n\n\nOverview:\nDesigned a precision rack and pinion Z-axis measurement system for SEM sample preparation achieving less than 1mm accuracy, preventing damage within the SEM chamber. Integrated a laser and photosensor with a slew bearing for radial motion to detect the tallest point on samples of variable height. Optimized durability through full material and fatigue analysis, selecting powder nylon for superior wear resistance and dimensional stability.\nSkills:\nCAD, Fatigue Analysis, Material Selection\nView Technical Drawings, BOM & Process Router\n\n\nShow More\n\n\nDesigned a precision rack and pinion Z-axis measurement system achieving less than 1mm accuracy for SEM sample preparation\nIntegrated a laser and photosensor along with a slew bearing for radial motion to detect the tallest point on samples of variable height\nOptimized durability through full material and fatigue analysis, selecting powder nylon (SLS nylon) for superior wear resistance, strength, and dimensional stability under high cycle use\nDelivered a scalable, easily replicable design that improves SEM workflow safety and prevents $1000+ in potential equipment damage from improper sample height\n\n\n\n\n\n\n\nMachinist’s Hammer\n\n\n\n\n\n\nHammer Front\n\n\n\n\nOverview:\nManufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements. Applied turning, facing, milling, tapping, and heat treatment processes to achieve specified mechanical properties.\nSkills:\nGD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment\n\n\nShow More\n\n\nFollowed a process router and technical drawings to manufacture each component from raw materials\nMachined all components to tolerances within thousandths of an inch of technical specifications\nCalibrated and operated a lathe and mill to work with steel and nylon\nApplied manufacturing techniques including drilling, tapping, heat treatment, and tempering"
+    "text": "Engineering Design & Manufacturing (E4)\n\n  \n    \n    \n      Flexible Measuring Laser\n      CAD, Fatigue Analysis, Material Selection, SLS Nylon\n    \n  \n  \n    \n    \n      Machinist's Hammer\n      GD&T, Lathe, Mill, Bandsaw, Heat Treatment"
   },
   {
     "objectID": "about.html",

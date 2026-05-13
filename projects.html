@@ -140,236 +140,48 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="experimental-engineering-e80" class="level2">
 <h2 class="anchored" data-anchor-id="experimental-engineering-e80">Experimental Engineering (E80)</h2>
-<section id="autonomous-ocean-profiling-robot-for-climate-monitoring" class="level3">
-<h3 class="anchored" data-anchor-id="autonomous-ocean-profiling-robot-for-climate-monitoring">Autonomous Ocean Profiling Robot for Climate Monitoring</h3>
-<div class="quarto-layout-panel" data-layout="[60,40]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/AUV.JPEG" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>AUV Robot</figcaption>
-</figure>
+<div class="project-grid">
+  <a href="project-pages/auv.html" class="project-card">
+    <img src="images/AUV.JPEG" alt="AUV Robot">
+    <div class="project-card-overlay">
+      <h3 class="anchored">Autonomous Ocean Profiling Robot for Climate Monitoring</h3>
+      <p>C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design</p>
+    </div>
+  </a>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<p><strong>Overview:</strong></p>
-<p>Designed and developed a fully functional Autonomous Underwater Robot capable of collecting pressure, temperature, and UV data at depths of up to 3 meters in marine environments at Dana Point. Led the electrical system design, implementing 3 analog circuits with unique interfaces and extensive calibration protocols to ensure accurate underwater measurements. Engineered sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution on the Teensy 4.0. Developed a C++ algorithm for autonomous depth control and MATLAB scripts to visualize collected climate data.</p>
-<p><strong>Skills:</strong></p>
-<p>C++, MATLAB, PCB Design, Sensor Calibration</p>
-<details>
-<summary>
-Show More
-</summary>
-<ul>
-<li>Led electrical system design, implementing 3 analog circuits with voltage-to-voltage, current-to-voltage, and resistance-to-voltage interfaces</li>
-<li>Engineered UV, pressure, and temperature sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution and prevent clipping on the Teensy 4.0</li>
-<li>Developed calibration protocols accounting for noise, sensor non-linearity, and degradation for accurate underwater measurements</li>
-<li>Designed and fabricated a mechanically stable system maintaining neutral buoyancy in saltwater while minimizing axial tilt</li>
-<li>Developed a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths</li>
-<li>Created MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis</li>
-</ul>
-</details>
-</div>
-</div>
-</div>
-<details>
-<summary>
-View More Photos &amp; Files
-</summary>
-<p><strong>PCB Images</strong></p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/IsometricPCB.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Isometric PCB View</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/TopDownViewPCB.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Top Down PCB View</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p><strong>Sensor Interfaces</strong></p>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Pressure-Sensor-Interface.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Pressure Sensor Interface</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Thermistor-Interface.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Thermistor Interface</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/UV-Sensor-Interface.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>UV Sensor Interface</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p><a href="images/El_Seblani_Ali_E80_Final_Report.pdf">View Technical Paper</a> | <a href="images/E80_Poster_Team42.pdf">View Poster</a></p>
-</details>
-<details>
-<summary>
-View Results
-</summary>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/DepthvDes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Depth vs.&nbsp;Desired Depth over Time — shows the robot successfully reaching and maintaining each target depth waypoint.</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Tempdes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Temperature vs.&nbsp;Depth — displays the temperature profile collected by the thermistor sensor as the robot descended.</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/UVdes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>UV Intensity vs.&nbsp;Depth — shows ultraviolet light intensity measured by the UV sensor at varying depths decaying in an exponential fashion.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</details>
-<hr>
-</section>
 </section>
 <section id="systems-engineering-e79" class="level2">
 <h2 class="anchored" data-anchor-id="systems-engineering-e79">Systems Engineering (E79)</h2>
-<section id="submersible-robot-with-kp-control" class="level3">
-<h3 class="anchored" data-anchor-id="submersible-robot-with-kp-control">Submersible Robot with Kp Control</h3>
-<div class="quarto-layout-panel" data-layout="[60,40]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/E79_robot.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Submersible Robot</figcaption>
-</figure>
+<div class="project-grid">
+  <a href="project-pages/rov.html" class="project-card">
+    <img src="images/E79_robot.png" alt="Submersible Robot">
+    <div class="project-card-overlay">
+      <h3 class="anchored">Submersible Robot with Kp Control</h3>
+      <p>LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM</p>
+    </div>
+  </a>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<p><strong>Overview:</strong></p>
-<p>Constructed an underwater remotely operated vehicle (ROV) to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge. Assembled a PCB containing the MCP6002 OpAmp to return output voltages modeled and analyzed in LabVIEW.</p>
-<p><strong>Skills:</strong></p>
-<p>LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding</p>
-<details>
-<summary>
-Show More
-</summary>
-<ul>
-<li>Constructed an underwater ROV to retrieve temperature, pressure, and other signals in lake environments</li>
-<li>Utilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection</li>
-<li>Assembled a PCB containing the MCP6002 OpAmp to return output voltages</li>
-<li>Modeled and analyzed output voltages in LabVIEW</li>
-</ul>
-</details>
-</div>
-</div>
-</div>
-<hr>
-</section>
 </section>
 <section id="engineering-design-manufacturing-e4" class="level2">
 <h2 class="anchored" data-anchor-id="engineering-design-manufacturing-e4">Engineering Design &amp; Manufacturing (E4)</h2>
-<section id="flexible-measuring-laser" class="level3">
-<h3 class="anchored" data-anchor-id="flexible-measuring-laser">Flexible Measuring Laser</h3>
-<div class="quarto-layout-panel" data-layout="[60,40]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Flexible_photo.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Flexible Measuring Laser</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<p><strong>Overview:</strong></p>
-<p>Designed a precision rack and pinion Z-axis measurement system for SEM sample preparation achieving less than 1mm accuracy, preventing damage within the SEM chamber. Integrated a laser and photosensor with a slew bearing for radial motion to detect the tallest point on samples of variable height. Optimized durability through full material and fatigue analysis, selecting powder nylon for superior wear resistance and dimensional stability.</p>
-<p><strong>Skills:</strong></p>
-<p>CAD, Fatigue Analysis, Material Selection</p>
-<p><a href="images/E4_Technical_Drawings_BOM_Process_Router.pdf">View Technical Drawings, BOM &amp; Process Router</a></p>
-<details>
-<summary>
-Show More
-</summary>
-<ul>
-<li>Designed a precision rack and pinion Z-axis measurement system achieving less than 1mm accuracy for SEM sample preparation</li>
-<li>Integrated a laser and photosensor along with a slew bearing for radial motion to detect the tallest point on samples of variable height</li>
-<li>Optimized durability through full material and fatigue analysis, selecting powder nylon (SLS nylon) for superior wear resistance, strength, and dimensional stability under high cycle use</li>
-<li>Delivered a scalable, easily replicable design that improves SEM workflow safety and prevents $1000+ in potential equipment damage from improper sample height</li>
-</ul>
-</details>
-</div>
-</div>
-</div>
-</section>
-<section id="machinists-hammer" class="level3">
-<h3 class="anchored" data-anchor-id="machinists-hammer">Machinist’s Hammer</h3>
-<div class="quarto-layout-panel" data-layout="[60,40]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Hammer-front.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Hammer Front</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<p><strong>Overview:</strong></p>
-<p>Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed <a href="images/Hammer-Technical_Drawings.pdf">engineering drawings</a>, dimensional tolerances, and safety requirements. Applied turning, facing, milling, tapping, and heat treatment processes to achieve specified mechanical properties.</p>
-<p><strong>Skills:</strong></p>
-<p>GD&amp;T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment</p>
-<details>
-<summary>
-Show More
-</summary>
-<ul>
-<li>Followed a process router and technical drawings to manufacture each component from raw materials</li>
-<li>Machined all components to tolerances within thousandths of an inch of technical specifications</li>
-<li>Calibrated and operated a lathe and mill to work with steel and nylon</li>
-<li>Applied manufacturing techniques including drilling, tapping, heat treatment, and tempering</li>
-</ul>
-</details>
-</div>
-</div>
+<div class="project-grid">
+  <a href="project-pages/laser.html" class="project-card">
+    <img src="images/Flexible_photo.png" alt="Flexible Measuring Laser">
+    <div class="project-card-overlay">
+      <h3 class="anchored">Flexible Measuring Laser</h3>
+      <p>CAD, Fatigue Analysis, Material Selection, SLS Nylon</p>
+    </div>
+  </a>
+  <a href="project-pages/hammer.html" class="project-card">
+    <img src="images/Hammer-front.jpg" alt="Machinist's Hammer">
+    <div class="project-card-overlay">
+      <h3 class="anchored">Machinist's Hammer</h3>
+      <p>GD&amp;T, Lathe, Mill, Bandsaw, Heat Treatment</p>
+    </div>
+  </a>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
