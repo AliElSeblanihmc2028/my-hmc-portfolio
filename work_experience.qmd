@@ -3,6 +3,31 @@ title: "Work Experience"
 toc: false
 ---
 
+## Dasion
+
+### Software Engineer & ML Intern
+
+:::: {layout="[60,40]"}
+::: {}
+![Dasion](images/bigdasionlogo.png){width=100%}
+:::
+::: {}
+**Overview:**
+
+Benchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity.
+
+**Skills:**
+
+Python, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition
+
+[Dasion](https://data-to-decision.com/)
+
+</details>
+:::
+::::
+
+---
+
 ## Harvey Mudd College
 
 ### Machine Shop Proctor
@@ -11,7 +36,6 @@ toc: false
 ::: {}
 ![Machine Shop](images/machine-shopPic.jpg){width=100%}
 :::
-
 ::: {}
 **Overview:**
 
@@ -21,7 +45,8 @@ Regulated a space with 20+ heavy machines including mills, lathes, and CNC machi
 
 Machine Shop Safety, Machining, Tooling, Manufacturing Processes, Student Mentorship
 
-[Learn More: HMC Machine Shop](https://sites.google.com/g.hmc.edu/hmc-machine-shop/home?authuser=0)
+[HMC Machine Shop](https://sites.google.com/g.hmc.edu/hmc-machine-shop/home?authuser=0)
+
 
 </details>
 :::
