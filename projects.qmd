@@ -133,6 +133,8 @@ Designed a precision rack and pinion Z-axis measurement system for SEM sample pr
 
 CAD, Fatigue Analysis, Material Selection
 
+[View Technical Drawings, BOM & Process Router](images/E4_Technical_Drawings_BOM_Process_Router.pdf)
+
 <details>
 <summary>Show More</summary>
 
