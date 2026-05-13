@@ -11,7 +11,7 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
-      - href: work_experince.qmd
+      - href: work_experience.qmd
         text: Work Experience
 
 format:

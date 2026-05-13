@@ -11,7 +11,6 @@ toc: false
 ::: {}
 ![AUV Robot](images/AUV.JPEG){width=100%}
 :::
-
 ::: {}
 **Overview:**
 
@@ -20,6 +19,16 @@ Designed and developed a fully functional Autonomous Underwater Robot capable of
 **Skills:**
 
 C++, MATLAB, PCB Design, Sensor Calibration
+
+<details>
+<summary>Show More</summary>
+
+- Led electrical system design, implementing 3 analog circuits with voltage-to-voltage, current-to-voltage, and resistance-to-voltage interfaces
+- Engineered UV, pressure, and temperature sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution and prevent clipping on the Teensy 4.0
+- Developed calibration protocols accounting for noise, sensor non-linearity, and degradation for accurate underwater measurements
+- Designed and fabricated a mechanically stable system maintaining neutral buoyancy in saltwater while minimizing axial tilt
+- Developed a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths
+- Created MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis
 
 </details>
 :::
@@ -73,6 +82,7 @@ C++, MATLAB, PCB Design, Sensor Calibration
 ::::
 
 </details>
+
 ---
 
 ## Systems Engineering (E79)
@@ -83,7 +93,6 @@ C++, MATLAB, PCB Design, Sensor Calibration
 ::: {}
 ![Submersible Robot](images/E79_robot.png){width=100%}
 :::
-
 ::: {}
 **Overview:**
 
@@ -92,6 +101,14 @@ Constructed an underwater remotely operated vehicle (ROV) to retrieve temperatur
 **Skills:**
 
 LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding
+
+<details>
+<summary>Show More</summary>
+
+- Constructed an underwater ROV to retrieve temperature, pressure, and other signals in lake environments
+- Utilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection
+- Assembled a PCB containing the MCP6002 OpAmp to return output voltages
+- Modeled and analyzed output voltages in LabVIEW
 
 </details>
 :::
@@ -107,7 +124,6 @@ LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding
 ::: {}
 ![Flexible Measuring Laser](images/Flexible_photo.png){width=100%}
 :::
-
 ::: {}
 **Overview:**
 
@@ -116,6 +132,14 @@ Designed a precision rack and pinion Z-axis measurement system for SEM sample pr
 **Skills:**
 
 CAD, Fatigue Analysis, Material Selection
+
+<details>
+<summary>Show More</summary>
+
+- Designed a precision rack and pinion Z-axis measurement system achieving less than 1mm accuracy for SEM sample preparation
+- Integrated a laser and photosensor along with a slew bearing for radial motion to detect the tallest point on samples of variable height
+- Optimized durability through full material and fatigue analysis, selecting powder nylon (SLS nylon) for superior wear resistance, strength, and dimensional stability under high cycle use
+- Delivered a scalable, easily replicable design that improves SEM workflow safety and prevents $1000+ in potential equipment damage from improper sample height
 
 </details>
 :::
@@ -127,7 +151,6 @@ CAD, Fatigue Analysis, Material Selection
 ::: {}
 ![Hammer Front](images/Hammer-front.jpg){width=100%}
 :::
-
 ::: {}
 **Overview:**
 
@@ -136,3 +159,15 @@ Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 
 **Skills:**
 
 GD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment
+
+<details>
+<summary>Show More</summary>
+
+- Followed a process router and technical drawings to manufacture each component from raw materials
+- Machined all components to tolerances within thousandths of an inch of technical specifications
+- Calibrated and operated a lathe and mill to work with steel and nylon
+- Applied manufacturing techniques including drilling, tapping, heat treatment, and tempering
+
+</details>
+:::
+::::
