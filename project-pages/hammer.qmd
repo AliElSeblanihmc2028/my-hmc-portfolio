@@ -3,11 +3,19 @@ title: "Machinist's Hammer"
 toc: false
 ---
 
-![Hammer Front](../images/Hammer-front.jpg){.hero-image}
+:::: {layout="[40,60]"}
+::: {}
+![Hammer Front](../images/Hammer-front.jpg){.hero-image width=100%}
+:::
+::: {}
+## Background
 
-## Overview
+Precision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes. The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. Furthermore this project contributes to the Harvey Mudd College tradition of student-made hammers.
 
-Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements. Applied turning, facing, milling, tapping, and heat treatment processes to achieve specified mechanical properties.
+:::
+::::
+
+---
 
 ## Contributions
 
@@ -16,9 +24,13 @@ Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 
 - Calibrated and operated a lathe and mill to work with steel and nylon
 - Applied manufacturing techniques including drilling, tapping, heat treatment, and tempering
 
+---
+
 ## Skills
 
 GD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment
+
+---
 
 ## Files
 
