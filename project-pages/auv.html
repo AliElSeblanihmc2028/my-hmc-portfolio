@@ -138,16 +138,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="quarto-layout-panel" data-layout="[40,60]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../images/AUV.JPEG" class="hero-image img-fluid figure-img"></p>
+<p><img src="../images/AUV.JPEG" class="hero-image img-fluid figure-img" style="width:100.0%"></p>
 <figcaption>AUV Robot</figcaption>
 </figure>
 </div>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Designed and developed a fully functional Autonomous Underwater Robot capable of collecting pressure, temperature, and UV data at depths of up to 3 meters in marine environments at Dana Point. Led the electrical system design, implementing 3 analog circuits with unique interfaces and extensive calibration protocols to ensure accurate underwater measurements. Engineered sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution on the Teensy 4.0. Developed a C++ algorithm for autonomous depth control and MATLAB scripts to visualize collected climate data.</p>
+</div>
+<section id="background" class="level2 quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Climate change and ocean health monitoring require scalable, low-cost solutions for collecting environmental data. This project was motivated by the need to develop an autonomous system capable of measuring key ocean parameters at varying depths without human intervention. The goal was to design a robot that could reliably collect pressure, temperature, and UV data in real marine environments and contribute meaningful data for climate research.</p>
 </section>
+</div>
+</div>
+<hr>
 <section id="contributions" class="level2">
 <h2 class="anchored" data-anchor-id="contributions">Contributions</h2>
 <ul>
@@ -158,29 +165,21 @@ ul.task-list li input[type="checkbox"] {
 <li>Developed a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths</li>
 <li>Created MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis</li>
 </ul>
+<hr>
 </section>
 <section id="pcb-images" class="level2">
 <h2 class="anchored" data-anchor-id="pcb-images">PCB Images</h2>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/IsometricPCB.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Isometric PCB View</figcaption>
-</figure>
+<div style="display: flex; gap: 20px; max-width: 750px; margin: 0 auto;">
+  <div style="text-align: center; width: 50%;">
+    <img src="../images/IsometricPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;">
+    <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Isometric PCB View</p>
+  </div>
+  <div style="text-align: center; width: 50%;">
+    <img src="../images/TopDownViewPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;">
+    <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Top Down PCB View</p>
+  </div>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/TopDownViewPCB.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Top Down PCB View</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
+<hr>
 </section>
 <section id="sensor-interfaces" class="level2">
 <h2 class="anchored" data-anchor-id="sensor-interfaces">Sensor Interfaces</h2>
@@ -212,6 +211,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<hr>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../images/DepthvDes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Depth vs.&nbsp;Desired Depth over Time — shows the robot successfully reaching and maintaining each target depth waypoint.</figcaption>
+<figcaption>Depth vs.&nbsp;Desired Depth over Time</figcaption>
 </figure>
 </div>
 </div>
@@ -229,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../images/Tempdes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Temperature vs.&nbsp;Depth — displays the temperature profile collected by the thermistor sensor as the robot descended.</figcaption>
+<figcaption>Temperature vs.&nbsp;Depth</figcaption>
 </figure>
 </div>
 </div>
@@ -237,12 +237,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../images/UVdes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>UV Intensity vs.&nbsp;Depth — shows ultraviolet light intensity measured by the UV sensor at varying depths.</figcaption>
+<figcaption>UV Intensity vs.&nbsp;Depth</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+<hr>
 </section>
 <section id="files" class="level2">
 <h2 class="anchored" data-anchor-id="files">Files</h2>

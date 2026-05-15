@@ -3,11 +3,19 @@ title: "Autonomous Ocean Profiling Robot for Climate Monitoring"
 toc: false
 ---
 
-![AUV Robot](../images/AUV.JPEG){.hero-image}
+:::: {layout="[40,60]"}
+::: {}
+![AUV Robot](../images/AUV.JPEG){.hero-image width=100%}
+:::
+::: {}
+## Background
 
-## Overview
+Climate change and ocean health monitoring require scalable, low-cost solutions for collecting environmental data. This project was motivated by the need to develop an autonomous system capable of measuring key ocean parameters at varying depths without human intervention. The goal was to design a robot that could reliably collect pressure, temperature, and UV data in real marine environments and contribute meaningful data for climate research.
 
-Designed and developed a fully functional Autonomous Underwater Robot capable of collecting pressure, temperature, and UV data at depths of up to 3 meters in marine environments at Dana Point. Led the electrical system design, implementing 3 analog circuits with unique interfaces and extensive calibration protocols to ensure accurate underwater measurements. Engineered sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution on the Teensy 4.0. Developed a C++ algorithm for autonomous depth control and MATLAB scripts to visualize collected climate data.
+:::
+::::
+
+---
 
 ## Contributions
 
@@ -18,16 +26,24 @@ Designed and developed a fully functional Autonomous Underwater Robot capable of
 - Developed a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths
 - Created MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis
 
+---
+
 ## PCB Images
 
-:::: {layout-ncol=2}
-::: {}
-![Isometric PCB View](../images/IsometricPCB.jpg){width=100%}
-:::
-::: {}
-![Top Down PCB View](../images/TopDownViewPCB.jpg){width=100%}
-:::
-::::
+```{=html}
+<div style="display: flex; gap: 20px; max-width: 750px; margin: 0 auto;">
+  <div style="text-align: center; width: 50%;">
+    <img src="../images/IsometricPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;"/>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Isometric PCB View</p>
+  </div>
+  <div style="text-align: center; width: 50%;">
+    <img src="../images/TopDownViewPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;"/>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Top Down PCB View</p>
+  </div>
+</div>
+```
+
+---
 
 ## Sensor Interfaces
 
@@ -43,19 +59,23 @@ Designed and developed a fully functional Autonomous Underwater Robot capable of
 :::
 ::::
 
+---
+
 ## Results
 
 :::: {layout-ncol=3}
 ::: {}
-![Depth vs. Desired Depth over Time — shows the robot successfully reaching and maintaining each target depth waypoint.](../images/DepthvDes.png){width=100%}
+![Depth vs. Desired Depth over Time](../images/DepthvDes.png){width=100%}
 :::
 ::: {}
-![Temperature vs. Depth — displays the temperature profile collected by the thermistor sensor as the robot descended.](../images/Tempdes.png){width=100%}
+![Temperature vs. Depth](../images/Tempdes.png){width=100%}
 :::
 ::: {}
-![UV Intensity vs. Depth — shows ultraviolet light intensity measured by the UV sensor at varying depths.](../images/UVdes.png){width=100%}
+![UV Intensity vs. Depth](../images/UVdes.png){width=100%}
 :::
 ::::
+
+---
 
 ## Files
 

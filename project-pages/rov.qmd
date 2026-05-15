@@ -3,11 +3,19 @@ title: "Submersible Robot with Kp Control"
 toc: false
 ---
 
-![Submersible Robot](../images/E79_robot.png){.hero-image}
+:::: {layout="[40,60]"}
+::: {}
+![Submersible Robot](../images/E79_robot.png){.hero-image width=100%}
+:::
+::: {}
+## Background
 
-## Overview
+Underwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments. The goal was to develop a system that could reliably collect sensor data and process output voltages for analysis in LabVIEW.
 
-Constructed an underwater remotely operated vehicle (ROV) to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge. Assembled a PCB containing the MCP6002 OpAmp to return output voltages modeled and analyzed in LabVIEW.
+:::
+::::
+
+---
 
 ## Contributions
 
@@ -15,6 +23,8 @@ Constructed an underwater remotely operated vehicle (ROV) to retrieve temperatur
 - Utilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection
 - Assembled a PCB containing the MCP6002 OpAmp to return output voltages
 - Modeled and analyzed output voltages in LabVIEW
+
+---
 
 ## Skills
 
