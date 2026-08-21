@@ -1,23 +1,27 @@
 ---
-title: "Machine Shop Proctor"
+title: ""
 toc: false
 ---
 
-![Machine Shop](../images/machine-shopPic.jpg){.hero-image}
+```{=html}
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 15px 20px; margin-bottom: 30px; background: white;">
+  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">HARVEY MUDD COLLEGE</span> — <em style="color: #666;">Machine Shop Proctor</em>
+</div>
 
-## Overview
+<img src="../images/machine-shopPic.jpg" style="width: 35%; float: left; margin: 0 30px 20px 0;"/>
 
-Regulated a space with 20+ heavy machines including mills, lathes, and CNC machines, promoting proper machine handling practices for 80+ students each semester. Guided students in Introduction to Engineering Design and Manufacturing and Mechanical Design courses on how to read and follow process routers and technical drawings to create a machinist's hammer to specification.
+<p>The Harvey Mudd Machine Shop serves as a creative space for the 7 Claremont Colleges, welcoming people from all different backgrounds in machining to work on personal projects, class projects, and team projects — allowing for the full spectrum of the creative space to come to life. The shop features both a wooden shop and a metal shop, each equipped with a variety of tools that support everything from early-stage prototyping to precision manufacturing.</p>
 
-## Contributions
+<p>As a Machine Shop Proctor, my role is to guide new and existing users on safe practices while assisting with project development for classes. This means being present on the floor, understanding what each person is trying to build, and helping them navigate the right tools, techniques, and processes to get there — safely and effectively.</p>
 
-- Regulated a space with 20+ heavy machines (mills, lathes, CNC machines, etc.), promoting proper machine handling practices for 80+ students each semester
-- Guided students in Introduction to Engineering Design and Manufacturing and Mechanical Design on how to read and follow process routers and technical drawings to create a machinist's hammer to specification
-- Participated in weekly trainings that built up knowledge of machining, tooling, and manufacturing processes
+<p>Beyond day-to-day guidance, I participate in weekly trainings that continuously build my knowledge of machining, tooling, and manufacturing processes. These sessions have deepened my understanding of the machines I work with and made me a more effective resource for the students and makers who rely on the shop.</p>
 
-## Skills
+<p>I also play a direct role in supporting engineering courses at Harvey Mudd, including Introduction to Engineering Design and Manufacturing and Mechanical Design, where I guide students through reading and following process routers and technical drawings to manufacture components to specification — skills that form the foundation of any engineering career.</p>
 
-Machine Shop Safety, Machining, Tooling, Manufacturing Processes, Student Mentorship
+<div style="clear: both;"></div>
+```
+
+---
 
 ## Links
 

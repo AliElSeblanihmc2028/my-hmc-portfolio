@@ -1,23 +1,23 @@
 ---
-title: "Software Engineer & ML Intern"
+title: ""
 toc: false
 ---
 
-![Dasion](../images/bigdasionlogo.png){width=100%}
+```{=html}
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 15px 20px; margin-bottom: 30px; background: white;">
+  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">DASION</span> — <em style="color: #666;">Software Engineer & ML Intern</em>
+</div>
 
-## Overview
+<img src="../images/bigdasionlogo.png" style="width: 25%; float: left; margin: 0 30px 20px 0;"/>
 
-Benchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity.
+<p>This past summer, I interned at Dasion as a Software Engineer and Machine Learning Intern based in Claremont, California. Dasion is a data-driven company focused on leveraging machine learning to support medical and behavioral research. My role placed me at the intersection of software engineering and applied machine learning, where I worked on developing tools to support emotion recognition in children using medical imaging data.</p>
 
-## Contributions
+<p>Working on a project with real clinical implications pushed me to think carefully about model selection, data quality, and the downstream impact of engineering decisions. Every preprocessing step, every architecture choice, and every evaluation metric carried weight — because the end users were researchers and practitioners working with vulnerable populations.</p>
 
-- Benchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data
-- Developed data preprocessing pipeline in Python using ML libraries to automate image cleaning and augmentation, reducing data preparation time by an estimate of 35%
-- Engineered an emotion-based music recommender using the Spotify API, enabling users to receive curated playlists based on emotional state and intensity
+<p>One of the most exciting aspects of this internship was building an emotion-based music recommender using the Spotify API — a creative application that connected the emotional state detected by our models to curated playlists, demonstrating the real-world potential of the system beyond clinical settings.</p>
 
-## Skills
-
-Python, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition
+<div style="clear: both;"></div>
+```
 
 ## Links
 

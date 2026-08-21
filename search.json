@@ -4,14 +4,21 @@
     "href": "work_experience.html",
     "title": "Work Experience",
     "section": "",
-    "text": "May 2025 – Aug 2025 | Claremont, CA\n\n  \n    \n    \n      \n      Python, Machine Learning, Data Preprocessing, Spotify API"
+    "text": "Manufacturing Engineering Intern | May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design"
+  },
+  {
+    "objectID": "work_experience.html#general-motors",
+    "href": "work_experience.html#general-motors",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Manufacturing Engineering Intern | May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design"
   },
   {
     "objectID": "work_experience.html#dasion",
     "href": "work_experience.html#dasion",
     "title": "Work Experience",
-    "section": "",
-    "text": "May 2025 – Aug 2025 | Claremont, CA\n\n  \n    \n    \n      \n      Python, Machine Learning, Data Preprocessing, Spotify API"
+    "section": "Dasion",
+    "text": "Dasion\nMay 2025 – Aug 2025 | Claremont, CA\n\n  \n    \n    \n      Software Engineer & ML Intern\n      Python, Machine Learning, Data Preprocessing, Spotify API"
   },
   {
     "objectID": "work_experience.html#harvey-mudd-college-machine-shop-proctor",
@@ -77,39 +84,46 @@
     "text": "Files\nView Technical Paper | View Poster\nBack to Projects"
   },
   {
-    "objectID": "project-pages/hammer.html",
-    "href": "project-pages/hammer.html",
-    "title": "Machinist’s Hammer",
+    "objectID": "project-pages/GeneralMotors.html",
+    "href": "project-pages/GeneralMotors.html",
+    "title": "My Portfolio",
     "section": "",
-    "text": "Hammer Front\n\n\n\n\n\nPrecision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes. The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. Furthermore this project contributes to the Harvey Mudd College tradition of student-made hammers."
+    "text": "GENERAL MOTORS — Manufacturing Engineering Intern : Autonomous Robotics Center\nThis past summer, I interned at General Motors’ Autonomous Robotics Center in Burton, Michigan as a Manufacturing Engineering Intern. I was embedded directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.\nMy role placed me at the intersection of engineering and operations, where I worked alongside cross-functional teams to redesign material-handling workflows, analyze production data, and develop workstation concepts that would support the seamless transition to a more automated environment.\nI also had the privilege of developing and earning a Green Belt in Design for Six Sigma (DFSS) — a certification that has fundamentally shaped how I approach engineering problems. DFSS trained me to minimize variation and bias in process design, allowing me to build fine-tuned solutions that are statistically validated."
   },
   {
-    "objectID": "project-pages/hammer.html#background",
-    "href": "project-pages/hammer.html#background",
-    "title": "Machinist’s Hammer",
+    "objectID": "project-pages/GeneralMotors.html#links",
+    "href": "project-pages/GeneralMotors.html#links",
+    "title": "My Portfolio",
+    "section": "Links",
+    "text": "Links\nBack to Work Experience"
+  },
+  {
+    "objectID": "project-pages/dasion.html",
+    "href": "project-pages/dasion.html",
+    "title": "My Portfolio",
     "section": "",
-    "text": "Precision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes. The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. Furthermore this project contributes to the Harvey Mudd College tradition of student-made hammers."
+    "text": "DASION — Software Engineer & ML Intern\nThis past summer, I interned at Dasion as a Software Engineer and Machine Learning Intern based in Claremont, California. Dasion is a data-driven company focused on leveraging machine learning to support medical and behavioral research. My role placed me at the intersection of software engineering and applied machine learning, where I worked on developing tools to support emotion recognition in children using medical imaging data.\nWorking on a project with real clinical implications pushed me to think carefully about model selection, data quality, and the downstream impact of engineering decisions. Every preprocessing step, every architecture choice, and every evaluation metric carried weight — because the end users were researchers and practitioners working with vulnerable populations.\nOne of the most exciting aspects of this internship was building an emotion-based music recommender using the Spotify API — a creative application that connected the emotional state detected by our models to curated playlists, demonstrating the real-world potential of the system beyond clinical settings."
   },
   {
-    "objectID": "project-pages/hammer.html#contributions",
-    "href": "project-pages/hammer.html#contributions",
-    "title": "Machinist’s Hammer",
-    "section": "Contributions",
-    "text": "Contributions\n\nFollowed a process router and technical drawings to manufacture each component from raw materials\nMachined all components to tolerances within thousandths of an inch of technical specifications\nCalibrated and operated a lathe and mill to work with steel and nylon\nApplied manufacturing techniques including drilling, tapping, heat treatment, and tempering"
+    "objectID": "project-pages/dasion.html#links",
+    "href": "project-pages/dasion.html#links",
+    "title": "My Portfolio",
+    "section": "Links",
+    "text": "Links\nDasion\nBack to Work Experience"
   },
   {
-    "objectID": "project-pages/hammer.html#skills",
-    "href": "project-pages/hammer.html#skills",
-    "title": "Machinist’s Hammer",
-    "section": "Skills",
-    "text": "Skills\nGD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment"
+    "objectID": "project-pages/machineshop.html",
+    "href": "project-pages/machineshop.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "HARVEY MUDD COLLEGE — Machine Shop Proctor\nThe Harvey Mudd Machine Shop serves as a creative space for the 7 Claremont Colleges, welcoming people from all different backgrounds in machining to work on personal projects, class projects, and team projects — allowing for the full spectrum of the creative space to come to life. The shop features both a wooden shop and a metal shop, each equipped with a variety of tools that support everything from early-stage prototyping to precision manufacturing.\nAs a Machine Shop Proctor, my role is to guide new and existing users on safe practices while assisting with project development for classes. This means being present on the floor, understanding what each person is trying to build, and helping them navigate the right tools, techniques, and processes to get there — safely and effectively.\nBeyond day-to-day guidance, I participate in weekly trainings that continuously build my knowledge of machining, tooling, and manufacturing processes. These sessions have deepened my understanding of the machines I work with and made me a more effective resource for the students and makers who rely on the shop.\nI also play a direct role in supporting engineering courses at Harvey Mudd, including Introduction to Engineering Design and Manufacturing and Mechanical Design, where I guide students through reading and following process routers and technical drawings to manufacture components to specification — skills that form the foundation of any engineering career."
   },
   {
-    "objectID": "project-pages/hammer.html#files",
-    "href": "project-pages/hammer.html#files",
-    "title": "Machinist’s Hammer",
-    "section": "Files",
-    "text": "Files\nView Technical Drawings\nBack to Projects"
+    "objectID": "project-pages/machineshop.html#links",
+    "href": "project-pages/machineshop.html#links",
+    "title": "My Portfolio",
+    "section": "Links",
+    "text": "Links\nHMC Machine Shop\nBack to Work Experience"
   },
   {
     "objectID": "project-pages/laser.html",
@@ -147,74 +161,39 @@
     "text": "Files\nView Technical Drawings, BOM & Process Router\nBack to Projects"
   },
   {
-    "objectID": "project-pages/machineshop.html",
-    "href": "project-pages/machineshop.html",
-    "title": "Machine Shop Proctor",
+    "objectID": "project-pages/hammer.html",
+    "href": "project-pages/hammer.html",
+    "title": "Machinist’s Hammer",
     "section": "",
-    "text": "Machine Shop"
+    "text": "Hammer Front\n\n\n\n\n\nPrecision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes. The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. Furthermore this project contributes to the Harvey Mudd College tradition of student-made hammers."
   },
   {
-    "objectID": "project-pages/machineshop.html#overview",
-    "href": "project-pages/machineshop.html#overview",
-    "title": "Machine Shop Proctor",
-    "section": "Overview",
-    "text": "Overview\nRegulated a space with 20+ heavy machines including mills, lathes, and CNC machines, promoting proper machine handling practices for 80+ students each semester. Guided students in Introduction to Engineering Design and Manufacturing and Mechanical Design courses on how to read and follow process routers and technical drawings to create a machinist’s hammer to specification."
-  },
-  {
-    "objectID": "project-pages/machineshop.html#contributions",
-    "href": "project-pages/machineshop.html#contributions",
-    "title": "Machine Shop Proctor",
-    "section": "Contributions",
-    "text": "Contributions\n\nRegulated a space with 20+ heavy machines (mills, lathes, CNC machines, etc.), promoting proper machine handling practices for 80+ students each semester\nGuided students in Introduction to Engineering Design and Manufacturing and Mechanical Design on how to read and follow process routers and technical drawings to create a machinist’s hammer to specification\nParticipated in weekly trainings that built up knowledge of machining, tooling, and manufacturing processes"
-  },
-  {
-    "objectID": "project-pages/machineshop.html#skills",
-    "href": "project-pages/machineshop.html#skills",
-    "title": "Machine Shop Proctor",
-    "section": "Skills",
-    "text": "Skills\nMachine Shop Safety, Machining, Tooling, Manufacturing Processes, Student Mentorship"
-  },
-  {
-    "objectID": "project-pages/machineshop.html#links",
-    "href": "project-pages/machineshop.html#links",
-    "title": "Machine Shop Proctor",
-    "section": "Links",
-    "text": "Links\nHMC Machine Shop\nBack to Work Experience"
-  },
-  {
-    "objectID": "project-pages/dasion.html",
-    "href": "project-pages/dasion.html",
-    "title": "Software Engineer & ML Intern",
+    "objectID": "project-pages/hammer.html#background",
+    "href": "project-pages/hammer.html#background",
+    "title": "Machinist’s Hammer",
     "section": "",
-    "text": "Dasion"
+    "text": "Precision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes. The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. Furthermore this project contributes to the Harvey Mudd College tradition of student-made hammers."
   },
   {
-    "objectID": "project-pages/dasion.html#overview",
-    "href": "project-pages/dasion.html#overview",
-    "title": "Software Engineer & ML Intern",
-    "section": "Overview",
-    "text": "Overview\nBenchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data. Developed a data preprocessing pipeline in Python to automate image cleaning and augmentation, reducing data preparation time by an estimated 35%. Engineered an emotion-based music recommender using the Spotify API to deliver curated playlists based on emotional state and intensity."
-  },
-  {
-    "objectID": "project-pages/dasion.html#contributions",
-    "href": "project-pages/dasion.html#contributions",
-    "title": "Software Engineer & ML Intern",
+    "objectID": "project-pages/hammer.html#contributions",
+    "href": "project-pages/hammer.html#contributions",
+    "title": "Machinist’s Hammer",
     "section": "Contributions",
-    "text": "Contributions\n\nBenchmarked 5+ machine learning models to identify an optimal architecture for emotion recognition of children, achieving 89% diagnostic accuracy on medical imaging data\nDeveloped data preprocessing pipeline in Python using ML libraries to automate image cleaning and augmentation, reducing data preparation time by an estimate of 35%\nEngineered an emotion-based music recommender using the Spotify API, enabling users to receive curated playlists based on emotional state and intensity"
+    "text": "Contributions\n\nFollowed a process router and technical drawings to manufacture each component from raw materials\nMachined all components to tolerances within thousandths of an inch of technical specifications\nCalibrated and operated a lathe and mill to work with steel and nylon\nApplied manufacturing techniques including drilling, tapping, heat treatment, and tempering"
   },
   {
-    "objectID": "project-pages/dasion.html#skills",
-    "href": "project-pages/dasion.html#skills",
-    "title": "Software Engineer & ML Intern",
+    "objectID": "project-pages/hammer.html#skills",
+    "href": "project-pages/hammer.html#skills",
+    "title": "Machinist’s Hammer",
     "section": "Skills",
-    "text": "Skills\nPython, Machine Learning, Data Preprocessing, Image Augmentation, Spotify API, Emotion Recognition"
+    "text": "Skills\nGD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment"
   },
   {
-    "objectID": "project-pages/dasion.html#links",
-    "href": "project-pages/dasion.html#links",
-    "title": "Software Engineer & ML Intern",
-    "section": "Links",
-    "text": "Links\nDasion\nBack to Work Experience"
+    "objectID": "project-pages/hammer.html#files",
+    "href": "project-pages/hammer.html#files",
+    "title": "Machinist’s Hammer",
+    "section": "Files",
+    "text": "Files\nView Technical Drawings\nBack to Projects"
   },
   {
     "objectID": "project-pages/rov.html",
