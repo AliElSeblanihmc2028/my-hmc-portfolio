@@ -1,0 +1,22 @@
+---
+title: ""
+toc: false
+---
+
+```{=html}
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 15px 20px; margin-bottom: 30px; background: white;">
+  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">GENERAL MOTORS</span> — <em style="color: #666;">Manufacturing Engineering Intern : Autonomous Robotics Center</em>
+</div>
+
+<img src="../images/GenMotors.png" style="width: 25%; float: left; margin: 0 30px 20px 0;"/>
+
+<p>This past summer, I interned at General Motors' Autonomous Robotics Center in Burton, Michigan as a Manufacturing Engineering Intern. I was embedded directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.</p>
+
+<p>My role placed me at the intersection of engineering and operations, where I worked alongside cross-functional teams to redesign material-handling workflows, analyze production data, and develop workstation concepts that would support the seamless transition to a more automated environment.</p>
+
+<p>I also had the privilege of developing and earning a Green Belt in Design for Six Sigma (DFSS) — a certification that has fundamentally shaped how I approach engineering problems. DFSS trained me to minimize variation and bias in process design, allowing me to build fine-tuned solutions that are statistically validated.
+
+
+## Links
+
+[Back to Work Experience](../work_experience.qmd)

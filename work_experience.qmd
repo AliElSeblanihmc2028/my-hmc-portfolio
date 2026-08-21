@@ -2,6 +2,20 @@
 title: "Work Experience"
 toc: false
 ---
+## General Motors
+**Manufacturing Engineering Intern | May 2026 – Aug 2026 | Burton, MI**
+
+```{=html}
+<div class="project-grid">
+  <a href="project-pages/GeneralMotors.html" class="project-card">
+    <img src="images/GenMotors.jpg" alt="General Motors"/>
+    <div class="project-card-overlay">
+      <h3>Manufacturing Engineering Intern</h3>
+      <p>Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design</p>
+    </div>
+  </a>
+</div>
+```
 
 ## Dasion
 **May 2025 – Aug 2025 | Claremont, CA**
