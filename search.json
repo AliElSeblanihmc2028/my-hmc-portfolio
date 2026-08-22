@@ -4,14 +4,14 @@
     "href": "work_experience.html",
     "title": "Work Experience",
     "section": "",
-    "text": "Manufacturing Engineering Intern | May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design"
+    "text": "May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design"
   },
   {
     "objectID": "work_experience.html#general-motors",
     "href": "work_experience.html#general-motors",
     "title": "Work Experience",
     "section": "",
-    "text": "Manufacturing Engineering Intern | May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design"
+    "text": "May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design"
   },
   {
     "objectID": "work_experience.html#dasion",
@@ -25,7 +25,7 @@
     "href": "work_experience.html#harvey-mudd-college-machine-shop-proctor",
     "title": "Work Experience",
     "section": "Harvey Mudd College | Machine Shop Proctor",
-    "text": "Harvey Mudd College | Machine Shop Proctor\n\n  \n    \n    \n      Harvey Mudd College | Machine Shop Proctor\n      Machine Shop Safety, Machining, Tooling, Manufacturing Processes"
+    "text": "Harvey Mudd College | Machine Shop Proctor\nDec 2025 – Present | Claremont, CA\n\n  \n    \n    \n      Harvey Mudd College | Machine Shop Proctor\n      Machine Shop Safety, Machining, Tooling, Manufacturing Processes"
   },
   {
     "objectID": "index.html",
@@ -39,21 +39,7 @@
     "href": "project-pages/auv.html",
     "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
     "section": "",
-    "text": "AUV Robot\n\n\n\n\n\nClimate change and ocean health monitoring require scalable, low-cost solutions for collecting environmental data. This project was motivated by the need to develop an autonomous system capable of measuring key ocean parameters at varying depths without human intervention. The goal was to design a robot that could reliably collect pressure, temperature, and UV data in real marine environments and contribute meaningful data for climate research."
-  },
-  {
-    "objectID": "project-pages/auv.html#background",
-    "href": "project-pages/auv.html#background",
-    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
-    "section": "",
-    "text": "Climate change and ocean health monitoring require scalable, low-cost solutions for collecting environmental data. This project was motivated by the need to develop an autonomous system capable of measuring key ocean parameters at varying depths without human intervention. The goal was to design a robot that could reliably collect pressure, temperature, and UV data in real marine environments and contribute meaningful data for climate research."
-  },
-  {
-    "objectID": "project-pages/auv.html#contributions",
-    "href": "project-pages/auv.html#contributions",
-    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
-    "section": "Contributions",
-    "text": "Contributions\n\nLed electrical system design, implementing 3 analog circuits with voltage-to-voltage, current-to-voltage, and resistance-to-voltage interfaces\nEngineered UV, pressure, and temperature sensor systems using a unity-gain buffer and inverting gain amplifier to optimize data resolution and prevent clipping on the Teensy 4.0\nDeveloped calibration protocols accounting for noise, sensor non-linearity, and degradation for accurate underwater measurements\nDesigned and fabricated a mechanically stable system maintaining neutral buoyancy in saltwater while minimizing axial tilt\nDeveloped a C++ algorithm for dynamic depth control, enabling autonomous waypoint navigation at various depths\nCreated MATLAB scripts to process and visualize temperature and UV intensity as a function of depth for climate monitoring analysis"
+    "text": "A picture of our final robot build.\n  \n\n  \n    All spring semester sophomore engineers at Harvey Mudd undergo a rigorous lab-based class called E80, or Experimental Engineering. In the latter half of this class, students work in teams to develop a fully autonomous underwater robot that measures a phenomenon of their choice with a limit of $50 to purchase sensors. At the end of the class, the robot is deployed at Dana Point Beach, a harbor in the suburbs of Los Angeles.\n\n    Our team chose to measure pressure, temperature, and ultraviolet light intensity as a function of depth in marine environments — phenomena directly tied to ocean health and climate monitoring. With a tight budget and real deployment conditions, every engineering decision carried weight.\n\n    I led the electrical system design, implementing 3 analog circuits with three unique electrical interfaces: voltage-to-voltage, current-to-voltage, and resistance-to-voltage. Each sensor system — UV, pressure, and temperature — was engineered using a unity-gain buffer and inverting gain amplifier to tailor sensor output to a specific range, enhancing data resolution and preventing data clipping on the Teensy 4.0.\n\n    Calibration was one of the most technically demanding aspects of the project. I developed protocols that accounted for noise, sensor non-linearity, and degradation — ensuring robust and accurate measurements across diverse underwater conditions. On the mechanical side, I helped design and fabricate a system that maintained neutral buoyancy in saltwater while minimizing axial tilt, improving stability during data collection.\nTo control the robot autonomously, I developed a C++ algorithm for dynamic depth control, enabling the robot to reach and maintain designated waypoints at various depths. Once the data was collected, I developed MATLAB scripts to process the output and generate clear, interpretable graphs of temperature and UV intensity as a function of depth — aiding data analysis and decision-making for climate monitoring."
   },
   {
     "objectID": "project-pages/auv.html#pcb-images",
@@ -88,7 +74,7 @@
     "href": "project-pages/GeneralMotors.html",
     "title": "My Portfolio",
     "section": "",
-    "text": "GENERAL MOTORS — Manufacturing Engineering Intern : Autonomous Robotics Center\nThis past summer, I interned at General Motors’ Autonomous Robotics Center in Burton, Michigan as a Manufacturing Engineering Intern. I was embedded directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.\nMy role placed me at the intersection of engineering and operations, where I worked alongside cross-functional teams to redesign material-handling workflows, analyze production data, and develop workstation concepts that would support the seamless transition to a more automated environment.\nI also had the privilege of developing and earning a Green Belt in Design for Six Sigma (DFSS) — a certification that has fundamentally shaped how I approach engineering problems. DFSS trained me to minimize variation and bias in process design, allowing me to build fine-tuned solutions that are statistically validated."
+    "text": "GENERAL MOTORS —  Autonomous Robotics Center Manufacturing Engineering Intern\nThis past summer, I interned at General Motors’ Autonomous Robotics Center in Burton, Michigan as a Manufacturing Engineering Intern. I was embedded directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.\nMy role placed me at the intersection of engineering and operations, where I worked alongside cross-functional teams to redesign material-handling workflows, analyze production data, and develop workstation concepts that would support the seamless transition to a more automated environment.\nI also had the privilege of developing and earning a Green Belt in Design for Six Sigma (DFSS) — a certification that has fundamentally shaped how I approach engineering problems. DFSS trained me to minimize variation and bias in process design, allowing me to build fine-tuned solutions that are statistically validated."
   },
   {
     "objectID": "project-pages/GeneralMotors.html#links",
@@ -130,28 +116,7 @@
     "href": "project-pages/laser.html",
     "title": "Flexible Measuring Laser",
     "section": "",
-    "text": "Flexible Measuring Laser\n\n\n\n\n\nThe users using the scanning electron microscope (SEM) need to manually estimate the height of their mounted samples and enter that height electronically into the microscope settings before they place it in the microscope. This process requires the user to visually compare the sample against a ruler, which is likely inconsistent for the most part, causing inaccurate measurements. Inaccurate height inputs can possibly lead to collisions when inside the microscope chamber, causing damage to the sensitive detectors or possibly limiting its performance. The client wants a height measurement solution that allows trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution must be able to accommodate all existing holder bases, which have at most a 10 cm radius and sample diameters of 26 mm, while providing readouts with a tolerance of 0.5 mm without contacting the surface of the sample [1]. Additionally, it is very important that nothing touches the top of the sample during the measuring process [2]. The top of the sample is covered in a conductive coating that is on the scale of nanometers thick [2]. Therefore, anything that brushes along the top of the sample could cause damage to the coating and sample itself [1,2]. The solution should be simple to use, highly durable, easily cleaned, minimized the need for calibration while allowing trained non-specialist users to get accurate measurements in under two minutes. The measurement process must be quick in order to make it more convenient for the user because this step should be a relatively simple step in the entire process of using the electron microscope."
-  },
-  {
-    "objectID": "project-pages/laser.html#background",
-    "href": "project-pages/laser.html#background",
-    "title": "Flexible Measuring Laser",
-    "section": "",
-    "text": "The users using the scanning electron microscope (SEM) need to manually estimate the height of their mounted samples and enter that height electronically into the microscope settings before they place it in the microscope. This process requires the user to visually compare the sample against a ruler, which is likely inconsistent for the most part, causing inaccurate measurements. Inaccurate height inputs can possibly lead to collisions when inside the microscope chamber, causing damage to the sensitive detectors or possibly limiting its performance. The client wants a height measurement solution that allows trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution must be able to accommodate all existing holder bases, which have at most a 10 cm radius and sample diameters of 26 mm, while providing readouts with a tolerance of 0.5 mm without contacting the surface of the sample [1]. Additionally, it is very important that nothing touches the top of the sample during the measuring process [2]. The top of the sample is covered in a conductive coating that is on the scale of nanometers thick [2]. Therefore, anything that brushes along the top of the sample could cause damage to the coating and sample itself [1,2]. The solution should be simple to use, highly durable, easily cleaned, minimized the need for calibration while allowing trained non-specialist users to get accurate measurements in under two minutes. The measurement process must be quick in order to make it more convenient for the user because this step should be a relatively simple step in the entire process of using the electron microscope."
-  },
-  {
-    "objectID": "project-pages/laser.html#contributions",
-    "href": "project-pages/laser.html#contributions",
-    "title": "Flexible Measuring Laser",
-    "section": "Contributions",
-    "text": "Contributions\n\nDesigned a precision rack and pinion Z-axis measurement system achieving less than 1mm accuracy for SEM sample preparation\nIntegrated a laser and photosensor along with a slew bearing for radial motion to detect the tallest point on samples of variable height\nOptimized durability through full material and fatigue analysis, selecting powder nylon (SLS nylon) for superior wear resistance, strength, and dimensional stability under high cycle use\nDelivered a scalable, easily replicable design that improves SEM workflow safety and prevents $1000+ in potential equipment damage from improper sample height"
-  },
-  {
-    "objectID": "project-pages/laser.html#skills",
-    "href": "project-pages/laser.html#skills",
-    "title": "Flexible Measuring Laser",
-    "section": "Skills",
-    "text": "Skills\nCAD, Rack and Pinion Design, Fatigue Analysis, Material Selection, SLS Nylon, SEM Sample Preparation"
+    "text": "The Flexible Measuring Laser system.\n  \n\n  \n    \n\n    Users of the Scanning Electron Microscope (SEM) are required to manually estimate the height of their mounted samples before placing them inside the microscope chamber. This estimation — typically done by visually comparing the sample against a ruler — is inherently inconsistent and prone to error. Inaccurate height inputs can lead to collisions inside the chamber, causing damage to sensitive detectors or degrading microscope performance.\n\n    The client requested a height measurement solution that would allow trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution needed to accommodate all existing holder bases with at most a 10 cm radius, provide readout tolerances within 0.5 mm, and critically — make no contact with the top surface of the sample, which is coated in a conductive layer only nanometers thick that could be irreparably damaged by even the lightest touch.\nTo meet these requirements, I designed a precision rack and pinion Z-axis measurement system integrated with a laser and photosensor, paired with a slew bearing for radial motion. This allowed the system to sweep around the sample and detect its tallest point without ever making contact. The entire measurement process was designed to be completed in under two minutes by a trained non-specialist user.\nMaterial selection was a critical part of the design process. Through a full fatigue and material analysis, I selected PLA for its scalability and ease of use in 3D printing — ensuring the device would remain accurate, durable, and easily replicable over its lifetime. The final design prevents $1000+ in potential equipment damage from improper sample height inputs."
   },
   {
     "objectID": "project-pages/laser.html#files",
@@ -165,28 +130,7 @@
     "href": "project-pages/hammer.html",
     "title": "Machinist’s Hammer",
     "section": "",
-    "text": "Hammer Front\n\n\n\n\n\nPrecision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes. The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. Furthermore this project contributes to the Harvey Mudd College tradition of student-made hammers."
-  },
-  {
-    "objectID": "project-pages/hammer.html#background",
-    "href": "project-pages/hammer.html#background",
-    "title": "Machinist’s Hammer",
-    "section": "",
-    "text": "Precision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes. The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. Furthermore this project contributes to the Harvey Mudd College tradition of student-made hammers."
-  },
-  {
-    "objectID": "project-pages/hammer.html#contributions",
-    "href": "project-pages/hammer.html#contributions",
-    "title": "Machinist’s Hammer",
-    "section": "Contributions",
-    "text": "Contributions\n\nFollowed a process router and technical drawings to manufacture each component from raw materials\nMachined all components to tolerances within thousandths of an inch of technical specifications\nCalibrated and operated a lathe and mill to work with steel and nylon\nApplied manufacturing techniques including drilling, tapping, heat treatment, and tempering"
-  },
-  {
-    "objectID": "project-pages/hammer.html#skills",
-    "href": "project-pages/hammer.html#skills",
-    "title": "Machinist’s Hammer",
-    "section": "Skills",
-    "text": "Skills\nGD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment"
+    "text": "The finished machinist's hammer.\n  \n\n  \n    Precision machining is a fundamental skill in mechanical engineering, requiring the ability to read and interpret technical drawings and manufacture components to tight tolerances. This project was motivated by the need to develop hands-on machining skills using industry-standard equipment and processes.\n\n    The goal was to manufacture a fully functional machinist hammer from raw materials including clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings and dimensional tolerances. This project also contributes to the Harvey Mudd College tradition of student-made hammers.\n\n    Each component was machined to tolerances within thousandths of an inch using a lathe and mill. Manufacturing techniques applied included drilling, tapping, heat treatment, and tempering — with the steel components undergoing heat treatment to achieve specified mechanical properties such as hardness, verified using an HRC Hardness Tester. Dimensional accuracy was continuously verified throughout the process using digital micrometers and GD&T principles."
   },
   {
     "objectID": "project-pages/hammer.html#files",
@@ -200,28 +144,7 @@
     "href": "project-pages/rov.html",
     "title": "Submersible Robot with Kp Control",
     "section": "",
-    "text": "Submersible Robot\n\n\n\n\n\nUnderwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments. The goal was to develop a system that could reliably collect sensor data and process output voltages for analysis in LabVIEW."
-  },
-  {
-    "objectID": "project-pages/rov.html#background",
-    "href": "project-pages/rov.html#background",
-    "title": "Submersible Robot with Kp Control",
-    "section": "",
-    "text": "Underwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments. The goal was to develop a system that could reliably collect sensor data and process output voltages for analysis in LabVIEW."
-  },
-  {
-    "objectID": "project-pages/rov.html#contributions",
-    "href": "project-pages/rov.html#contributions",
-    "title": "Submersible Robot with Kp Control",
-    "section": "Contributions",
-    "text": "Contributions\n\nConstructed an underwater ROV to retrieve temperature, pressure, and other signals in lake environments\nUtilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection\nAssembled a PCB containing the MCP6002 OpAmp to return output voltages\nModeled and analyzed output voltages in LabVIEW"
-  },
-  {
-    "objectID": "project-pages/rov.html#skills",
-    "href": "project-pages/rov.html#skills",
-    "title": "Submersible Robot with Kp Control",
-    "section": "Skills",
-    "text": "Skills\nLabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding\nBack to Projects"
+    "text": "The finished submersible ROV.\n  \n\n  \n    Background\n\n    Underwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments.\n\n    The goal was to develop a system that could reliably collect sensor data using the MCP9701 thermistor and MPX5700ASX pressure gauge, and process output voltages for analysis in LabVIEW. The ROV needed to be robust enough for real lake deployment while remaining buildable within the constraints of a course project.\n  \n\n\n\nTo bring the system together, I assembled a PCB containing the MCP6002 OpAmp to condition and return output voltages from the sensors. Each circuit was carefully soldered and tested using an oscilloscope and DMM to verify signal integrity before deployment. The output voltages were then modeled and analyzed in LabVIEW, allowing us to interpret the sensor readings and validate the performance of the system in real aquatic conditions.\n\nBack to Projects"
   },
   {
     "objectID": "projects.html",

@@ -5,7 +5,7 @@ toc: false
 
 ```{=html}
 <div style="border: 1px solid #ddd; border-radius: 6px; padding: 15px 20px; margin-bottom: 30px; background: white;">
-  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">GENERAL MOTORS</span> — <em style="color: #666;">Manufacturing Engineering Intern : Autonomous Robotics Center</em>
+  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">GENERAL MOTORS</span> — <em style="color: #666;"> Autonomous Robotics Center Manufacturing Engineering Intern</em>
 </div>
 
 <img src="../images/GenMotors.png" style="width: 25%; float: left; margin: 0 30px 20px 0;"/>

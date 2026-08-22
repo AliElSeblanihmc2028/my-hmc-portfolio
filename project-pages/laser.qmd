@@ -3,34 +3,58 @@ title: "Flexible Measuring Laser"
 toc: false
 ---
 
-:::: {layout="[40,60]"}
-::: {}
-![Flexible Measuring Laser](../images/Flexible_photo.png){.hero-image width=100%}
-:::
-::: {}
-## Background
+<style>
+.project-intro {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.6fr) 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
 
-The users using the scanning electron microscope (SEM) need to manually estimate the height of their mounted samples and enter that height electronically into the microscope settings before they place it in the microscope. This process requires the user to visually compare the sample against a ruler, which is likely inconsistent for the most part, causing inaccurate measurements. Inaccurate height inputs can possibly lead to collisions when inside the microscope chamber, causing damage to the sensitive detectors or possibly limiting its performance.
-The client wants a height measurement solution that allows trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution must be able to accommodate all existing holder bases, which have at most a 10 cm radius and sample diameters of 26 mm, while providing readouts with a tolerance of 0.5 mm without contacting the surface of the sample [1]. Additionally, it is very important that nothing touches the top of the sample during the measuring process [2]. The top of the sample is covered in a conductive coating that is on the scale of nanometers thick [2]. Therefore, anything that brushes along the top of the sample could cause damage to the coating and sample itself [1,2]. The solution should be simple to use, highly durable, easily cleaned, minimized the need for calibration while allowing trained non-specialist users to get accurate measurements in under two minutes. The measurement process must be quick in order to make it more convenient for the user because this step should be a relatively simple step in the entire process of using the electron microscope.
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
+.project-caption {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}
 
-:::
-::::
+@media (max-width: 800px) {
+  .project-intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+</style>
 
----
+```{=html}
+<div class="project-intro">
 
-## Contributions
+  <div class="project-image">
+    <img src="../images/Flexible_photo.png" alt="Flexible Measuring Laser">
+    <div class="project-caption">The Flexible Measuring Laser system.</div>
+  </div>
 
-- Designed a precision rack and pinion Z-axis measurement system achieving less than 1mm accuracy for SEM sample preparation
-- Integrated a laser and photosensor along with a slew bearing for radial motion to detect the tallest point on samples of variable height
-- Optimized durability through full material and fatigue analysis, selecting powder nylon (SLS nylon) for superior wear resistance, strength, and dimensional stability under high cycle use
-- Delivered a scalable, easily replicable design that improves SEM workflow safety and prevents $1000+ in potential equipment damage from improper sample height
+  <div class="project-text">
+    <h2>Background</h2>
 
----
+    <p>Users of the Scanning Electron Microscope (SEM) are required to manually estimate the height of their mounted samples before placing them inside the microscope chamber. This estimation — typically done by visually comparing the sample against a ruler — is inherently inconsistent and prone to error. Inaccurate height inputs can lead to collisions inside the chamber, causing damage to sensitive detectors or degrading microscope performance.</p>
 
-## Skills
+    <p>The client requested a height measurement solution that would allow trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution needed to accommodate all existing holder bases with at most a 10 cm radius, provide readout tolerances within 0.5 mm, and critically — make no contact with the top surface of the sample, which is coated in a conductive layer only nanometers thick that could be irreparably damaged by even the lightest touch.</p>
+  </div>
 
-CAD, Rack and Pinion Design, Fatigue Analysis, Material Selection, SLS Nylon, SEM Sample Preparation
+</div>
+
+<p>To meet these requirements, I designed a precision rack and pinion Z-axis measurement system integrated with a laser and photosensor, paired with a slew bearing for radial motion. This allowed the system to sweep around the sample and detect its tallest point without ever making contact. The entire measurement process was designed to be completed in under two minutes by a trained non-specialist user.</p>
+
+<p>Material selection was a critical part of the design process. Through a full fatigue and material analysis, I selected PLA for its scalability and ease of use in 3D printing — ensuring the device would remain accurate, durable, and easily replicable over its lifetime. The final design prevents $1000+ in potential equipment damage from improper sample height inputs.</p>
+```
 
 ---
 
