@@ -10,7 +10,7 @@ toc: false
 
 <img src="../images/GenMotors.png" style="width: 25%; float: left; margin: 0 30px 20px 0;"/>
 
-<p>This past summer, I interned at General Motors' Autonomous Robotics Center in Burton, Michigan as a Manufacturing Engineering Intern. I was embedded directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.</p>
+<p>This past summer, I interned at General Motors' within the department of General Assembly and Autonomous Robtoics Center Division in Burton, Michigan as a Manufacturing Engineering Intern. I was directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.</p>
 
 <p>My role placed me at the intersection of engineering and operations, where I worked alongside cross-functional teams to redesign material-handling workflows, analyze production data, and develop workstation concepts that would support the seamless transition to a more automated environment.</p>
 
