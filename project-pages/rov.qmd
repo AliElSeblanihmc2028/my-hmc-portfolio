@@ -3,31 +3,57 @@ title: "Submersible Robot with Kp Control"
 toc: false
 ---
 
-:::: {layout="[40,60]"}
-::: {}
-![Submersible Robot](../images/E79_robot.png){.hero-image width=100%}
-:::
-::: {}
-## Background
+<style>
+.project-intro {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.6fr) 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
 
-Underwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments. The goal was to develop a system that could reliably collect sensor data and process output voltages for analysis in LabVIEW.
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-:::
-::::
+.project-caption {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .project-intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+</style>
+
+```{=html}
+<div class="project-intro">
+
+  <div class="project-image">
+    <img src="../images/E79_robot.png" alt="Submersible Robot">
+    <div class="project-caption">The finished submersible ROV.</div>
+  </div>
+
+  <div class="project-text">
+    <h2>Background</h2>
+
+    <p>Underwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments.</p>
+
+    <p>The goal was to develop a system that could reliably collect sensor data using the MCP9701 thermistor and MPX5700ASX pressure gauge, and process output voltages for analysis in LabVIEW. The ROV needed to be robust enough for real lake deployment while remaining buildable within the constraints of a course project.</p>
+  </div>
+
+</div>
+
+<p>To bring the system together, I assembled a PCB containing the MCP6002 OpAmp to condition and return output voltages from the sensors. Each circuit was carefully soldered and tested using an oscilloscope and DMM to verify signal integrity before deployment. The output voltages were then modeled and analyzed in LabVIEW, allowing us to interpret the sensor readings and validate the performance of the system in real aquatic conditions.</p>
+```
 
 ---
-
-## Contributions
-
-- Constructed an underwater ROV to retrieve temperature, pressure, and other signals in lake environments
-- Utilized the MCP9701 thermistor and MPX5700ASX pressure gauge for data collection
-- Assembled a PCB containing the MCP6002 OpAmp to return output voltages
-- Modeled and analyzed output voltages in LabVIEW
-
----
-
-## Skills
-
-LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding
 
 [Back to Projects](../projects.qmd)

@@ -3,7 +3,7 @@ title: "Work Experience"
 toc: false
 ---
 ## General Motors
-**Manufacturing Engineering Intern | May 2026 – Aug 2026 | Burton, MI**
+**May 2026 – Aug 2026 | Burton, MI**
 
 ```{=html}
 <div class="project-grid">
@@ -33,7 +33,7 @@ toc: false
 ```
 
 ## Harvey Mudd College | Machine Shop Proctor
-
+**Dec 2025 – Present | Claremont, CA**
 ```{=html}
 <div class="project-grid">
   <a href="project-pages/machineshop.html" class="project-card">
