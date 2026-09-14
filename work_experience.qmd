@@ -25,7 +25,7 @@ toc: false
   <a href="project-pages/dasion.html" class="project-card logo-card">
     <img src="images/bigdasionlogo.png" alt="Dasion"/>
     <div class="project-card-overlay">
-      <h3>Software Engineer & ML Intern</h3>
+      <h3>Software Engineering Intern</h3>
       <p>Python, Machine Learning, Data Preprocessing, Spotify API</p>
     </div>
   </a>
