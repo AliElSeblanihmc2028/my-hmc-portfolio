@@ -32,10 +32,16 @@ toc: false
 </div>
 ```
 
-## Harvey Mudd College | Machine Shop Proctor
-**Dec 2025 – Present | Claremont, CA**
+## Harvey Mudd College
 ```{=html}
 <div class="project-grid">
+  <a href="project-pages/e79proctor.html" class="project-card">
+    <img src="images/HMCseal.png" alt="E79 Practicum"/>
+    <div class="project-card-overlay">
+      <h3>Systems Engineering Practicum Proctor</h3>
+      <p>E79, Underwater Robotics, Systems Engineering, Lab Safety</p>
+    </div>
+  </a>
   <a href="project-pages/machineshop.html" class="project-card">
     <img src="images/machine-shopPic.jpg" alt="Machine Shop"/>
     <div class="project-card-overlay">

@@ -10,10 +10,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: projects.qmd
-        text: Projects
       - href: work_experience.qmd
         text: Work Experience
+      - href: racing.qmd
+        text: Harvey Mudd Racing
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
 
 format:
   html:

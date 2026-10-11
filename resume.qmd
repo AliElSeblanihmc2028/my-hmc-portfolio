@@ -1,0 +1,8 @@
+---
+title: "Resume"
+toc: false
+---
+
+```{=html}
+<iframe src="images/ElSeblani_Ali_Resume.pdf" width="100%" height="900px" style="border: none;"></iframe>
+```
