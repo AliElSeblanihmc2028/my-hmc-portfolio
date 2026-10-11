@@ -21,11 +21,11 @@
     "text": "Dasion\nMay 2025 – Aug 2025 | Claremont, CA\n\n  \n    \n    \n      Software Engineering Intern\n      Python, Machine Learning, Data Preprocessing, Spotify API"
   },
   {
-    "objectID": "work_experience.html#harvey-mudd-college-machine-shop-proctor",
-    "href": "work_experience.html#harvey-mudd-college-machine-shop-proctor",
+    "objectID": "work_experience.html#harvey-mudd-college",
+    "href": "work_experience.html#harvey-mudd-college",
     "title": "Work Experience",
-    "section": "Harvey Mudd College | Machine Shop Proctor",
-    "text": "Harvey Mudd College | Machine Shop Proctor\nDec 2025 – Present | Claremont, CA\n\n  \n    \n    \n      Harvey Mudd College | Machine Shop Proctor\n      Machine Shop Safety, Machining, Tooling, Manufacturing Processes"
+    "section": "Harvey Mudd College",
+    "text": "Harvey Mudd College\n\n  \n    \n    \n      Systems Engineering Practicum Proctor\n      E79, Underwater Robotics, Systems Engineering, Lab Safety\n    \n  \n  \n    \n    \n      Harvey Mudd College | Machine Shop Proctor\n      Machine Shop Safety, Machining, Tooling, Manufacturing Processes"
   },
   {
     "objectID": "index.html",
@@ -70,60 +70,11 @@
     "text": "Files\nView Technical Paper | View Poster\nBack to Projects"
   },
   {
-    "objectID": "project-pages/GeneralMotors.html",
-    "href": "project-pages/GeneralMotors.html",
-    "title": "My Portfolio",
+    "objectID": "project-pages/rov.html",
+    "href": "project-pages/rov.html",
+    "title": "Submersible Robot with Kp Control",
     "section": "",
-    "text": "GENERAL MOTORS —  Autonomous Robotics Center Manufacturing Engineering Intern\nThis past summer, I interned at General Motors’ within the department of General Assembly and Autonomous Robtoics Center Division in Burton, Michigan as a Manufacturing Engineering Intern. I was directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.\nMy role placed me at the intersection of engineering and operations, where I worked alongside cross-functional teams to redesign material-handling workflows, analyze production data, and develop workstation concepts that would support the seamless transition to a more automated environment.\nI also had the privilege of developing and earning a Green Belt in Design for Six Sigma (DFSS) — a certification that has fundamentally shaped how I approach engineering problems. DFSS trained me to minimize variation and bias in process design, allowing me to build fine-tuned solutions that are statistically validated."
-  },
-  {
-    "objectID": "project-pages/GeneralMotors.html#links",
-    "href": "project-pages/GeneralMotors.html#links",
-    "title": "My Portfolio",
-    "section": "Links",
-    "text": "Links\nBack to Work Experience"
-  },
-  {
-    "objectID": "project-pages/dasion.html",
-    "href": "project-pages/dasion.html",
-    "title": "My Portfolio",
-    "section": "",
-    "text": "DASION — Software Engineering Intern\nIn summer 2025, I interned at Dasion as a Software Engineering Intern based in Claremont, California. Dasion is a data-driven company focused on leveraging machine learning to support medical and behavioral research. My role placed me at the intersection of software engineering and applied machine learning, where I worked on developing tools to support emotion recognition in children using medical imaging data.\nWorking on a project with real clinical implications pushed me to think carefully about model selection, data quality, and the downstream impact of engineering decisions. Every preprocessing step, every architecture choice, and every evaluation metric carried weight — because the end users were researchers and practitioners working with vulnerable populations.\nOne of the most exciting aspects of this internship was building an emotion-based music recommender using the Spotify API — a creative application that connected the emotional state detected by our models to curated playlists, demonstrating the real-world potential of the system beyond clinical settings."
-  },
-  {
-    "objectID": "project-pages/dasion.html#links",
-    "href": "project-pages/dasion.html#links",
-    "title": "My Portfolio",
-    "section": "Links",
-    "text": "Links\nDasion\nBack to Work Experience"
-  },
-  {
-    "objectID": "project-pages/machineshop.html",
-    "href": "project-pages/machineshop.html",
-    "title": "My Portfolio",
-    "section": "",
-    "text": "HARVEY MUDD COLLEGE — Machine Shop Proctor\nThe Harvey Mudd Machine Shop serves as a creative space for the 7 Claremont Colleges, welcoming people from all different backgrounds in machining to work on personal projects, class projects, and team projects — allowing for the full spectrum of the creative space to come to life. The shop features both a wooden shop and a metal shop, each equipped with a variety of tools that support everything from early-stage prototyping to precision manufacturing.\nAs a Machine Shop Proctor, my role is to guide new and existing users on safe practices while assisting with project development for classes. This means being present on the floor, understanding what each person is trying to build, and helping them navigate the right tools, techniques, and processes to get there — safely and effectively.\nBeyond day-to-day guidance, I participate in weekly trainings that continuously build my knowledge of machining, tooling, and manufacturing processes. These sessions have deepened my understanding of the machines I work with and made me a more effective resource for the students and makers who rely on the shop.\nI also play a direct role in supporting engineering courses at Harvey Mudd, including Introduction to Engineering Design and Manufacturing and Mechanical Design, where I guide students through reading and following process routers and technical drawings to manufacture components to specification — skills that form the foundation of any engineering career."
-  },
-  {
-    "objectID": "project-pages/machineshop.html#links",
-    "href": "project-pages/machineshop.html#links",
-    "title": "My Portfolio",
-    "section": "Links",
-    "text": "Links\nHMC Machine Shop\nBack to Work Experience"
-  },
-  {
-    "objectID": "project-pages/laser.html",
-    "href": "project-pages/laser.html",
-    "title": "Flexible Measuring Laser",
-    "section": "",
-    "text": "The Flexible Measuring Laser system.\n  \n\n  \n    \n\n    Users of the Scanning Electron Microscope (SEM) are required to manually estimate the height of their mounted samples before placing them inside the microscope chamber. This estimation — typically done by visually comparing the sample against a ruler — is inherently inconsistent and prone to error. Inaccurate height inputs can lead to collisions inside the chamber, causing damage to sensitive detectors or degrading microscope performance.\n\n    The client requested a height measurement solution that would allow trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution needed to accommodate all existing holder bases with at most a 10 cm radius, provide readout tolerances within 0.5 mm, and critically — make no contact with the top surface of the sample, which is coated in a conductive layer only nanometers thick that could be irreparably damaged by even the lightest touch.\nTo meet these requirements, I designed a precision rack and pinion Z-axis measurement system integrated with a laser and photosensor, paired with a slew bearing for radial motion. This allowed the system to sweep around the sample and detect its tallest point without ever making contact. The entire measurement process was designed to be completed in under two minutes by a trained non-specialist user.\nMaterial selection was a critical part of the design process. Through a full fatigue and material analysis, I selected PLA for its scalability and ease of use in 3D printing — ensuring the device would remain accurate, durable, and easily replicable over its lifetime. The final design prevents $1000+ in potential equipment damage from improper sample height inputs."
-  },
-  {
-    "objectID": "project-pages/laser.html#files",
-    "href": "project-pages/laser.html#files",
-    "title": "Flexible Measuring Laser",
-    "section": "Files",
-    "text": "Files\nView Technical Drawings, BOM & Process Router\nBack to Projects"
+    "text": "The finished submersible ROV.\n  \n\n  \n    Background\n\n    Underwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments.\n\n    The goal was to develop a system that could reliably collect sensor data using the MCP9701 thermistor and MPX5700ASX pressure gauge, and process output voltages for analysis in LabVIEW. The ROV needed to be robust enough for real lake deployment while remaining buildable within the constraints of a course project.\n  \n\n\n\nTo bring the system together, I assembled a PCB containing the MCP6002 OpAmp to condition and return output voltages from the sensors. Each circuit was carefully soldered and tested using an oscilloscope and DMM to verify signal integrity before deployment. The output voltages were then modeled and analyzed in LabVIEW, allowing us to interpret the sensor readings and validate the performance of the system in real aquatic conditions.\n\nBack to Projects"
   },
   {
     "objectID": "project-pages/hammer.html",
@@ -140,11 +91,81 @@
     "text": "Files\nView Technical Drawings\nBack to Projects"
   },
   {
-    "objectID": "project-pages/rov.html",
-    "href": "project-pages/rov.html",
-    "title": "Submersible Robot with Kp Control",
+    "objectID": "project-pages/laser.html",
+    "href": "project-pages/laser.html",
+    "title": "Flexible Measuring Laser",
     "section": "",
-    "text": "The finished submersible ROV.\n  \n\n  \n    Background\n\n    Underwater remotely operated vehicles provide a cost-effective solution for retrieving environmental data in aquatic settings. This project was motivated by the need to design and deploy a functional ROV capable of measuring temperature and pressure signals in lake environments.\n\n    The goal was to develop a system that could reliably collect sensor data using the MCP9701 thermistor and MPX5700ASX pressure gauge, and process output voltages for analysis in LabVIEW. The ROV needed to be robust enough for real lake deployment while remaining buildable within the constraints of a course project.\n  \n\n\n\nTo bring the system together, I assembled a PCB containing the MCP6002 OpAmp to condition and return output voltages from the sensors. Each circuit was carefully soldered and tested using an oscilloscope and DMM to verify signal integrity before deployment. The output voltages were then modeled and analyzed in LabVIEW, allowing us to interpret the sensor readings and validate the performance of the system in real aquatic conditions.\n\nBack to Projects"
+    "text": "The Flexible Measuring Laser system.\n  \n\n  \n    \n\n    Users of the Scanning Electron Microscope (SEM) are required to manually estimate the height of their mounted samples before placing them inside the microscope chamber. This estimation — typically done by visually comparing the sample against a ruler — is inherently inconsistent and prone to error. Inaccurate height inputs can lead to collisions inside the chamber, causing damage to sensitive detectors or degrading microscope performance.\n\n    The client requested a height measurement solution that would allow trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution needed to accommodate all existing holder bases with at most a 10 cm radius, provide readout tolerances within 0.5 mm, and critically — make no contact with the top surface of the sample, which is coated in a conductive layer only nanometers thick that could be irreparably damaged by even the lightest touch.\nTo meet these requirements, I designed a precision rack and pinion Z-axis measurement system integrated with a laser and photosensor, paired with a slew bearing for radial motion. This allowed the system to sweep around the sample and detect its tallest point without ever making contact. The entire measurement process was designed to be completed in under two minutes by a trained non-specialist user.\nMaterial selection was a critical part of the design process. Through a full fatigue and material analysis, I selected PLA for its scalability and ease of use in 3D printing — ensuring the device would remain accurate, durable, and easily replicable over its lifetime. The final design prevents $1000+ in potential equipment damage from improper sample height inputs."
+  },
+  {
+    "objectID": "project-pages/laser.html#files",
+    "href": "project-pages/laser.html#files",
+    "title": "Flexible Measuring Laser",
+    "section": "Files",
+    "text": "Files\nView Technical Drawings, BOM & Process Router\nBack to Projects"
+  },
+  {
+    "objectID": "racing.html",
+    "href": "racing.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "HARVEY MUDD RACING — Powertrain Lead | Formula SAE\nThe Harvey Mudd Racing Team"
+  },
+  {
+    "objectID": "racing.html#my-role",
+    "href": "racing.html#my-role",
+    "title": "My Portfolio",
+    "section": "My Role",
+    "text": "My Role\nAs Powertrain Lead, I am leading a 7+ member team through the design, analysis, and integration of engine systems including cooling and fuel, transmission and shifting mechanisms, and differential assemblies. This includes conducting weekly design reviews to align subsystem timelines and technical decisions across the team.\nMore to come.\n\nVisit Harvey Mudd Racing →"
+  },
+  {
+    "objectID": "project-pages/machineshop.html",
+    "href": "project-pages/machineshop.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "HARVEY MUDD COLLEGE — Machine Shop Proctor\nThe Harvey Mudd Machine Shop serves as a creative space for the 7 Claremont Colleges, welcoming people from all different backgrounds in machining to work on personal projects, class projects, and team projects — allowing for the full spectrum of the creative space to come to life. The shop features both a wooden shop and a metal shop, each equipped with a variety of tools that support everything from early-stage prototyping to precision manufacturing.\nAs a Machine Shop Proctor, my role is to guide new and existing users on safe practices while assisting with project development for classes. This means being present on the floor, understanding what each person is trying to build, and helping them navigate the right tools, techniques, and processes to get there — safely and effectively.\nBeyond day-to-day guidance, I participate in weekly trainings that continuously build my knowledge of machining, tooling, and manufacturing processes. These sessions have deepened my understanding of the machines I work with and made me a more effective resource for the students and makers who rely on the shop.\nI also play a direct role in supporting engineering courses at Harvey Mudd, including Introduction to Engineering Design and Manufacturing and Mechanical Design, where I guide students through reading and following process routers and technical drawings to manufacture components to specification — skills that form the foundation of any engineering career."
+  },
+  {
+    "objectID": "project-pages/machineshop.html#links",
+    "href": "project-pages/machineshop.html#links",
+    "title": "My Portfolio",
+    "section": "Links",
+    "text": "Links\nHMC Machine Shop\nBack to Work Experience"
+  },
+  {
+    "objectID": "project-pages/dasion.html",
+    "href": "project-pages/dasion.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "DASION — Software Engineering Intern\nIn summer 2025, I interned at Dasion as a Software Engineering Intern based in Claremont, California. Dasion is a data-driven company focused on leveraging machine learning to support medical and behavioral research. My role placed me at the intersection of software engineering and applied machine learning, where I worked on developing tools to support emotion recognition in children using medical imaging data.\nWorking on a project with real clinical implications pushed me to think carefully about model selection, data quality, and the downstream impact of engineering decisions. Every preprocessing step, every architecture choice, and every evaluation metric carried weight — because the end users were researchers and practitioners working with vulnerable populations.\nOne of the most exciting aspects of this internship was building an emotion-based music recommender using the Spotify API — a creative application that connected the emotional state detected by our models to curated playlists, demonstrating the real-world potential of the system beyond clinical settings."
+  },
+  {
+    "objectID": "project-pages/dasion.html#links",
+    "href": "project-pages/dasion.html#links",
+    "title": "My Portfolio",
+    "section": "Links",
+    "text": "Links\nDasion\nBack to Work Experience"
+  },
+  {
+    "objectID": "project-pages/GeneralMotors.html",
+    "href": "project-pages/GeneralMotors.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "GENERAL MOTORS —  Autonomous Robotics Center Manufacturing Engineering Intern\nThis past summer, I interned at General Motors’ within the department of General Assembly and Autonomous Robtoics Center Division in Burton, Michigan as a Manufacturing Engineering Intern. I was directly on the floor of a live processing plant, supporting the launch and integration of an Automated Storage and Retrieval System (ASRS) — a large-scale automation initiative aimed at transforming how materials are stored, retrieved, and delivered across production departments.\nMy role placed me at the intersection of engineering and operations, where I worked alongside cross-functional teams to redesign material-handling workflows, analyze production data, and develop workstation concepts that would support the seamless transition to a more automated environment.\nI also had the privilege of developing and earning a Green Belt in Design for Six Sigma (DFSS) — a certification that has fundamentally shaped how I approach engineering problems. DFSS trained me to minimize variation and bias in process design, allowing me to build fine-tuned solutions that are statistically validated."
+  },
+  {
+    "objectID": "project-pages/GeneralMotors.html#links",
+    "href": "project-pages/GeneralMotors.html#links",
+    "title": "My Portfolio",
+    "section": "Links",
+    "text": "Links\nBack to Work Experience"
+  },
+  {
+    "objectID": "project-pages/e79proctor.html",
+    "href": "project-pages/e79proctor.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "HARVEY MUDD COLLEGE — Systems Engineering Practicum Proctor\n\n\n\n\nE79 — Systems Engineering — is a rigorous lab-based course at Harvey Mudd College that uses underwater robotics as a teaching vehicle to introduce students to the systems engineering approach. Students learn to model, construct, analyze, design, and control mechanical, thermal, and electrical systems across 13 hands-on practicums spanning the full semester.\n\nAs a Systems Engineering Practicum Proctor, my role is to guide teams of two students through each 2.5-hour practicum session — helping them navigate complex concepts in underwater robotics, circuit design, soldering, and sensor integration. I ensure that students arrive prepared, work collaboratively, and follow strict safety protocols in the lab, including proper handling of electrical components, epoxies, and soldering equipment.\n\nBeyond technical guidance, I serve as a resource for debugging, troubleshooting, and helping students connect theoretical systems engineering concepts to real hands-on challenges. Having built and deployed an underwater ROV myself in E79, I bring firsthand experience to every session — understanding exactly what students are working through and where they are likely to struggle.\n\n\n\nE79 Practicum Site\nBack to Work Experience"
   },
   {
     "objectID": "projects.html",

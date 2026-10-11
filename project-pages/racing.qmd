@@ -1,0 +1,71 @@
+---
+title: ""
+toc: false
+---
+
+<style>
+.project-intro {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.6fr) 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-caption {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .project-intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+</style>
+
+```{=html}
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 15px 20px; margin-bottom: 30px; background: white;">
+  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">HARVEY MUDD RACING</span> — <em style="color: #666;">Powertrain Lead | Formula SAE</em>
+</div>
+
+<div class="project-intro">
+
+  <div class="project-image">
+    <img src="/Users/alielseblani/Documents/my-hmc-portfolio/images/hmcracing_logo.png" alt="Harvey Mudd Racing Logo">
+  </div>
+
+  <div class="project-text">
+    <h2>About the Team</h2>
+
+    <p>Formula SAE is an international collegiate engineering competition where student teams design, build, and race a small open-wheel formula-style car. Teams are evaluated across a series of static and dynamic events including design reviews, cost analysis, acceleration, autocross, and endurance — competing against hundreds of universities worldwide.</p>
+
+    <p>Harvey Mudd Racing is a first-year team currently in the full design and build phase of our inaugural car. We are a group of engineers working from the ground up, and we are excited to compete this coming May.</p>
+  </div>
+
+</div>
+
+<img src="images/FSAEteampic.png" style="width: 100%; height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;"/>
+<p style="font-size: 0.85rem; color: #666; text-align: center; margin-bottom: 30px;">The Harvey Mudd Racing Team.</p>
+```
+
+## My Role
+
+As Powertrain Lead, I am leading a 7+ member team through the design, analysis, and integration of engine systems including cooling and fuel, transmission and shifting mechanisms, and differential assemblies. This includes conducting weekly design reviews to align subsystem timelines and technical decisions across the team.
+
+More to come.
+
+---
+
+```{=html}
+<a href="https://harveymuddracing.com/" target="_blank" style="font-weight: 600;">Visit Harvey Mudd Racing →</a>
+```
