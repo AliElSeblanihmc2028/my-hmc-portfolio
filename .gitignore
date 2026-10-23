@@ -1,4 +1,4 @@
 /.quarto/
 /_site/
-.DS_Storegit config --global user.name "Your Name"
+.DS_Store
 **/*.quarto_ipynb

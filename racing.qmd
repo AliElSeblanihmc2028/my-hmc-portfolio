@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "Harvey Mudd Racing"
 toc: false
 ---
 

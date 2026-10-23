@@ -2,10 +2,9 @@ project:
   type: website
   resources:
     - images/
-    - project-pages/
 
 website:
-  title: "My Portfolio"
+  title: "Ali El Seblani"
   navbar:
     left:
       - href: index.qmd

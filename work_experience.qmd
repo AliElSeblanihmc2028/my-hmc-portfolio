@@ -11,7 +11,7 @@ toc: false
     <img src="images/GenMotors.jpg" alt="General Motors"/>
     <div class="project-card-overlay">
       <h3>Manufacturing Engineering Intern</h3>
-      <p>Process Engineering, Design for Six Sigma, ASRS, AMR, Workstation Design</p>
+      <p>Process Engineering, Design for Six Sigma, Workstation Design</p>
     </div>
   </a>
 </div>
@@ -26,7 +26,7 @@ toc: false
     <img src="images/bigdasionlogo.png" alt="Dasion"/>
     <div class="project-card-overlay">
       <h3>Software Engineering Intern</h3>
-      <p>Python, Machine Learning, Data Preprocessing, Spotify API</p>
+      <p>Python, Machine Learning, Data Preprocessing</p>
     </div>
   </a>
 </div>
@@ -39,14 +39,14 @@ toc: false
     <img src="images/HMCseal.png" alt="E79 Practicum"/>
     <div class="project-card-overlay">
       <h3>Systems Engineering Practicum Proctor</h3>
-      <p>E79, Underwater Robotics, Systems Engineering, Lab Safety</p>
+      <p>May 2026 – Present · E79, Underwater Robotics, Systems Engineering, Lab Safety</p>
     </div>
   </a>
   <a href="project-pages/machineshop.html" class="project-card">
     <img src="images/machine-shopPic.jpg" alt="Machine Shop"/>
     <div class="project-card-overlay">
       <h3>Harvey Mudd College | Machine Shop Proctor</h3>
-      <p>Machine Shop Safety, Machining, Tooling, Manufacturing Processes</p>
+      <p>December 2025 – Present · Machine Shop Safety, Machining, Tooling, Manufacturing Processes</p>
     </div>
   </a>
 </div>

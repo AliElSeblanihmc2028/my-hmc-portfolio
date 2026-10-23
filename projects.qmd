@@ -14,7 +14,7 @@ format:
     <img src="images/AUV.JPEG" alt="AUV Robot"/>
     <div class="project-card-overlay">
       <h3>Autonomous Ocean Profiling Robot for Climate Monitoring</h3>
-      <p>C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design</p>
+      <p>March 2026 – May 2026 · C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design</p>
     </div>
   </a>
 </div>
@@ -28,7 +28,7 @@ format:
     <img src="images/E79_robot.png" alt="Submersible Robot"/>
     <div class="project-card-overlay">
       <h3>Submersible Robot with Kp Control</h3>
-      <p>LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM</p>
+      <p>October 2025 – December 2025 · LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM</p>
     </div>
   </a>
 </div>
@@ -42,14 +42,14 @@ format:
     <img src="images/Flexible_photo.png" alt="Flexible Measuring Laser"/>
     <div class="project-card-overlay">
       <h3>Flexible Measuring Laser</h3>
-      <p>CAD, Fatigue Analysis, Material Selection, SLS Nylon</p>
+      <p>October 2025 – December 2025 · CAD, Fatigue Analysis, Material Selection, 3D Printing (PLA)</p>
     </div>
   </a>
   <a href="project-pages/hammer.html" class="project-card">
     <img src="images/Hammer-front.jpg" alt="Machinist's Hammer"/>
     <div class="project-card-overlay">
       <h3>Machinist's Hammer</h3>
-      <p>GD&T, Lathe, Mill, Bandsaw, Heat Treatment</p>
+      <p>September 2025 – October 2025 · GD&T, Lathe, Mill, Bandsaw, Heat Treatment</p>
     </div>
   </a>
 </div>
