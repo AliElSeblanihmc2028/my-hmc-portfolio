@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "Machine Shop Proctor"
 toc: false
 ---
 

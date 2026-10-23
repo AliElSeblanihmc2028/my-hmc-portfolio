@@ -46,11 +46,11 @@ toc: false
   </div>
 
   <div class="project-text">
-    <p>All spring semester sophomore engineers at Harvey Mudd undergo a rigorous lab-based class called E80, or Experimental Engineering. In the latter half of this class, students work in teams to develop a fully autonomous underwater robot that measures a phenomenon of their choice with a limit of $50 to purchase sensors. At the end of the class, the robot is deployed at Dana Point Beach, a harbor in the suburbs of Los Angeles.</p>
+    <p>All spring semester sophomore engineers at Harvey Mudd undergo a rigorous lab-based class called E80, or Experimental Engineering. In the latter half of this class, students work in teams to develop a fully autonomous underwater robot that measures a phenomenon of their choice with a limit of $50 to purchase sensors. At the end of the class, the robot is deployed at Dana Point Beach, a harbor in Orange County.</p>
 
-    <p>Our team chose to measure pressure, temperature, and ultraviolet light intensity as a function of depth in marine environments — phenomena directly tied to ocean health and climate monitoring. With a tight budget and real deployment conditions, every engineering decision carried weight.</p>
+    <p>Our team chose to measure pressure, temperature, and ultraviolet light intensity as a function of depth in marine environments — phenomena directly tied to ocean health and climate monitoring.</p>
 
-    <p>I led the electrical system design, implementing 3 analog circuits with three unique electrical interfaces: voltage-to-voltage, current-to-voltage, and resistance-to-voltage. Each sensor system — UV, pressure, and temperature — was engineered using a unity-gain buffer and inverting gain amplifier to tailor sensor output to a specific range, enhancing data resolution and preventing data clipping on the Teensy 4.0.</p>
+    <p>I led the electrical system design, implementing three analog circuits with distinct electrical interfaces: voltage-to-voltage, current-to-voltage, and resistance-to-voltage. Each sensor system — UV, pressure, and temperature — was engineered using a unity-gain buffer and inverting gain amplifier to tailor sensor output to a specific range, enhancing data resolution and preventing data clipping on the Teensy 4.0.</p>
 
     <p>Calibration was one of the most technically demanding aspects of the project. I developed protocols that accounted for noise, sensor non-linearity, and degradation — ensuring robust and accurate measurements across diverse underwater conditions. On the mechanical side, I helped design and fabricate a system that maintained neutral buoyancy in saltwater while minimizing axial tilt, improving stability during data collection.</p>
   </div>
