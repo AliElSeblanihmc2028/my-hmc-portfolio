@@ -2,9 +2,11 @@ project:
   type: website
   resources:
     - images/
+    - project-pages/
 
 website:
-  title: "Ali El Seblani"
+  title: "My Portfolio"
+  google-analytics: "G-6CHDXZMNVL"
   navbar:
     left:
       - href: index.qmd
@@ -25,6 +27,3 @@ format:
       - brand
     css: styles.css
     toc: true
-    page-layout: full
-
-
