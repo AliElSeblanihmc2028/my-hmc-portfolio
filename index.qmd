@@ -30,7 +30,7 @@ toc: false
   </a>
 
   <a class="feature-card" href="project-pages/GeneralMotors.html">
-    <img src="images/GenMotors.png" alt="General Motors"/>
+    <img src="images/GenMotors.jpg" alt="General Motors"/>
     <div class="feature-body">
       <h3>General Motors Internship</h3>
       <p class="feature-impact">63% fewer material touches · ~$1M/yr projected savings</p>
