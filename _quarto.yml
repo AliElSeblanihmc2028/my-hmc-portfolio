@@ -5,7 +5,7 @@ project:
     - project-pages/
 
 website:
-  title: "My Portfolio"
+  title: "Ali El Seblani"
   google-analytics: "G-6CHDXZMNVL"
   navbar:
     left:
@@ -19,6 +19,10 @@ website:
         text: Projects
       - href: resume.qmd
         text: Resume
+  page-footer:
+    border: true
+    center: |
+      [Email](mailto:aelseblani@g.hmc.edu) · [LinkedIn](https://www.linkedin.com/in/ali-el-seblani-596499322/) · [Resume](https://AliElSeblanihmc2028.github.io/my-hmc-portfolio/resume.html)
 
 format:
   html:
