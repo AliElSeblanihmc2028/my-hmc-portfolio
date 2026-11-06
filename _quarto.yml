@@ -14,7 +14,7 @@ website:
       - href: work_experience.qmd
         text: Work Experience
       - href: racing.qmd
-        text: Harvey Mudd Racing
+        text: Formula SAE
       - href: projects.qmd
         text: Projects
       - href: resume.qmd

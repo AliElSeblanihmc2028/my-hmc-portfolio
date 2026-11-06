@@ -1,0 +1,53 @@
+---
+title: ""
+pagetitle: "Engine Systems | Harvey Mudd Racing"
+toc: false
+---
+
+```{=html}
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 15px 20px; margin-bottom: 30px; background: white;">
+  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">HARVEY MUDD RACING</span> — <em style="color: #666;">Engine Systems: Cooling and Fuel</em>
+</div>
+```
+
+**Role:** Powertrain Lead, overseeing engine design. **Target:** engine running with all needed technical components by Dec 12.
+
+The car runs a Honda CBR600F4i engine. My team designs the systems that keep it cooled and fueled, and I coordinate with the chassis, suspension, and electrical teams so everything packages together and can be built and serviced.
+
+[← Back to Harvey Mudd Racing](../racing.qmd)
+
+---
+
+## Cooling System
+
+**Status:** In design
+
+**What it must do:** Keep the engine within its operating temperature range while fitting into the car's packaging.
+
+<!--
+ADD AS YOU FINISH EACH STEP:
+**Options considered:** ...
+**Analysis:** ... (add a CAD screenshot or airflow result with a caption)
+**Decision:** ...
+**Validation:** ...
+-->
+
+---
+
+## Fuel System
+
+**Status:** In design
+
+**What it must do:** Deliver fuel to the engine reliably and safely, within the car's packaging.
+
+<!--
+ADD AS YOU FINISH EACH STEP:
+**Options considered:** ...
+**Analysis:** ...
+**Decision:** ...
+**Validation:** ...
+-->
+
+---
+
+[← Back to Harvey Mudd Racing](../racing.qmd)

@@ -1,0 +1,52 @@
+---
+title: ""
+pagetitle: "Drivetrain | Harvey Mudd Racing"
+toc: false
+---
+
+```{=html}
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 15px 20px; margin-bottom: 30px; background: white;">
+  <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.95rem;">HARVEY MUDD RACING</span> — <em style="color: #666;">Drivetrain</em>
+</div>
+```
+
+**Role:** Powertrain Lead, overseeing drivetrain design. **Target:** design finalized by Nov 26.
+
+The drivetrain carries power from the engine to the wheels. My team designs the transmission and shifting mechanism, final drive, differential, chain tensioner, and half shafts, and I coordinate with the chassis, suspension, and electrical teams so each part fits and can be manufactured and serviced.
+
+[← Back to Harvey Mudd Racing](../racing.qmd)
+
+---
+
+## Transmission and Shifting
+
+**Status:** In design
+
+**What it must do:** Let the driver shift reliably.
+
+**My role:** I'm assisting in the design of the transmission and shifting mechanism, and I'm primarily responsible for its packaging. That means making sure it fits with the chassis, suspension, and electrical systems and can be manufactured and serviced. My subteam members lead the mechanical design.
+
+<!--
+ADD WHEN READY:
+**Validation:** bench test results, with a photo and caption
+-->
+
+---
+
+## Chain Tensioner and Differential Mounts
+
+**Status:** In design
+
+**What it must do:** Keep the chain properly tensioned, and hold the differential securely in the car.
+
+**My role:** I'm designing an eccentric chain-tensioning mechanism and the differential mounts. The designs are checked with static and modal analysis for stress, factor of safety, and natural frequencies, and iterated to reduce mass while meeting strength, stiffness, and vibration requirements.
+
+<!--
+ADD WHEN READY:
+**Analysis:** a stress or mode-shape screenshot, with a caption
+**Decision:** what changed between iterations
+-->
+
+---
+
+[← Back to Harvey Mudd Racing](../racing.qmd)

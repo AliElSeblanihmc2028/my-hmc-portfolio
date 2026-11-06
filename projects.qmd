@@ -6,6 +6,20 @@ format:
     raw-html: true
 ---
 
+## Formula SAE
+
+```{=html}
+<div class="project-grid">
+  <a href="racing.html" class="project-card">
+    <img src="images/FSAEteampic.JPG" alt="Harvey Mudd Racing team"/>
+    <div class="project-card-overlay">
+      <h3>Harvey Mudd Racing: Powertrain Lead</h3>
+      <p>December 2025 – Present · Engine Systems, Drivetrain, Design Reviews, Team Leadership</p>
+    </div>
+  </a>
+</div>
+```
+
 ## Experimental Engineering (E80)
 
 ```{=html}
