@@ -32,14 +32,21 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "March 2026 – May 2026 · C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design"
+    "text": "December 2025 – Present · Engine Systems, Drivetrain, Design Reviews, Team Leadership"
+  },
+  {
+    "objectID": "projects.html#formula-sae",
+    "href": "projects.html#formula-sae",
+    "title": "Projects",
+    "section": "",
+    "text": "December 2025 – Present · Engine Systems, Drivetrain, Design Reviews, Team Leadership"
   },
   {
     "objectID": "projects.html#experimental-engineering-e80",
     "href": "projects.html#experimental-engineering-e80",
     "title": "Projects",
-    "section": "",
-    "text": "March 2026 – May 2026 · C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design"
+    "section": "Experimental Engineering (E80)",
+    "text": "Experimental Engineering (E80)\n\n  \n    \n    \n      Autonomous Ocean Profiling Robot for Climate Monitoring\n      March 2026 – May 2026 · C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design"
   },
   {
     "objectID": "projects.html#systems-engineering-e79",
@@ -75,6 +82,27 @@
     "title": "Ali El Seblani",
     "section": "Links",
     "text": "Links\nBack to Work Experience"
+  },
+  {
+    "objectID": "project-pages/drivetrain.html",
+    "href": "project-pages/drivetrain.html",
+    "title": "Ali El Seblani",
+    "section": "",
+    "text": "HARVEY MUDD RACING — Drivetrain\nRole: Powertrain Lead, overseeing drivetrain design. Target: design finalized by Nov 26.\nThe drivetrain carries power from the engine to the wheels. My team designs the transmission and shifting mechanism, final drive, differential, chain tensioner, and half shafts, and I coordinate with the chassis, suspension, and electrical teams so each part fits and can be manufactured and serviced.\n← Back to Harvey Mudd Racing"
+  },
+  {
+    "objectID": "project-pages/drivetrain.html#transmission-and-shifting",
+    "href": "project-pages/drivetrain.html#transmission-and-shifting",
+    "title": "Ali El Seblani",
+    "section": "Transmission and Shifting",
+    "text": "Transmission and Shifting\nStatus: In design\nWhat it must do: Let the driver shift reliably.\nMy role: I’m assisting in the design of the transmission and shifting mechanism, and I’m primarily responsible for its packaging. That means making sure it fits with the chassis, suspension, and electrical systems and can be manufactured and serviced. My subteam members lead the mechanical design."
+  },
+  {
+    "objectID": "project-pages/drivetrain.html#chain-tensioner-and-differential-mounts",
+    "href": "project-pages/drivetrain.html#chain-tensioner-and-differential-mounts",
+    "title": "Ali El Seblani",
+    "section": "Chain Tensioner and Differential Mounts",
+    "text": "Chain Tensioner and Differential Mounts\nStatus: In design\nWhat it must do: Keep the chain properly tensioned, and hold the differential securely in the car.\nMy role: I’m designing an eccentric chain-tensioning mechanism and the differential mounts. The designs are checked with static and modal analysis for stress, factor of safety, and natural frequencies, and iterated to reduce mass while meeting strength, stiffness, and vibration requirements.\n\n\n← Back to Harvey Mudd Racing"
   },
   {
     "objectID": "project-pages/dasion.html",
@@ -116,7 +144,21 @@
     "href": "racing.html#my-role",
     "title": "Ali El Seblani",
     "section": "My Role",
-    "text": "My Role\nAs Powertrain Lead, I am leading a 7+ member team through the design, analysis, and integration of engine systems including cooling and fuel, transmission and shifting mechanisms, and differential assemblies. This includes conducting weekly design reviews to align subsystem timelines and technical decisions across the team.\nMore to come.\n\nVisit Harvey Mudd Racing →"
+    "text": "My Role\nAs Powertrain Lead, I am leading a 7+ member team through the design, analysis, and integration of engine systems including cooling and fuel, transmission and shifting mechanisms, and the drivetrain. This includes conducting weekly design reviews to align subsystem timelines and technical decisions across the team.\n\n  Project details\n  Role: Powertrain Lead  ·  Since: December 2025\n  Team: 7+ members  ·  Status: Design and build, competing May 2027\n  Systems: Engine (cooling, fuel), transmission and shifting, drivetrain"
+  },
+  {
+    "objectID": "racing.html#timeline",
+    "href": "racing.html#timeline",
+    "title": "Ali El Seblani",
+    "section": "Timeline",
+    "text": "Timeline\nThe car is in the design and build phase. Here is our high-level plan to competition:\n\n\n\n  \n    Nov 26\n    Finalize design of drivetrain\n    Next\n  \n  \n    Dec 12\n    Engine running with all needed technical components\n  \n  \n    Mar 1\n    Finished build of all car parts\n  \n  \n    Apr 1\n    Testing and fine tuning\n  \n  \n    May 1\n    Finalized car, finished assembly"
+  },
+  {
+    "objectID": "racing.html#systems-i-lead",
+    "href": "racing.html#systems-i-lead",
+    "title": "Ali El Seblani",
+    "section": "Systems I Lead",
+    "text": "Systems I Lead\n\n  \n    Engine Systems\n    Cooling and fuel systems for the car's Honda CBR600F4i engine.\n    Target: engine running by Dec 12\n  \n  \n    Drivetrain\n    Transmission and shifting, final drive, differential, chain tensioner, and half shafts.\n    Target: design final by Nov 26\n  \n\nI’ll update this page as the car comes together.\n\nVisit Harvey Mudd Racing →"
   },
   {
     "objectID": "resume.html",
@@ -138,6 +180,27 @@
     "title": "Flexible Measuring Laser",
     "section": "Files",
     "text": "Files\nView Technical Drawings, BOM & Process Router\nBack to Projects"
+  },
+  {
+    "objectID": "project-pages/engine.html",
+    "href": "project-pages/engine.html",
+    "title": "Ali El Seblani",
+    "section": "",
+    "text": "HARVEY MUDD RACING — Engine Systems: Cooling and Fuel\nRole: Powertrain Lead, overseeing engine design. Target: engine running with all needed technical components by Dec 12.\nThe car runs a Honda CBR600F4i engine. My team designs the systems that keep it cooled and fueled, and I coordinate with the chassis, suspension, and electrical teams so everything packages together and can be built and serviced.\n← Back to Harvey Mudd Racing"
+  },
+  {
+    "objectID": "project-pages/engine.html#cooling-system",
+    "href": "project-pages/engine.html#cooling-system",
+    "title": "Ali El Seblani",
+    "section": "Cooling System",
+    "text": "Cooling System\nStatus: In design\nWhat it must do: Keep the engine within its operating temperature range while fitting into the car’s packaging."
+  },
+  {
+    "objectID": "project-pages/engine.html#fuel-system",
+    "href": "project-pages/engine.html#fuel-system",
+    "title": "Ali El Seblani",
+    "section": "Fuel System",
+    "text": "Fuel System\nStatus: In design\nWhat it must do: Deliver fuel to the engine reliably and safely, within the car’s packaging.\n\n\n← Back to Harvey Mudd Racing"
   },
   {
     "objectID": "project-pages/hammer.html",
