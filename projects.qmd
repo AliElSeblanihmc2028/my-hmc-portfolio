@@ -6,65 +6,58 @@ format:
     raw-html: true
 ---
 
-## Formula SAE
-
 ```{=html}
-<div class="project-grid">
-  <a href="racing.html" class="project-card">
-    <img src="images/FSAEteampic.JPG" alt="Harvey Mudd Racing team"/>
-    <div class="project-card-overlay">
+<div class="feature-grid">
+
+  <a class="feature-card" href="racing.html">
+    <img src="images/web/FSAEteampic.jpg" alt="Harvey Mudd Racing team"/>
+    <div class="feature-body">
+      <p class="feature-kicker">Harvey Mudd Racing · Dec 2025 – Present</p>
       <h3>Harvey Mudd Racing: Powertrain Lead</h3>
-      <p>December 2025 – Present · Engine Systems, Drivetrain, Design Reviews, Team Leadership</p>
+      <p class="feature-impact">Leading a 7+ person powertrain team · first competition May 2027</p>
+      <div class="chips"><span>Engine systems</span><span>Drivetrain</span><span>Design reviews</span><span>Team leadership</span></div>
     </div>
   </a>
-</div>
-```
 
-## Experimental Engineering (E80)
-
-```{=html}
-<div class="project-grid">
-  <a href="project-pages/auv.html" class="project-card">
-    <img src="images/AUV.JPEG" alt="AUV Robot"/>
-    <div class="project-card-overlay">
+  <a class="feature-card" href="project-pages/auv.html">
+    <img src="images/web/AUV.jpg" alt="Autonomous ocean profiling robot"/>
+    <div class="feature-body">
+      <p class="feature-kicker">E80 Experimental Engineering · Mar – May 2026</p>
       <h3>Autonomous Ocean Profiling Robot for Climate Monitoring</h3>
-      <p>March 2026 – May 2026 · C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design</p>
+      <p class="feature-impact">Held depth waypoints autonomously down to 3 m</p>
+      <div class="chips"><span>C++</span><span>MATLAB</span><span>Analog circuits</span><span>Sensor calibration</span><span>PCB design</span></div>
     </div>
   </a>
-</div>
-```
 
-## Systems Engineering (E79)
-
-```{=html}
-<div class="project-grid">
-  <a href="project-pages/rov.html" class="project-card">
-    <img src="images/E79_robot.png" alt="Submersible Robot"/>
-    <div class="project-card-overlay">
-      <h3>Submersible Robot with Kp Control</h3>
-      <p>October 2025 – December 2025 · LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM</p>
-    </div>
-  </a>
-</div>
-```
-
-## Engineering Design & Manufacturing (E4)
-
-```{=html}
-<div class="project-grid">
-  <a href="project-pages/laser.html" class="project-card">
-    <img src="images/Flexible_photo.png" alt="Flexible Measuring Laser"/>
-    <div class="project-card-overlay">
+  <a class="feature-card" href="project-pages/laser.html">
+    <img src="images/web/Flexible_photo.jpg" alt="Flexible Measuring Laser"/>
+    <div class="feature-body">
+      <p class="feature-kicker">E4 Engineering Design &amp; Manufacturing · Oct – Dec 2025</p>
       <h3>Flexible Measuring Laser</h3>
-      <p>October 2025 – December 2025 · CAD, Fatigue Analysis, Material Selection, 3D Printing (PLA)</p>
+      <p class="feature-impact">Under 1 mm accuracy · no contact with the sample</p>
+      <div class="chips"><span>CAD</span><span>Fatigue analysis</span><span>Material selection</span><span>3D printing (PLA)</span></div>
     </div>
   </a>
-  <a href="project-pages/hammer.html" class="project-card">
-    <img src="images/Hammer-front.jpg" alt="Machinist's Hammer"/>
-    <div class="project-card-overlay">
+
+  <a class="feature-card" href="project-pages/rov.html">
+    <img src="images/web/E79_robot.jpg" alt="Submersible robot"/>
+    <div class="feature-body">
+      <p class="feature-kicker">E79 Systems Engineering · Oct – Dec 2025</p>
+      <h3>Submersible Robot with Kp Control</h3>
+      <p class="feature-impact">Underwater ROV measuring temperature and pressure, analyzed in LabVIEW</p>
+      <div class="chips"><span>LabVIEW</span><span>Soldering</span><span>PCB assembly</span><span>Oscilloscope</span><span>DMM</span></div>
+    </div>
+  </a>
+
+  <a class="feature-card" href="project-pages/hammer.html">
+    <img src="images/web/Hammer-front.jpg" alt="Machinist's Hammer"/>
+    <div class="feature-body">
+      <p class="feature-kicker">E4 Engineering Design &amp; Manufacturing · Sep – Oct 2025</p>
       <h3>Machinist's Hammer</h3>
-      <p>September 2025 – October 2025 · GD&T, Lathe, Mill, Bandsaw, Heat Treatment</p>
+      <p class="feature-impact">Machined to within thousandths of an inch</p>
+      <div class="chips"><span>GD&amp;T</span><span>Lathe</span><span>Mill</span><span>Bandsaw</span><span>Heat treatment</span></div>
     </div>
   </a>
+
 </div>
 ```

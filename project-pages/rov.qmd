@@ -37,7 +37,7 @@ toc: false
 <div class="project-intro">
 
   <div class="project-image">
-    <img src="../images/E79_robot.png" alt="Submersible Robot">
+    <img src="../images/web/E79_robot.jpg" alt="Submersible Robot">
     <div class="project-caption">The finished submersible ROV.</div>
   </div>
 

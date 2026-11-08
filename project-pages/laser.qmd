@@ -37,7 +37,7 @@ toc: false
 <div class="project-intro">
 
   <div class="project-image">
-    <img src="../images/Flexible_photo.png" alt="Flexible Measuring Laser">
+    <img src="../images/web/Flexible_photo.jpg" alt="Flexible Measuring Laser">
     <div class="project-caption">The Flexible Measuring Laser system.</div>
   </div>
 
