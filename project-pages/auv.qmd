@@ -41,7 +41,7 @@ toc: false
 <div class="project-intro">
 
   <div class="project-image">
-    <img src="../images/AUV.JPEG" alt="Final autonomous ocean profiling robot">
+    <img src="../images/web/AUV.jpg" alt="Final autonomous ocean profiling robot">
     <div class="project-caption">A picture of our final robot build.</div>
   </div>
 
@@ -67,11 +67,11 @@ toc: false
 ```{=html}
 <div style="display: flex; gap: 20px; max-width: 750px; margin: 0 auto;">
   <div style="text-align: center; width: 50%;">
-    <img src="../images/IsometricPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;"/>
+    <img src="../images/web/IsometricPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;"/>
     <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Isometric PCB View</p>
   </div>
   <div style="text-align: center; width: 50%;">
-    <img src="../images/TopDownViewPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;"/>
+    <img src="../images/web/TopDownViewPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;"/>
     <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Top Down PCB View</p>
   </div>
 </div>

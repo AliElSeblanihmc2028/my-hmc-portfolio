@@ -37,7 +37,7 @@ toc: false
 <div class="project-intro">
 
   <div class="project-image">
-    <img src="../images/Hammer-front.jpg" alt="Machinist's Hammer">
+    <img src="../images/web/Hammer-front.jpg" alt="Machinist's Hammer">
     <div class="project-caption">The finished machinist's hammer.</div>
   </div>
 

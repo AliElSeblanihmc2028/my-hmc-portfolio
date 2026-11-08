@@ -4,63 +4,14 @@
     "href": "work_experience.html",
     "title": "Work Experience",
     "section": "",
-    "text": "May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, Workstation Design"
-  },
-  {
-    "objectID": "work_experience.html#general-motors",
-    "href": "work_experience.html#general-motors",
-    "title": "Work Experience",
-    "section": "",
-    "text": "May 2026 – Aug 2026 | Burton, MI\n\n  \n    \n    \n      \n      Process Engineering, Design for Six Sigma, Workstation Design"
-  },
-  {
-    "objectID": "work_experience.html#dasion",
-    "href": "work_experience.html#dasion",
-    "title": "Work Experience",
-    "section": "Dasion",
-    "text": "Dasion\nMay 2025 – Aug 2025 | Claremont, CA\n\n  \n    \n    \n      Software Engineering Intern\n      Python, Machine Learning, Data Preprocessing"
-  },
-  {
-    "objectID": "work_experience.html#harvey-mudd-college",
-    "href": "work_experience.html#harvey-mudd-college",
-    "title": "Work Experience",
-    "section": "Harvey Mudd College",
-    "text": "Harvey Mudd College\n\n  \n    \n    \n      Systems Engineering Practicum Proctor\n      May 2026 – Present · E79, Underwater Robotics, Systems Engineering, Lab Safety\n    \n  \n  \n    \n    \n      Harvey Mudd College | Machine Shop Proctor\n      December 2025 – Present · Machine Shop Safety, Machining, Tooling, Manufacturing Processes"
+    "text": "General Motors · May – Aug 2026 · Burton, MI\n      Manufacturing Engineering Intern\n      63% fewer material touches · ~$1M/yr projected savings\n      DFSS Green BeltProcess modelingWorkstation designASRS integration\n    \n  \n\n  \n    \n    \n      Harvey Mudd College · Dec 2025 – Present\n      Machine Shop Proctor\n      Promoting safe machine use for 80+ students each semester\n      MachiningShop safetyToolingMentorship\n    \n  \n\n  \n    \n    \n      Harvey Mudd College · May 2026 – Present\n      Systems Engineering Practicum Proctor\n      Guiding student teams through hands-on underwater-robotics practicums\n      Underwater roboticsSystems engineeringLab safety\n    \n  \n\n  \n    \n    \n      Dasion · May – Aug 2025 · Claremont, CA\n      Software Engineering Intern\n      89% diagnostic accuracy on medical imaging data · est. 35% less data-prep time\n      PythonMachine learningData preprocessingSpotify API"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "December 2025 – Present · Engine Systems, Drivetrain, Design Reviews, Team Leadership"
-  },
-  {
-    "objectID": "projects.html#formula-sae",
-    "href": "projects.html#formula-sae",
-    "title": "Projects",
-    "section": "",
-    "text": "December 2025 – Present · Engine Systems, Drivetrain, Design Reviews, Team Leadership"
-  },
-  {
-    "objectID": "projects.html#experimental-engineering-e80",
-    "href": "projects.html#experimental-engineering-e80",
-    "title": "Projects",
-    "section": "Experimental Engineering (E80)",
-    "text": "Experimental Engineering (E80)\n\n  \n    \n    \n      Autonomous Ocean Profiling Robot for Climate Monitoring\n      March 2026 – May 2026 · C++, MATLAB, Analog Circuit Design, Sensor Calibration, PCB Design"
-  },
-  {
-    "objectID": "projects.html#systems-engineering-e79",
-    "href": "projects.html#systems-engineering-e79",
-    "title": "Projects",
-    "section": "Systems Engineering (E79)",
-    "text": "Systems Engineering (E79)\n\n  \n    \n    \n      Submersible Robot with Kp Control\n      October 2025 – December 2025 · LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM"
-  },
-  {
-    "objectID": "projects.html#engineering-design-manufacturing-e4",
-    "href": "projects.html#engineering-design-manufacturing-e4",
-    "title": "Projects",
-    "section": "Engineering Design & Manufacturing (E4)",
-    "text": "Engineering Design & Manufacturing (E4)\n\n  \n    \n    \n      Flexible Measuring Laser\n      October 2025 – December 2025 · CAD, Fatigue Analysis, Material Selection, 3D Printing (PLA)\n    \n  \n  \n    \n    \n      Machinist's Hammer\n      September 2025 – October 2025 · GD&T, Lathe, Mill, Bandsaw, Heat Treatment"
+    "text": "Harvey Mudd Racing · Dec 2025 – Present\n      Harvey Mudd Racing: Powertrain Lead\n      Leading a 7+ person powertrain team · first competition May 2027\n      Engine systemsDrivetrainDesign reviewsTeam leadership\n    \n  \n\n  \n    \n    \n      E80 Experimental Engineering · Mar – May 2026\n      Autonomous Ocean Profiling Robot for Climate Monitoring\n      Held depth waypoints autonomously down to 3 m\n      C++MATLABAnalog circuitsSensor calibrationPCB design\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Oct – Dec 2025\n      Flexible Measuring Laser\n      Under 1 mm accuracy · no contact with the sample\n      CADFatigue analysisMaterial selection3D printing (PLA)\n    \n  \n\n  \n    \n    \n      E79 Systems Engineering · Oct – Dec 2025\n      Submersible Robot with Kp Control\n      Underwater ROV measuring temperature and pressure, analyzed in LabVIEW\n      LabVIEWSolderingPCB assemblyOscilloscopeDMM\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Sep – Oct 2025\n      Machinist's Hammer\n      Machined to within thousandths of an inch\n      GD&TLatheMillBandsawHeat treatment"
   },
   {
     "objectID": "project-pages/e79proctor.html",
