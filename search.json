@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Harvey Mudd Racing · Dec 2025 – Present\n      Harvey Mudd Racing: Powertrain Lead\n      Leading a 7+ person powertrain team · first competition May 2027\n      Engine systemsDrivetrainDesign reviewsTeam leadership\n    \n  \n\n  \n    \n    \n      E80 Experimental Engineering · Mar – May 2026\n      Autonomous Ocean Profiling Robot for Climate Monitoring\n      Autonomous dives to 3 m · UV decayed ~46% per meter\n      C++MATLABAnalog circuitsSensor calibrationPCB design\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Oct – Dec 2025\n      Flexible Measuring Laser\n      Under 1 mm accuracy · no contact with the sample\n      CADFatigue analysisMaterial selection3D printing (PLA)\n    \n  \n\n  \n    \n    \n      E79 Systems Engineering · Oct – Dec 2025\n      Submersible Robot with Kp Control\n      Underwater ROV measuring temperature and pressure, analyzed in LabVIEW\n      LabVIEWSolderingPCB assemblyOscilloscopeDMM\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Sep – Oct 2025\n      Machinist's Hammer\n      Machined to within thousandths of an inch\n      GD&TLatheMillBandsawHeat treatment"
+    "text": "Harvey Mudd Racing · Dec 2025 – Present\n      Harvey Mudd Racing: Powertrain Lead\n      Leading a 7+ person powertrain team · first competition May 2027\n      Engine systemsDrivetrainDesign reviewsTeam leadership\n    \n  \n\n  \n    \n    \n      E80 Experimental Engineering · Mar – May 2026\n      Autonomous Ocean Profiling Robot for Climate Monitoring\n      Autonomous dives to 3 m · UV decayed ~46% per meter\n      C++MATLABAnalog circuitsSensor calibrationPCB design\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Oct – Dec 2025\n      Flexible Measuring Laser\n      0.39 mm average error · no contact with the sample\n      CADSolidWorksRack and pinionSlew bearing3D printing (PLA)\n    \n  \n\n  \n    \n    \n      E79 Systems Engineering · Oct – Dec 2025\n      Submersible Robot with Kp Control\n      Underwater ROV measuring temperature and pressure, analyzed in LabVIEW\n      LabVIEWSolderingPCB assemblyOscilloscopeDMM\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Sep – Oct 2025\n      Machinist's Hammer\n      Machined to within thousandths of an inch\n      GD&TLatheMillBandsawHeat treatment"
   },
   {
     "objectID": "project-pages/e79proctor.html",
@@ -123,7 +123,49 @@
     "href": "project-pages/laser.html",
     "title": "Flexible Measuring Laser",
     "section": "",
-    "text": "The Flexible Measuring Laser system.\n  \n\n  \n    \n\n    Users of the Scanning Electron Microscope (SEM) are required to manually estimate the height of their mounted samples before placing them inside the microscope chamber. This estimation — typically done by visually comparing the sample against a ruler — is inherently inconsistent and prone to error. Inaccurate height inputs can lead to collisions inside the chamber, causing damage to sensitive detectors or degrading microscope performance.\n\n    The client requested a height measurement solution that would allow trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution needed to accommodate all existing holder bases with at most a 10 cm radius, provide readout tolerances within 0.5 mm, and critically — make no contact with the top surface of the sample, which is coated in a conductive layer only nanometers thick that could be irreparably damaged by even the lightest touch.\nTo meet these requirements, I designed a precision rack and pinion Z-axis measurement system integrated with a laser and photosensor, paired with a slew bearing for radial motion. This allowed the system to sweep around the sample and detect its tallest point without ever making contact. The entire measurement process was designed to be completed in under two minutes by a trained non-specialist user.\nMaterial selection was a critical part of the design process. Through a full fatigue and material analysis, I selected PLA for its scalability and ease of use in 3D printing — ensuring the device would remain accurate, durable, and easily replicable over its lifetime. The final design prevents $1000+ in potential equipment damage from improper sample height inputs."
+    "text": "The final prototype (CALEL), printed in PLA.\n  \n  \n    Summary. In Engineering Design & Manufacturing (E4), our team designed a hand-operated gauge that lets Scanning Electron Microscope (SEM) users find the tallest point of a mounted sample without touching it. A rack and pinion raises a laser to the sample's height, and a slew bearing sweeps the beam around it to find the highest peak. The user then reads the height off digital calipers.\n    \n      Course: E4 Engineering Design & Manufacturing, Fall 2025\n      Team: Team BTE\n      Client: an SEM research lab, based in Australia\n      Tools: SolidWorks, 3D printing (PLA), digital calipers"
+  },
+  {
+    "objectID": "project-pages/laser.html#the-problem",
+    "href": "project-pages/laser.html#the-problem",
+    "title": "Flexible Measuring Laser",
+    "section": "The problem",
+    "text": "The problem\nSEM users had to estimate sample height by eye against a ruler, and then type that number into the microscope. A wrong height can crash a sample into the chamber and damage sensitive detectors, and the client said repairs can take months. The top of each sample also carries a conductive coating only nanometers thick, so anything that touches it can ruin it.\nThe client’s requirements, in her priority order:\n\nSetup in under 30 seconds.\nNo contact with the sample.\nMeasurement increments of 1 mm or better.\nFit a 10 cm sample holder with seven 26 mm samples.\nMeasure up to a 50 mm height offset."
+  },
+  {
+    "objectID": "project-pages/laser.html#what-i-was-responsible-for",
+    "href": "project-pages/laser.html#what-i-was-responsible-for",
+    "title": "Flexible Measuring Laser",
+    "section": "What I was responsible for",
+    "text": "What I was responsible for\n\nZ-axis. I designed the rack-and-pinion mechanism that raises and lowers the laser.\nRadial sweep. I designed the slew bearing that rotates the laser around the sample.\nLaser system. I worked on the laser and its protective wall, and on the CAD drawings, bill of materials and process router for the final design."
+  },
+  {
+    "objectID": "project-pages/laser.html#how-the-design-works",
+    "href": "project-pages/laser.html#how-the-design-works",
+    "title": "Flexible Measuring Laser",
+    "section": "How the design works",
+    "text": "How the design works\n\n  Side view of the known tilt: the bearing is supported by one rack (A) but not the other pillar (B).\n\n\nThe user sets the sample on a 100 mm platform at the center of the base.\nA hand crank turns the pinion along the rack and lifts the laser to the sample’s height. A silicone O-ring adds friction so the crank stays put without backlash.\nThe user turns the slew bearing’s handle to sweep the beam over the whole sample and find the tallest peak. The bearing’s center hole is 3 mm wider than the platform, so it can never hit the sample.\nA printed wall opposite the laser catches the beam, which protects eyes and makes the beam easy to see.\nThe user removes the sample and measures from the platform to the beam’s center with the depth gauge of a digital caliper, reading the height off its display."
+  },
+  {
+    "objectID": "project-pages/laser.html#design-decisions",
+    "href": "project-pages/laser.html#design-decisions",
+    "title": "Flexible Measuring Laser",
+    "section": "Design decisions",
+    "text": "Design decisions\n\nChoosing a concept. We generated five alternatives from a morphological chart: a flexible measuring laser, a circular aluminum gauge ring, a micrometer ruler, a LIDAR scanner and an inductive scanner. The LIDAR scanner failed the 30-second setup constraint. The inductive scanner scored highest overall but cost much more, and we asked for a budget increase to test it. The laser design, the lower-cost option, became our prototype.\nMaterial. We printed in PLA because it was free and easy to get. We recommended nylon to the client for its low friction and wear resistance, and she may have access to it.\nReplicability. The client asked for files, not a physical unit, so we delivered SolidWorks and STL packages that her team can print. The non-printed parts are cheap and easy to find, and cost about a third of our E4 budget.\nSafety. We sanded every sharp edge, including the cut threaded rod, and the material is non-toxic."
+  },
+  {
+    "objectID": "project-pages/laser.html#results",
+    "href": "project-pages/laser.html#results",
+    "title": "Flexible Measuring Laser",
+    "section": "Results",
+    "text": "Results\n\n  0.39 mmaverage error across test objects\n  10–15 ssetup time, against a 30 s limit\n  184 mmmaximum measurable height, against 50 mm needed\n  0 contactno part can touch the sample\n\nWe had people outside our team follow a one-page instruction sheet to measure five objects of varying height: a PVC pipe, a glue bottle, a plant, a packing peanut and a broken pencil. We did not tell them the true heights. The average error was 0.39 mm, which scored 4 out of 5 on our accuracy rubric and met the client’s 1 mm requirement.\n\n  Residuals (top) and measured vs. actual height (bottom) for the five test objects.\n\nThe main flaw is a slight tilt. The bearing was attached to only one rack instead of also being supported by the second pillar, so it tilts a little as it rises. Our test users got the best readings by placing the caliper next to the tallest point, which keeps the tilt from skewing the number. We think the tilt explains most of the remaining error."
+  },
+  {
+    "objectID": "project-pages/laser.html#what-i-would-change",
+    "href": "project-pages/laser.html#what-i-would-change",
+    "title": "Flexible Measuring Laser",
+    "section": "What I would change",
+    "text": "What I would change\nAdd a second rack with a second pinion on a shared rod, so both sides lift equally and the tilt disappears. We also sketched an inductive-sensor design that would stop motorized motion automatically when it senses the conductive sample coating, which would remove human error entirely. We didn’t build it because of time and budget.\n\n  Sketch of the proposed inductive-sensor version."
   },
   {
     "objectID": "project-pages/laser.html#files",
@@ -228,6 +270,6 @@
     "href": "index.html",
     "title": "Ali El Seblani",
     "section": "",
-    "text": "Mechanical Engineering · Harvey Mudd College · Expected May 2028\n  Welcome to my engineering portfolio! I'm a junior engineering major at Harvey Mudd College focused on dynamics, robotics, and mechatronics. This past summer I interned at General Motors' Autonomous Robotics Center, and I'm now the Powertrain Lead for Harvey Mudd Racing's first Formula SAE car. I'm also a Machine Shop Proctor and a Systems Engineering Practicum Proctor. I'm seeking Summer 2027 internships.\n  \n    Resume\n    Email\n    LinkedIn\n  \n\n\nFeatured work\n\n\n\n  \n    \n    \n      Harvey Mudd Racing\n      Leading a 7+ person powertrain team · first competition May 2027\n    \n  \n\n  \n    \n    \n      General Motors Internship\n      63% fewer material touches · ~$1M/yr projected savings\n    \n  \n\n  \n    \n    \n      Autonomous Ocean Profiling Robot\n      Autonomous dives to 3 m · UV decayed ~46% per meter\n    \n  \n\n  \n    \n    \n      Flexible Measuring Laser\n      Under 1 mm accuracy · no contact with the sample"
+    "text": "Mechanical Engineering · Harvey Mudd College · Expected May 2028\n  Welcome to my engineering portfolio! I'm a junior engineering major at Harvey Mudd College focused on dynamics, robotics, and mechatronics. This past summer I interned at General Motors' Autonomous Robotics Center, and I'm now the Powertrain Lead for Harvey Mudd Racing's first Formula SAE car. I'm also a Machine Shop Proctor and a Systems Engineering Practicum Proctor. I'm seeking Summer 2027 internships.\n  \n    Resume\n    Email\n    LinkedIn\n  \n\n\nFeatured work\n\n\n\n  \n    \n    \n      Harvey Mudd Racing\n      Leading a 7+ person powertrain team · first competition May 2027\n    \n  \n\n  \n    \n    \n      General Motors Internship\n      63% fewer material touches · ~$1M/yr projected savings\n    \n  \n\n  \n    \n    \n      Autonomous Ocean Profiling Robot\n      Autonomous dives to 3 m · UV decayed ~46% per meter\n    \n  \n\n  \n    \n    \n      Flexible Measuring Laser\n      0.39 mm average error · no contact with the sample"
   }
 ]

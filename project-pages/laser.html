@@ -156,55 +156,99 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 
 
 <style>
-.project-intro {
-  display: grid;
-  grid-template-columns: minmax(250px, 0.6fr) 1fr;
-  gap: 3rem;
-  align-items: start;
-  margin-bottom: 2rem;
-}
-
-.project-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-caption {
-  font-size: 0.85rem;
-  color: #666;
-  text-align: center;
-  margin-top: 0.5rem;
-}
-
-@media (max-width: 800px) {
-  .project-intro {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
+.lz-hero { display:grid; grid-template-columns:minmax(260px,0.8fr) 1fr; gap:2.5rem; align-items:start; margin-bottom:1.5rem; }
+.lz-hero img { width:100%; height:auto; display:block; border-radius:8px; }
+.lz-cap { font-size:0.85rem; color:#666; text-align:center; margin-top:0.4rem; }
+.lz-facts { background:#f5f7fa; border-left:4px solid #1f4e8c; border-radius:6px; padding:0.8rem 1rem; font-size:0.95rem; }
+.lz-facts p { margin:0.2rem 0; }
+.lz-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:1rem; margin:1rem 0 1.5rem; }
+.lz-stat { border:1px solid #dde3ea; border-radius:8px; padding:0.8rem; text-align:center; }
+.lz-stat b { display:block; font-size:1.5rem; color:#1f4e8c; }
+.lz-stat span { font-size:0.85rem; color:#555; }
+.lz-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.2rem; margin:1rem 0 1.5rem; align-items:start; }
+.lz-row figure { margin:0; text-align:center; }
+.lz-row img { width:100%; height:auto; border-radius:6px; }
+.lz-row figcaption { font-size:0.85rem; color:#666; margin-top:0.4rem; }
+@media (max-width:800px){ .lz-hero{ grid-template-columns:1fr; gap:1.2rem; } }
 </style>
-<div class="project-intro">
-
-  <div class="project-image">
-    <img src="../images/web/Flexible_photo.jpg" alt="Flexible Measuring Laser">
-    <div class="project-caption">The Flexible Measuring Laser system.</div>
+<div class="lz-hero">
+  <figure style="margin:0" class="figure">
+    <img src="../images/web/laser_calel.jpg" alt="Final prototype of the SEM sample height gauge" class="figure-img">
+    <div class="lz-cap">The final prototype (CALEL), printed in PLA.</div>
+  </figure>
+  <div>
+    <p><b>Summary.</b> In Engineering Design &amp; Manufacturing (E4), our team designed a hand-operated gauge that lets Scanning Electron Microscope (SEM) users find the tallest point of a mounted sample <b>without touching it</b>. A rack and pinion raises a laser to the sample's height, and a slew bearing sweeps the beam around it to find the highest peak. The user then reads the height off digital calipers.</p>
+    <div class="lz-facts">
+      <p><b>Course:</b> E4 Engineering Design &amp; Manufacturing, Fall 2025</p>
+      <p><b>Team:</b> Team BTE</p>
+      <p><b>Client:</b> an SEM research lab, based in Australia</p>
+      <p><b>Tools:</b> SolidWorks, 3D printing (PLA), digital calipers</p>
+    </div>
   </div>
-
-  <div class="project-text">
-    <h2 class="anchored">Background</h2>
-
-    <p>Users of the Scanning Electron Microscope (SEM) are required to manually estimate the height of their mounted samples before placing them inside the microscope chamber. This estimation — typically done by visually comparing the sample against a ruler — is inherently inconsistent and prone to error. Inaccurate height inputs can lead to collisions inside the chamber, causing damage to sensitive detectors or degrading microscope performance.</p>
-
-    <p>The client requested a height measurement solution that would allow trained users to quickly, safely, and accurately determine the maximum sample height for any standard SEM sample holder. The solution needed to accommodate all existing holder bases with at most a 10 cm radius, provide readout tolerances within 0.5 mm, and critically — make no contact with the top surface of the sample, which is coated in a conductive layer only nanometers thick that could be irreparably damaged by even the lightest touch.</p>
-  </div>
-
 </div>
-
-<p>To meet these requirements, I designed a precision rack and pinion Z-axis measurement system integrated with a laser and photosensor, paired with a slew bearing for radial motion. This allowed the system to sweep around the sample and detect its tallest point without ever making contact. The entire measurement process was designed to be completed in under two minutes by a trained non-specialist user.</p>
-
-<p>Material selection was a critical part of the design process. Through a full fatigue and material analysis, I selected PLA for its scalability and ease of use in 3D printing — ensuring the device would remain accurate, durable, and easily replicable over its lifetime. The final design prevents $1000+ in potential equipment damage from improper sample height inputs.</p>
-<hr>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
+<p>SEM users had to estimate sample height by eye against a ruler, and then type that number into the microscope. A wrong height can crash a sample into the chamber and damage sensitive detectors, and the client said repairs can take months. The top of each sample also carries a conductive coating only nanometers thick, so anything that touches it can ruin it.</p>
+<p>The client’s requirements, in her priority order:</p>
+<ul>
+<li>Setup in under 30 seconds.</li>
+<li>No contact with the sample.</li>
+<li>Measurement increments of 1 mm or better.</li>
+<li>Fit a 10 cm sample holder with seven 26 mm samples.</li>
+<li>Measure up to a 50 mm height offset.</li>
+</ul>
+</section>
+<section id="what-i-was-responsible-for" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-was-responsible-for">What I was responsible for</h2>
+<ul>
+<li><strong>Z-axis.</strong> I designed the rack-and-pinion mechanism that raises and lowers the laser.</li>
+<li><strong>Radial sweep.</strong> I designed the slew bearing that rotates the laser around the sample.</li>
+<li><strong>Laser system.</strong> I worked on the laser and its protective wall, and on the CAD drawings, bill of materials and process router for the final design.</li>
+</ul>
+</section>
+<section id="how-the-design-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-design-works">How the design works</h2>
+<div class="lz-row">
+  <figure class="figure"><img src="../images/web/laser_tilt.jpg" alt="Side view showing tilt from one-sided support" class="figure-img"><figcaption>Side view of the known tilt: the bearing is supported by one rack (A) but not the other pillar (B).</figcaption></figure>
+</div>
+<ol type="1">
+<li>The user sets the sample on a 100 mm platform at the center of the base.</li>
+<li>A hand crank turns the pinion along the rack and lifts the laser to the sample’s height. A silicone O-ring adds friction so the crank stays put without backlash.</li>
+<li>The user turns the slew bearing’s handle to sweep the beam over the whole sample and find the tallest peak. The bearing’s center hole is 3 mm wider than the platform, so it can never hit the sample.</li>
+<li>A printed wall opposite the laser catches the beam, which protects eyes and makes the beam easy to see.</li>
+<li>The user removes the sample and measures from the platform to the beam’s center with the depth gauge of a digital caliper, reading the height off its display.</li>
+</ol>
+</section>
+<section id="design-decisions" class="level2">
+<h2 class="anchored" data-anchor-id="design-decisions">Design decisions</h2>
+<ul>
+<li><strong>Choosing a concept.</strong> We generated five alternatives from a morphological chart: a flexible measuring laser, a circular aluminum gauge ring, a micrometer ruler, a LIDAR scanner and an inductive scanner. The LIDAR scanner failed the 30-second setup constraint. The inductive scanner scored highest overall but cost much more, and we asked for a budget increase to test it. The laser design, the lower-cost option, became our prototype.</li>
+<li><strong>Material.</strong> We printed in PLA because it was free and easy to get. We recommended nylon to the client for its low friction and wear resistance, and she may have access to it.</li>
+<li><strong>Replicability.</strong> The client asked for files, not a physical unit, so we delivered SolidWorks and STL packages that her team can print. The non-printed parts are cheap and easy to find, and cost about a third of our E4 budget.</li>
+<li><strong>Safety.</strong> We sanded every sharp edge, including the cut threaded rod, and the material is non-toxic.</li>
+</ul>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<div class="lz-stats">
+  <div class="lz-stat"><b>0.39 mm</b><span>average error across test objects</span></div>
+  <div class="lz-stat"><b>10–15 s</b><span>setup time, against a 30 s limit</span></div>
+  <div class="lz-stat"><b>184 mm</b><span>maximum measurable height, against 50 mm needed</span></div>
+  <div class="lz-stat"><b>0 contact</b><span>no part can touch the sample</span></div>
+</div>
+<p>We had people outside our team follow a one-page instruction sheet to measure five objects of varying height: a PVC pipe, a glue bottle, a plant, a packing peanut and a broken pencil. We did not tell them the true heights. The average error was 0.39 mm, which scored 4 out of 5 on our accuracy rubric and met the client’s 1 mm requirement.</p>
+<div class="lz-row">
+  <figure class="figure"><img src="../images/web/laser_results.jpg" alt="Residuals and measured vs actual height" class="figure-img"><figcaption>Residuals (top) and measured vs. actual height (bottom) for the five test objects.</figcaption></figure>
+</div>
+<p>The main flaw is a slight tilt. The bearing was attached to only one rack instead of also being supported by the second pillar, so it tilts a little as it rises. Our test users got the best readings by placing the caliper next to the tallest point, which keeps the tilt from skewing the number. We think the tilt explains most of the remaining error.</p>
+</section>
+<section id="what-i-would-change" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-would-change">What I would change</h2>
+<p>Add a second rack with a second pinion on a shared rod, so both sides lift equally and the tilt disappears. We also sketched an inductive-sensor design that would stop motorized motion automatically when it senses the conductive sample coating, which would remove human error entirely. We didn’t build it because of time and budget.</p>
+<div class="lz-row" style="max-width:700px;margin-left:auto;margin-right:auto">
+  <figure class="figure"><img src="../images/web/laser_inductive.jpg" alt="Sketch of the inductive sensor design" class="figure-img"><figcaption>Sketch of the proposed inductive-sensor version.</figcaption></figure>
+</div>
+</section>
 <section id="files" class="level2">
 <h2 class="anchored" data-anchor-id="files">Files</h2>
 <p><a href="../images/E4_Technical_Drawings_BOM_Process_Router.pdf">View Technical Drawings, BOM &amp; Process Router</a></p>
