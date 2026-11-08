@@ -46,10 +46,10 @@ toc: false
   </a>
 
   <a class="feature-card" href="project-pages/laser.html">
-    <img src="images/web/Flexible_photo.jpg" alt="Flexible Measuring Laser"/>
+    <img src="images/web/laser_calel.jpg" alt="Flexible Measuring Laser"/>
     <div class="feature-body">
       <h3>Flexible Measuring Laser</h3>
-      <p class="feature-impact">Under 1 mm accuracy · no contact with the sample</p>
+      <p class="feature-impact">0.39 mm average error · no contact with the sample</p>
     </div>
   </a>
 
