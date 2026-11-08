@@ -156,136 +156,93 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 
 
 <style>
-.project-intro {
-  display: grid;
-  grid-template-columns: minmax(350px, 1fr) 1fr;
-  gap: 3rem;
-  align-items: start;
-  margin-bottom: 2rem;
-}
-
-.project-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-caption {
-  font-size: 0.85rem;
-  color: #666;
-  text-align: center;
-  margin-top: 0.5rem;
-}
-
-.project-text p:first-child {
-  margin-top: 0;
-}
-
-@media (max-width: 800px) {
-  .project-intro {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
+.auv-hero { display:grid; grid-template-columns:minmax(300px,1fr) 1fr; gap:2.5rem; align-items:start; margin-bottom:1.5rem; }
+.auv-hero img { width:100%; height:auto; display:block; border-radius:8px; }
+.auv-cap { font-size:0.85rem; color:#666; text-align:center; margin-top:0.4rem; }
+.auv-facts { background:#f5f7fa; border-left:4px solid #1f4e8c; border-radius:6px; padding:0.8rem 1rem; font-size:0.95rem; }
+.auv-facts p { margin:0.2rem 0; }
+.auv-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:1rem; margin:1rem 0 1.5rem; }
+.auv-stat { border:1px solid #dde3ea; border-radius:8px; padding:0.8rem; text-align:center; }
+.auv-stat b { display:block; font-size:1.5rem; color:#1f4e8c; }
+.auv-stat span { font-size:0.85rem; color:#555; }
+.auv-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.2rem; margin:1rem 0 1.5rem; align-items:start; }
+.auv-row figure { margin:0; text-align:center; }
+.auv-row img { width:100%; height:auto; border-radius:6px; }
+.auv-row figcaption { font-size:0.85rem; color:#666; margin-top:0.4rem; }
+@media (max-width:800px){ .auv-hero{ grid-template-columns:1fr; gap:1.2rem; } }
 </style>
-<div class="project-intro">
-
-  <div class="project-image">
-    <img src="../images/web/AUV.jpg" alt="Final autonomous ocean profiling robot">
-    <div class="project-caption">A picture of our final robot build.</div>
-  </div>
-
-  <div class="project-text">
-    <p>All spring semester sophomore engineers at Harvey Mudd undergo a rigorous lab-based class called E80, or Experimental Engineering. In the latter half of this class, students work in teams to develop a fully autonomous underwater robot that measures a phenomenon of their choice with a limit of $50 to purchase sensors. At the end of the class, the robot is deployed at Dana Point Beach, a harbor in Orange County.</p>
-
-    <p>Our team chose to measure pressure, temperature, and ultraviolet light intensity as a function of depth in marine environments — phenomena directly tied to ocean health and climate monitoring.</p>
-
-    <p>I led the electrical system design, implementing three analog circuits with distinct electrical interfaces: voltage-to-voltage, current-to-voltage, and resistance-to-voltage. Each sensor system — UV, pressure, and temperature — was engineered using a unity-gain buffer and inverting gain amplifier to tailor sensor output to a specific range, enhancing data resolution and preventing data clipping on the Teensy 4.0.</p>
-
-    <p>Calibration was one of the most technically demanding aspects of the project. I developed protocols that accounted for noise, sensor non-linearity, and degradation — ensuring robust and accurate measurements across diverse underwater conditions. On the mechanical side, I helped design and fabricate a system that maintained neutral buoyancy in saltwater while minimizing axial tilt, improving stability during data collection.</p>
-  </div>
-
-</div>
-
-<p>To control the robot autonomously, I developed a C++ algorithm for dynamic depth control, enabling the robot to reach and maintain designated waypoints at various depths. Once the data was collected, I developed MATLAB scripts to process the output and generate clear, interpretable graphs of temperature and UV intensity as a function of depth — aiding data analysis and decision-making for climate monitoring.</p>
-<hr>
-<section id="pcb-images" class="level2">
-<h2 class="anchored" data-anchor-id="pcb-images">PCB Images</h2>
-<div style="display: flex; gap: 20px; max-width: 750px; margin: 0 auto;">
-  <div style="text-align: center; width: 50%;">
-    <img src="../images/web/IsometricPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;">
-    <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Isometric PCB View</p>
-  </div>
-  <div style="text-align: center; width: 50%;">
-    <img src="../images/web/TopDownViewPCB.jpg" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px;">
-    <p style="font-size: 0.85rem; color: #666; margin-top: 5px;">Top Down PCB View</p>
+<div class="auv-hero">
+  <figure style="margin:0" class="figure">
+    <img src="../images/web/AUV.jpg" alt="Final autonomous ocean profiling robot" class="figure-img">
+    <div class="auv-cap">The final robot build.</div>
+  </figure>
+  <div>
+    <p><b>Summary.</b> In Experimental Engineering (E80) at Harvey Mudd, our team of four designed, built and deployed an autonomous underwater vehicle that dove to 3 m at Dana Point, California, and measured how <b>UV intensity and temperature change with depth</b>. Both depend on sunlight and matter to marine life: some fish use UV for vision, while UV-B can seriously harm plankton.</p>
+    <div class="auv-facts">
+      <p><b>Course:</b> E80 Experimental Engineering, Spring 2026</p>
+      <p><b>Team:</b> Ali El Seblani, Carolyn Davis, Keegan Cabrera, Jessica Li</p>
+      <p><b>Sensors:</b> MPX5700 pressure, Murata NXFT15WB473FA2B150 thermistor, GUVA-S12SD UV</p>
+      <p><b>Constraint:</b> $50 budget for sensors</p>
+      <p><b>Controller:</b> Teensy 4.0, 10 Hz logging to SD card</p>
+    </div>
   </div>
 </div>
-<hr>
-</section>
-<section id="sensor-interfaces" class="level2">
-<h2 class="anchored" data-anchor-id="sensor-interfaces">Sensor Interfaces</h2>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/Pressure-Sensor-Interface.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Pressure Sensor Interface</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/Thermistor-Interface.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Thermistor Interface</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/UV-Sensor-Interface.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>UV Sensor Interface</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<hr>
+<section id="what-i-was-responsible-for" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-was-responsible-for">What I was responsible for</h2>
+<ul>
+<li><strong>Electrical design.</strong> I led the design of three analog sensor interfaces: voltage-to-voltage (pressure), resistance-to-voltage (thermistor) and current-to-voltage (UV). Each uses a unity-gain buffer and an inverting offset amplifier.</li>
+<li><strong>Calibration.</strong> I developed the calibration procedures and curves for the pressure and temperature sensors, and the field check of the UV sensor.</li>
+<li><strong>Depth control.</strong> I developed the C++ depth-control algorithm that sent the robot to each waypoint.</li>
+<li><strong>Data analysis.</strong> I wrote the MATLAB scripts that read the SD-card logs and produced the depth, temperature and UV plots.</li>
+<li><strong>Buoyancy.</strong> I helped design and build the frame and ballast so the robot stayed neutrally buoyant in saltwater with minimal tilt.</li>
+</ul>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/DepthvDes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Depth vs.&nbsp;Desired Depth over Time</figcaption>
+<div class="auv-stats">
+  <div class="auv-stat"><b>0.5 to 3 m</b><span>depth waypoints reached autonomously</span></div>
+  <div class="auv-stat"><b>~46% / m</b><span>UV decay with depth, UV = 0.273·e<sup>−0.762·depth</sup></span></div>
+  <div class="auv-stat"><b>0.189 → 0.03</b><span>UV reading from 0 to 3 m (84% drop)</span></div>
+  <div class="auv-stat"><b>18.1 °C</b><span>steady temperature, 0.6 °C below the 18.7 °C ground-truth reading</span></div>
+</div>
+<p>UV intensity fell off exponentially with depth, as Beer-Lambert attenuation predicts, so almost no UV reached 3 m. Temperature stayed essentially constant over the 0 to 3 m range tested. The deployment was on an overcast morning at about 8:30 am, with a surface UV rating near 2.</p>
+<p>The robot also had clear limits. At greater depth it lost neutral buoyancy and began to sink, so after its last waypoint it could not resurface by itself. The thermistor was close to the motors, so electromagnetic interference made the temperature trace very noisy. I read temperature only during the 4-second motor stops at each waypoint, when the motors were off.</p>
+<div class="auv-row">
+  <figure class="figure"><img src="../images/DepthvDes.png" alt="Depth vs desired depth over time" class="figure-img"><figcaption>Depth vs. desired depth over time. The robot reaches each waypoint.</figcaption></figure>
+  <figure class="figure"><img src="../images/UVdes.png" alt="UV intensity vs depth" class="figure-img"><figcaption>UV intensity vs. depth, decaying exponentially.</figcaption></figure>
+  <figure class="figure"><img src="../images/Tempdes.png" alt="Temperature vs depth" class="figure-img"><figcaption>Temperature vs. depth. Gaps between motor spikes give the true readings.</figcaption></figure>
+</div>
+</section>
+<section id="design-decisions" class="level2">
+<h2 class="anchored" data-anchor-id="design-decisions">Design decisions</h2>
+<ul>
+<li><strong>Why UV and temperature.</strong> We compared four concepts: a surface vehicle with a UV and temperature heat map, a salinity profiler, a current-and-depth profiler, and a surface vehicle with a tethered AUV. We chose the depth profile of UV and temperature because both come from the sun and it needed only three added sensors, which fit the $50 sensor limit.</li>
+<li><strong>Sensor ranges.</strong> Each sensor was scaled to 0.3 to 3 V so the Teensy’s 0 to 3.3 V input never clipped, and so each signal used the full range for better resolution. Pressure used a gain of about 10 with inverted output, mapping 0 m to high voltage and 3 m to low.</li>
+<li><strong>Calibration.</strong> I calibrated depth against voltage with a meter stick in 0.1 m steps, then repeated it at Dana Point because saltwater (about 1020 kg/m³) differs from fresh water. The fit had a slope of −1.9 V/m and an intercept of 5.17 V. I calibrated the thermistor against a thermometer across 10 to 20 °C.</li>
+<li><strong>Stability.</strong> A symmetric, rigid frame limited tilt. The electronics box sits high so the center of buoyancy is above the center of mass, and I sized ballast from the buoyancy calculation. Motors sit at least 30 cm from the electronics to cut interference.</li>
+<li><strong>UV window.</strong> A quartz window over the UV sensor keeps the electronics box from absorbing UV.</li>
+</ul>
+<div class="auv-row">
+  <figure class="figure"><img src="../images/Pressure-Sensor-Interface.png" alt="Pressure sensor interface" class="figure-img"><figcaption>Pressure: voltage-to-voltage interface with unity-gain buffer.</figcaption></figure>
+  <figure class="figure"><img src="../images/Thermistor-Interface.png" alt="Thermistor interface" class="figure-img"><figcaption>Thermistor: resistance-to-voltage inverting offset amplifier.</figcaption></figure>
+  <figure class="figure"><img src="../images/UV-Sensor-Interface.png" alt="UV sensor interface" class="figure-img"><figcaption>UV: sensor output buffered and offset to the Teensy range.</figcaption></figure>
+</div>
+<div class="auv-row" style="max-width:700px;margin-left:auto;margin-right:auto">
+  <figure class="figure"><img src="../images/web/IsometricPCB.jpg" alt="Isometric PCB view" class="figure-img"><figcaption>Isometric PCB view.</figcaption></figure>
+  <figure class="figure"><img src="../images/web/TopDownViewPCB.jpg" alt="Top-down PCB view" class="figure-img"><figcaption>Top-down PCB view.</figcaption></figure>
+</div>
+</section>
+<section id="deployment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment">Deployment</h2>
+<p>We deployed near the pier at Dana Point harbor. On site we checked waterproofing, trimmed ballast for saltwater and recorded ground-truth readings (18.7 °C, UV rating about 2, 101.3 kPa) before the dive. The robot logged to an SD card, which we analyzed in MATLAB afterward.</p>
+<figure style="margin:1rem auto;max-width:800px;text-align:center" class="figure">
+  <img src="../images/web/DanaPointPier.jpg?v=4" alt="Aerial view of the Dana Point pier and harbor" style="width:100%;height:auto;border-radius:8px" class="figure-img">
+  <figcaption class="auv-cap">Aerial view of the Dana Point harbor. The red dot marks where we deployed, in the water near the pier.</figcaption>
 </figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/Tempdes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Temperature vs.&nbsp;Depth</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/UVdes.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>UV Intensity vs.&nbsp;Depth</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<hr>
+</section>
+<section id="what-i-would-change" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-would-change">What I would change</h2>
+<p>Move the thermistor well away from the motors to remove the noise, and redo the ballast for the pressure at depth so the robot stays neutral and can surface. We would also repeat the dive at other harbor locations and times of day to compare UV and temperature.</p>
 </section>
 <section id="files" class="level2">
 <h2 class="anchored" data-anchor-id="files">Files</h2>

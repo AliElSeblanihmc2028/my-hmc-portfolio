@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Harvey Mudd Racing · Dec 2025 – Present\n      Harvey Mudd Racing: Powertrain Lead\n      Leading a 7+ person powertrain team · first competition May 2027\n      Engine systemsDrivetrainDesign reviewsTeam leadership\n    \n  \n\n  \n    \n    \n      E80 Experimental Engineering · Mar – May 2026\n      Autonomous Ocean Profiling Robot for Climate Monitoring\n      Held depth waypoints autonomously down to 3 m\n      C++MATLABAnalog circuitsSensor calibrationPCB design\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Oct – Dec 2025\n      Flexible Measuring Laser\n      Under 1 mm accuracy · no contact with the sample\n      CADFatigue analysisMaterial selection3D printing (PLA)\n    \n  \n\n  \n    \n    \n      E79 Systems Engineering · Oct – Dec 2025\n      Submersible Robot with Kp Control\n      Underwater ROV measuring temperature and pressure, analyzed in LabVIEW\n      LabVIEWSolderingPCB assemblyOscilloscopeDMM\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Sep – Oct 2025\n      Machinist's Hammer\n      Machined to within thousandths of an inch\n      GD&TLatheMillBandsawHeat treatment"
+    "text": "Harvey Mudd Racing · Dec 2025 – Present\n      Harvey Mudd Racing: Powertrain Lead\n      Leading a 7+ person powertrain team · first competition May 2027\n      Engine systemsDrivetrainDesign reviewsTeam leadership\n    \n  \n\n  \n    \n    \n      E80 Experimental Engineering · Mar – May 2026\n      Autonomous Ocean Profiling Robot for Climate Monitoring\n      Autonomous dives to 3 m · UV decayed ~46% per meter\n      C++MATLABAnalog circuitsSensor calibrationPCB design\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Oct – Dec 2025\n      Flexible Measuring Laser\n      Under 1 mm accuracy · no contact with the sample\n      CADFatigue analysisMaterial selection3D printing (PLA)\n    \n  \n\n  \n    \n    \n      E79 Systems Engineering · Oct – Dec 2025\n      Submersible Robot with Kp Control\n      Underwater ROV measuring temperature and pressure, analyzed in LabVIEW\n      LabVIEWSolderingPCB assemblyOscilloscopeDMM\n    \n  \n\n  \n    \n    \n      E4 Engineering Design & Manufacturing · Sep – Oct 2025\n      Machinist's Hammer\n      Machined to within thousandths of an inch\n      GD&TLatheMillBandsawHeat treatment"
   },
   {
     "objectID": "project-pages/e79proctor.html",
@@ -179,28 +179,42 @@
     "href": "project-pages/auv.html",
     "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
     "section": "",
-    "text": "A picture of our final robot build.\n  \n\n  \n    All spring semester sophomore engineers at Harvey Mudd undergo a rigorous lab-based class called E80, or Experimental Engineering. In the latter half of this class, students work in teams to develop a fully autonomous underwater robot that measures a phenomenon of their choice with a limit of $50 to purchase sensors. At the end of the class, the robot is deployed at Dana Point Beach, a harbor in Orange County.\n\n    Our team chose to measure pressure, temperature, and ultraviolet light intensity as a function of depth in marine environments — phenomena directly tied to ocean health and climate monitoring.\n\n    I led the electrical system design, implementing three analog circuits with distinct electrical interfaces: voltage-to-voltage, current-to-voltage, and resistance-to-voltage. Each sensor system — UV, pressure, and temperature — was engineered using a unity-gain buffer and inverting gain amplifier to tailor sensor output to a specific range, enhancing data resolution and preventing data clipping on the Teensy 4.0.\n\n    Calibration was one of the most technically demanding aspects of the project. I developed protocols that accounted for noise, sensor non-linearity, and degradation — ensuring robust and accurate measurements across diverse underwater conditions. On the mechanical side, I helped design and fabricate a system that maintained neutral buoyancy in saltwater while minimizing axial tilt, improving stability during data collection.\nTo control the robot autonomously, I developed a C++ algorithm for dynamic depth control, enabling the robot to reach and maintain designated waypoints at various depths. Once the data was collected, I developed MATLAB scripts to process the output and generate clear, interpretable graphs of temperature and UV intensity as a function of depth — aiding data analysis and decision-making for climate monitoring."
+    "text": "The final robot build.\n  \n  \n    Summary. In Experimental Engineering (E80) at Harvey Mudd, our team of four designed, built and deployed an autonomous underwater vehicle that dove to 3 m at Dana Point, California, and measured how UV intensity and temperature change with depth. Both depend on sunlight and matter to marine life: some fish use UV for vision, while UV-B can seriously harm plankton.\n    \n      Course: E80 Experimental Engineering, Spring 2026\n      Team: Ali El Seblani, Carolyn Davis, Keegan Cabrera, Jessica Li\n      Sensors: MPX5700 pressure, Murata NXFT15WB473FA2B150 thermistor, GUVA-S12SD UV\n      Constraint: $50 budget for sensors\n      Controller: Teensy 4.0, 10 Hz logging to SD card"
   },
   {
-    "objectID": "project-pages/auv.html#pcb-images",
-    "href": "project-pages/auv.html#pcb-images",
+    "objectID": "project-pages/auv.html#what-i-was-responsible-for",
+    "href": "project-pages/auv.html#what-i-was-responsible-for",
     "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
-    "section": "PCB Images",
-    "text": "PCB Images\n\n  \n    \n    Isometric PCB View\n  \n  \n    \n    Top Down PCB View"
-  },
-  {
-    "objectID": "project-pages/auv.html#sensor-interfaces",
-    "href": "project-pages/auv.html#sensor-interfaces",
-    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
-    "section": "Sensor Interfaces",
-    "text": "Sensor Interfaces\n\n\n\n\n\n\nPressure Sensor Interface\n\n\n\n\n\n\n\nThermistor Interface\n\n\n\n\n\n\n\nUV Sensor Interface"
+    "section": "What I was responsible for",
+    "text": "What I was responsible for\n\nElectrical design. I led the design of three analog sensor interfaces: voltage-to-voltage (pressure), resistance-to-voltage (thermistor) and current-to-voltage (UV). Each uses a unity-gain buffer and an inverting offset amplifier.\nCalibration. I developed the calibration procedures and curves for the pressure and temperature sensors, and the field check of the UV sensor.\nDepth control. I developed the C++ depth-control algorithm that sent the robot to each waypoint.\nData analysis. I wrote the MATLAB scripts that read the SD-card logs and produced the depth, temperature and UV plots.\nBuoyancy. I helped design and build the frame and ballast so the robot stayed neutrally buoyant in saltwater with minimal tilt."
   },
   {
     "objectID": "project-pages/auv.html#results",
     "href": "project-pages/auv.html#results",
     "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
     "section": "Results",
-    "text": "Results\n\n\n\n\n\n\nDepth vs. Desired Depth over Time\n\n\n\n\n\n\n\nTemperature vs. Depth\n\n\n\n\n\n\n\nUV Intensity vs. Depth"
+    "text": "Results\n\n  0.5 to 3 mdepth waypoints reached autonomously\n  ~46% / mUV decay with depth, UV = 0.273·e−0.762·depth\n  0.189 → 0.03UV reading from 0 to 3 m (84% drop)\n  18.1 °Csteady temperature, 0.6 °C below the 18.7 °C ground-truth reading\n\nUV intensity fell off exponentially with depth, as Beer-Lambert attenuation predicts, so almost no UV reached 3 m. Temperature stayed essentially constant over the 0 to 3 m range tested. The deployment was on an overcast morning at about 8:30 am, with a surface UV rating near 2.\nThe robot also had clear limits. At greater depth it lost neutral buoyancy and began to sink, so after its last waypoint it could not resurface by itself. The thermistor was close to the motors, so electromagnetic interference made the temperature trace very noisy. I read temperature only during the 4-second motor stops at each waypoint, when the motors were off.\n\n  Depth vs. desired depth over time. The robot reaches each waypoint.\n  UV intensity vs. depth, decaying exponentially.\n  Temperature vs. depth. Gaps between motor spikes give the true readings."
+  },
+  {
+    "objectID": "project-pages/auv.html#design-decisions",
+    "href": "project-pages/auv.html#design-decisions",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "Design decisions",
+    "text": "Design decisions\n\nWhy UV and temperature. We compared four concepts: a surface vehicle with a UV and temperature heat map, a salinity profiler, a current-and-depth profiler, and a surface vehicle with a tethered AUV. We chose the depth profile of UV and temperature because both come from the sun and it needed only three added sensors, which fit the $50 sensor limit.\nSensor ranges. Each sensor was scaled to 0.3 to 3 V so the Teensy’s 0 to 3.3 V input never clipped, and so each signal used the full range for better resolution. Pressure used a gain of about 10 with inverted output, mapping 0 m to high voltage and 3 m to low.\nCalibration. I calibrated depth against voltage with a meter stick in 0.1 m steps, then repeated it at Dana Point because saltwater (about 1020 kg/m³) differs from fresh water. The fit had a slope of −1.9 V/m and an intercept of 5.17 V. I calibrated the thermistor against a thermometer across 10 to 20 °C.\nStability. A symmetric, rigid frame limited tilt. The electronics box sits high so the center of buoyancy is above the center of mass, and I sized ballast from the buoyancy calculation. Motors sit at least 30 cm from the electronics to cut interference.\nUV window. A quartz window over the UV sensor keeps the electronics box from absorbing UV.\n\n\n  Pressure: voltage-to-voltage interface with unity-gain buffer.\n  Thermistor: resistance-to-voltage inverting offset amplifier.\n  UV: sensor output buffered and offset to the Teensy range.\n\n\n  Isometric PCB view.\n  Top-down PCB view."
+  },
+  {
+    "objectID": "project-pages/auv.html#deployment",
+    "href": "project-pages/auv.html#deployment",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "Deployment",
+    "text": "Deployment\nWe deployed near the pier at Dana Point harbor. On site we checked waterproofing, trimmed ballast for saltwater and recorded ground-truth readings (18.7 °C, UV rating about 2, 101.3 kPa) before the dive. The robot logged to an SD card, which we analyzed in MATLAB afterward.\n\n  \n  Aerial view of the Dana Point harbor. The red dot marks where we deployed, in the water near the pier."
+  },
+  {
+    "objectID": "project-pages/auv.html#what-i-would-change",
+    "href": "project-pages/auv.html#what-i-would-change",
+    "title": "Autonomous Ocean Profiling Robot for Climate Monitoring",
+    "section": "What I would change",
+    "text": "What I would change\nMove the thermistor well away from the motors to remove the noise, and redo the ballast for the pressure at depth so the robot stays neutral and can surface. We would also repeat the dive at other harbor locations and times of day to compare UV and temperature."
   },
   {
     "objectID": "project-pages/auv.html#files",
@@ -214,6 +228,6 @@
     "href": "index.html",
     "title": "Ali El Seblani",
     "section": "",
-    "text": "Mechanical Engineering · Harvey Mudd College · Expected May 2028\n  Welcome to my engineering portfolio! I'm a junior engineering major at Harvey Mudd College focused on dynamics, robotics, and mechatronics. This past summer I interned at General Motors' Autonomous Robotics Center, and I'm now the Powertrain Lead for Harvey Mudd Racing's first Formula SAE car. I'm also a Machine Shop Proctor and a Systems Engineering Practicum Proctor. I'm seeking Summer 2027 internships.\n  \n    Resume\n    Email\n    LinkedIn\n  \n\n\nFeatured work\n\n\n\n  \n    \n    \n      Harvey Mudd Racing\n      Leading a 7+ person powertrain team · first competition May 2027\n    \n  \n\n  \n    \n    \n      General Motors Internship\n      63% fewer material touches · ~$1M/yr projected savings\n    \n  \n\n  \n    \n    \n      Autonomous Ocean Profiling Robot\n      Held depth waypoints autonomously down to 3 m\n    \n  \n\n  \n    \n    \n      Flexible Measuring Laser\n      Under 1 mm accuracy · no contact with the sample"
+    "text": "Mechanical Engineering · Harvey Mudd College · Expected May 2028\n  Welcome to my engineering portfolio! I'm a junior engineering major at Harvey Mudd College focused on dynamics, robotics, and mechatronics. This past summer I interned at General Motors' Autonomous Robotics Center, and I'm now the Powertrain Lead for Harvey Mudd Racing's first Formula SAE car. I'm also a Machine Shop Proctor and a Systems Engineering Practicum Proctor. I'm seeking Summer 2027 internships.\n  \n    Resume\n    Email\n    LinkedIn\n  \n\n\nFeatured work\n\n\n\n  \n    \n    \n      Harvey Mudd Racing\n      Leading a 7+ person powertrain team · first competition May 2027\n    \n  \n\n  \n    \n    \n      General Motors Internship\n      63% fewer material touches · ~$1M/yr projected savings\n    \n  \n\n  \n    \n    \n      Autonomous Ocean Profiling Robot\n      Autonomous dives to 3 m · UV decayed ~46% per meter\n    \n  \n\n  \n    \n    \n      Flexible Measuring Laser\n      Under 1 mm accuracy · no contact with the sample"
   }
 ]
