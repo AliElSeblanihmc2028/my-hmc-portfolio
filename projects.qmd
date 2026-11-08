@@ -24,7 +24,7 @@ format:
     <div class="feature-body">
       <p class="feature-kicker">E80 Experimental Engineering · Mar – May 2026</p>
       <h3>Autonomous Ocean Profiling Robot for Climate Monitoring</h3>
-      <p class="feature-impact">Held depth waypoints autonomously down to 3 m</p>
+      <p class="feature-impact">Autonomous dives to 3 m · UV decayed ~46% per meter</p>
       <div class="chips"><span>C++</span><span>MATLAB</span><span>Analog circuits</span><span>Sensor calibration</span><span>PCB design</span></div>
     </div>
   </a>

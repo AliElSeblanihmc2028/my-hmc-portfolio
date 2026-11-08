@@ -41,7 +41,7 @@ toc: false
     <img src="images/web/AUV.jpg" alt="Autonomous ocean profiling robot"/>
     <div class="feature-body">
       <h3>Autonomous Ocean Profiling Robot</h3>
-      <p class="feature-impact">Held depth waypoints autonomously down to 3 m</p>
+      <p class="feature-impact">Autonomous dives to 3 m · UV decayed ~46% per meter</p>
     </div>
   </a>
 
