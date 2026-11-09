@@ -41,7 +41,7 @@ toc: false
 
 ## What I was responsible for
 
-- **Electrical design.** I led the design of three analog sensor interfaces: voltage-to-voltage (pressure), resistance-to-voltage (thermistor) and current-to-voltage (UV). Each uses a unity-gain buffer and an inverting offset amplifier.
+- **Electrical design.** I led the design of the resistance-to-voltage interface for the thermistor and assisted with the voltage-to-voltage interface for the pressure sensor. The team's sensor interfaces each use a unity-gain buffer and an inverting offset amplifier.
 - **Calibration.** I developed the calibration procedures and curves for the pressure and temperature sensors, and the field check of the UV sensor.
 - **Depth control.** I developed the C++ depth-control algorithm that sent the robot to each waypoint.
 - **Data analysis.** I wrote the MATLAB scripts that read the SD-card logs and produced the depth, temperature and UV plots.
