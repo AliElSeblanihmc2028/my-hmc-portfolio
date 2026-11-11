@@ -80,6 +80,35 @@ gtag('js', new Date());
 gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -170,6 +199,8 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 .auv-row img { width:100%; height:auto; border-radius:6px; }
 .auv-row figcaption { font-size:0.85rem; color:#666; margin-top:0.4rem; }
 @media (max-width:800px){ .auv-hero{ grid-template-columns:1fr; gap:1.2rem; } }
+details.hc { border:1px solid #dde3ea; border-radius:8px; padding:0.3rem 1rem; margin:0.7rem 0; background:#fff; }
+details.hc summary { font-weight:600; cursor:pointer; padding:0.5rem 0; }
 </style>
 <div class="auv-hero">
   <figure style="margin:0" class="figure">
@@ -218,10 +249,15 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 <ul>
 <li><strong>Why UV and temperature.</strong> We compared four concepts: a surface vehicle with a UV and temperature heat map, a salinity profiler, a current-and-depth profiler, and a surface vehicle with a tethered AUV. We chose the depth profile of UV and temperature because both come from the sun and it needed only three added sensors, which fit the $50 sensor limit.</li>
 <li><strong>Sensor ranges.</strong> Each sensor was scaled to 0.3 to 3 V so the Teensy’s 0 to 3.3 V input never clipped, and so each signal used the full range for better resolution. Pressure used a gain of about 10 with inverted output, mapping 0 m to high voltage and 3 m to low.</li>
-<li><strong>Calibration.</strong> I calibrated depth against voltage with a meter stick in 0.1 m steps, then repeated it at Dana Point because saltwater (about 1020 kg/m³) differs from fresh water. The fit had a slope of −1.9 V/m and an intercept of 5.17 V. I calibrated the thermistor against a thermometer across 10 to 20 °C.</li>
+<li><strong>Calibration.</strong> I calibrated depth against voltage with a meter stick in 0.1 m steps, then repeated it at Dana Point because saltwater (about 1020 kg/m³) differs from fresh water. A best-fit line through the 0 to 1 m data gave depth = −1.9 × voltage + 5.17 (depth in meters, voltage in volts). I calibrated the thermistor against a thermometer across 10 to 20 °C.</li>
 <li><strong>Stability.</strong> A symmetric, rigid frame limited tilt. The electronics box sits high so the center of buoyancy is above the center of mass, and I sized ballast from the buoyancy calculation. Motors sit at least 30 cm from the electronics to cut interference.</li>
+<li><strong>Motor mounts.</strong> We designed in CAD and 3D printed mounts that hold the two motors steady and an equal distance apart. Where the motors sit mattered as much as how they are held. A motor underneath the electronics box would push water up against it, which adds buoyancy and keeps the robot from diving. Motors near the sensors also induce electromagnetic noise in their signals. So the mounts keep the motors at least 30 cm from the electronics and out of line with the box. We 3D printed the mounts in PLA because printing made them easy to manufacture and let us prototype quickly without adding to our cost.</li>
 <li><strong>UV window.</strong> A quartz window over the UV sensor keeps the electronics box from absorbing UV.</li>
 </ul>
+<figure style="margin:1rem auto;max-width:360px;text-align:center" class="figure">
+  <img src="../images/web/auv_motor_mount_v2.jpg" alt="CAD of the 3D-printed motor mount" style="width:100%;height:auto;border-radius:6px" class="figure-img">
+  <figcaption class="auv-cap">The motor mount we modeled in CAD and 3D printed.</figcaption>
+</figure>
 <div class="auv-row">
   <figure class="figure"><img src="../images/Pressure-Sensor-Interface.png" alt="Pressure sensor interface" class="figure-img"><figcaption>Pressure: voltage-to-voltage interface with unity-gain buffer.</figcaption></figure>
   <figure class="figure"><img src="../images/Thermistor-Interface.png" alt="Thermistor interface" class="figure-img"><figcaption>Thermistor: resistance-to-voltage inverting offset amplifier.</figcaption></figure>
@@ -231,6 +267,203 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
   <figure class="figure"><img src="../images/web/IsometricPCB.jpg" alt="Isometric PCB view" class="figure-img"><figcaption>Isometric PCB view.</figcaption></figure>
   <figure class="figure"><img src="../images/web/TopDownViewPCB.jpg" alt="Top-down PCB view" class="figure-img"><figcaption>Top-down PCB view.</figcaption></figure>
 </div>
+</section>
+<section id="hand-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="hand-calculations">Hand calculations</h2>
+<p>I sized the robot and its circuits by hand before building anything. Each calculation opens to show the steps.</p>
+<details class="hc" open="">
+<summary>
+Stability: keeping the center of buoyancy above the center of mass
+</summary>
+<p><strong>Goal.</strong> The robot must not tip over underwater, so its center of buoyancy (COB) has to sit above its center of mass (COM). Two design choices make that happen. The electronics box is mostly empty, so the air in it adds a large amount of buoyancy high on the frame, and foam floats on the top PVC raise the COB further. Ballast at the bottom pulls the COM down.</p>
+<p><strong>1. Buoyancy of the air-filled electronics box.</strong> The box measures 0.15 × 0.13 × 0.08 m, so <span class="math inline">\(V = 1.56\times10^{-3}\ \text{m}^3\)</span>.</p>
+<p><span class="math display">\[F_{box} = \rho g V = (997)(9.81)(1.56\times10^{-3}) = 15.26\ \text{N (fresh water)}\]</span></p>
+<p>With saltwater (<span class="math inline">\(\rho = 1025\)</span> kg/m³) this becomes 15.69 N.</p>
+<p><strong>2. Total buoyancy.</strong> Add 10 N from the floats on the Lab 1 robot and 5 N for the extra PVC we added, which assumes 1.5 times the PVC of the Lab 1 robot.</p>
+<p><span class="math display">\[F_B = 15.26 + 10 + 5 = 30.26\ \text{N (fresh)}\qquad F_B = 15.69 + 10 + 5 = 30.69\ \text{N (salt)}\]</span></p>
+<p><strong>3. Ballast for neutral buoyancy.</strong> The robot is neutral when its weight equals <span class="math inline">\(F_B\)</span>. The robot without ballast is about 1 kg, so</p>
+<p><span class="math display">\[m_{ballast} = \frac{F_B}{g} - m_{robot} = \frac{30.26}{9.81} - 1 = 2.08\ \text{kg (fresh)}\qquad \frac{30.69}{9.81} - 1 = 2.13\ \text{kg (salt)}\]</span></p>
+<p><strong>4. Center of mass.</strong> I split the robot into three levels and estimated each one’s mass and its height above the bottom.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Height (cm)</th>
+<th>Mass (kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bottom (ballast)</td>
+<td>0</td>
+<td>2.5</td>
+</tr>
+<tr class="even">
+<td>Middle</td>
+<td>25</td>
+<td>0.3</td>
+</tr>
+<tr class="odd">
+<td>Top</td>
+<td>55</td>
+<td>0.2</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[COM = \frac{\sum x\,m}{\sum m} = \frac{0(2.5) + 25(0.3) + 55(0.2)}{3.0} = 6.17\ \text{cm}\]</span></p>
+<p><strong>5. Center of buoyancy.</strong> I did the same with the buoyancy of each level, with the air-filled box as its own term.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Height (cm)</th>
+<th>Buoyancy (N)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bottom</td>
+<td>0</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td>Electronics box</td>
+<td>4</td>
+<td>15.26</td>
+</tr>
+<tr class="odd">
+<td>Middle</td>
+<td>25</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Top (floats)</td>
+<td>55</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[COB = \frac{\sum x\,F}{\sum F} = \frac{0(3) + 4(15.26) + 25(5) + 55(7)}{30.26} = 18.87\ \text{cm}\]</span></p>
+<p><strong>Result.</strong> The COB is about 12.7 cm above the COM, so any tilt produces a torque that rights the robot. Because the box is empty, I also made sure the buoyancy it adds does not lift the robot out of balance, which is why the ballast sits at the very bottom.</p>
+</details>
+<details class="hc">
+<summary>
+Thermistor: resistance-to-voltage circuit (gain 4.7, Rf = 47 kΩ, Rn1 = 10 kΩ)
+</summary>
+<p><strong>Goal.</strong> The circuit is an inverting offset amplifier built around the thermistor. It has to take the water temperatures we expected at Dana Point, 10 to 20 °C, and map them onto the Teensy’s usable range of 0.3 to 3 V. Here <span class="math inline">\(R_t\)</span> is the thermistor’s resistance.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/Thermistor-Interface.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Thermistor interface circuit</figcaption>
+</figure>
+</div>
+<p><strong>1. Thermistor resistance at each end of the range.</strong> With <span class="math inline">\(R_0 = 47\ \text{k}\Omega\)</span> at 25 °C and <span class="math inline">\(\beta = 4050\)</span>:</p>
+<p><span class="math display">\[R = R_0\, e^{\beta\left(\frac{1}{T}-\frac{1}{298.15}\right)}\]</span></p>
+<p><span class="math display">\[R_{10^\circ C} = 47\text{k}\cdot e^{4050\left(\frac{1}{283.15}-\frac{1}{298.15}\right)} = 96{,}520\ \Omega\]</span></p>
+<p><span class="math display">\[R_{20^\circ C} = 47\text{k}\cdot e^{4050\left(\frac{1}{293.15}-\frac{1}{298.15}\right)} = 59{,}254\ \Omega\]</span></p>
+<p><strong>2. Expected voltage.</strong> I put the thermistor in a voltage divider with <span class="math inline">\(R_2 = 47\ \text{k}\Omega\)</span> (its resistance at room temperature) and <span class="math inline">\(V_{in} = 5\)</span> V. The output sits between <span class="math inline">\(R_t\)</span> and <span class="math inline">\(R_2\)</span>:</p>
+<p><span class="math display">\[V_{out} = V_{in}\,\frac{R_2}{R_t + R_2}\]</span></p>
+<p><span class="math display">\[V_{out,10} = 5\cdot\frac{47000}{96520+47000} = 1.637\ \text{V}\qquad V_{out,20} = 5\cdot\frac{47000}{59254+47000} = 2.21\ \text{V}\]</span></p>
+<p><strong>3. Gain.</strong> The Teensy’s range is 0.3 to 3 V, so the 0.573 V swing has to grow to 2.7 V:</p>
+<p><span class="math display">\[gain = \frac{\Delta V_{out}}{\Delta V_{in}} = \frac{3-0.3}{2.21-1.637} = 4.71\]</span></p>
+<p>The amplifier is inverting, so</p>
+<p><span class="math display">\[gain = -\frac{R_f}{R_{n1}} = -4.71\ \Rightarrow\ R_f = 4.71\,R_{n1}\]</span></p>
+<p>I used <span class="math inline">\(R_f = 47\ \text{k}\Omega\)</span> and <span class="math inline">\(R_{n1} = 10\ \text{k}\Omega\)</span>, which gives 4.7.</p>
+<p><strong>4. Offset.</strong> The inverting gain flips high and low, so the highest input (20 °C, 2.21 V) becomes the lowest output:</p>
+<p><span class="math display">\[2.21\times(-4.71) = -10.41\ \text{V}\]</span></p>
+<p>I want that point to read 0.3 V, so the offset is <span class="math inline">\(0.3 + 10.41 = 10.71\)</span> V.</p>
+<p><strong>5. Offset resistors.</strong> The amplifier’s output is</p>
+<p><span class="math display">\[V_{out} = \left(1+\frac{R_f}{R_{n1}}\right)\left(\frac{R_g}{R_{p1}+R_g}\right)V_{p1} - \frac{R_f}{R_{n1}}\,V_{in}\]</span></p>
+<p>The first term is the offset, so I solve it for 10.71 V. Let <span class="math inline">\(V_+ = V_{p1}\frac{R_g}{R_g+R_{p1}}\)</span> be the voltage at the non-inverting input:</p>
+<p><span class="math display">\[\left(1+\frac{R_f}{R_{n1}}\right)V_+ = 10.71\ \Rightarrow\ V_+ = \frac{10.71}{5.71} = 1.876\ \text{V}\]</span></p>
+<p>With <span class="math inline">\(V_{p1} = 5\)</span> V:</p>
+<p><span class="math display">\[1.876 = 5\,\frac{R_g}{R_g+R_{p1}}\ \Rightarrow\ R_{p1} = 1.66\,R_g\]</span></p>
+<p><strong>Final values:</strong> <span class="math inline">\(R_g = 10\ \text{k}\Omega\)</span>, <span class="math inline">\(R_{p1} = 16.6\ \text{k}\Omega\)</span>, <span class="math inline">\(R_f = 47\ \text{k}\Omega\)</span>, <span class="math inline">\(R_{n1} = 10\ \text{k}\Omega\)</span>.</p>
+</details>
+<details class="hc">
+<summary>
+Pressure sensor: voltage-to-voltage circuit (gain 11, Rf = 110 kΩ, Rn1 = 10 kΩ)
+</summary>
+<p><strong>Goal.</strong> Turn the pressure sensor’s small voltage change over 0 to 3 m of depth into a signal that fills most of the Teensy’s range. A unity-gain buffer sits in front of the amplifier so the sensor is not loaded.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/Pressure-Sensor-Interface.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Pressure sensor interface circuit</figcaption>
+</figure>
+</div>
+<p><strong>1. Sensor output.</strong> From the datasheet, with <span class="math inline">\(V_S = 5\)</span> V, <span class="math inline">\(P_{atm} = 101.3\)</span> kPa (from a barometer) and <span class="math inline">\(\rho = 1020\)</span> kg/m³ for seawater:</p>
+<p><span class="math display">\[V_{in} = V_S\left(0.0012858\,(P_{atm}+\rho g h) + 0.04\right)\]</span></p>
+<p>At 0 m this is 0.851 V and at 3 m it is 1.044 V, so <span class="math inline">\(\Delta V_{in} = 0.193\)</span> V.</p>
+<p><strong>2. Gain.</strong> I want the output to swing 2.0 V (0.5 V to 2.5 V) over that range:</p>
+<p><span class="math display">\[|gain| = \frac{\Delta V_{out}}{\Delta V_{in}} = \frac{2.0}{0.193} = 10.36 = \frac{R_f}{R_{n1}}\ \Rightarrow\ R_f = 103.6\ \text{k}\Omega\ \text{for}\ R_{n1} = 10\ \text{k}\Omega\]</span></p>
+<p>The gain is negative, so 0 m reads high and 3 m reads low. Keeping it near 10 limits the error that gain adds.</p>
+<p><strong>3. Offset.</strong> I place the 0 m reading at 2.2 V, so the 3 m reading lands near 0.2 V:</p>
+<p><span class="math display">\[V_{offset} = V_{in}(0)\cdot gain + 2.2 = 0.851(10.36) + 2.2 = 11.02\ \text{V}\]</span></p>
+<p>The offset comes from <span class="math inline">\((1+G)\,V_+\)</span>, so</p>
+<p><span class="math display">\[V_+ = \frac{11.02}{1+10.36} = 0.970\ \text{V}\]</span></p>
+<p><strong>4. Offset resistors.</strong> With <span class="math inline">\(V_{p1} = 5\)</span> V and <span class="math inline">\(R_g = 10\ \text{k}\Omega\)</span>:</p>
+<p><span class="math display">\[V_+ = 5\,\frac{R_g}{R_g+R_{p1}}\ \Rightarrow\ R_{p1} = 41.5\ \text{k}\Omega\]</span></p>
+<p><strong>5. Built values.</strong> The calculation gives <span class="math inline">\(R_f = 103.6\ \text{k}\Omega\)</span>. I built the circuit with <span class="math inline">\(R_f = 110\ \text{k}\Omega\)</span>, which is close to the ideal and gives a slightly higher gain of 11, along with <span class="math inline">\(R_{n1} = 10\ \text{k}\Omega\)</span>, <span class="math inline">\(R_{p1} = 40\ \text{k}\Omega\)</span> and <span class="math inline">\(R_g = 10\ \text{k}\Omega\)</span>. The output is then <span class="math inline">\(V_{out} = 12 - 11\,V_{in}\)</span>, which is about 2.64 V at 0 m and 0.51 V at 3 m, still well inside the Teensy’s 0.3 to 3 V range.</p>
+</details>
+<details class="hc">
+<summary>
+UV sensor: voltage-to-voltage circuit (gain 2.7, Rf = 27 kΩ, Rn1 = 10 kΩ)
+</summary>
+<p><strong>Goal.</strong> The sensor outputs <span class="math inline">\(V = 0.1\times UV\)</span>. Dana Point’s UV index could reach about 8, so the sensor output spans 0 to 0.8 V. A unity-gain buffer sits in front of the amplifier, and the circuit places the signal on the Teensy’s range.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/UV-Sensor-Interface.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>UV sensor interface circuit</figcaption>
+</figure>
+</div>
+<p><strong>1. Gain.</strong> I want the output to run from 2.8 V at UV 0 down to 0.6 V at UV 8:</p>
+<p><span class="math display">\[|gain| = \frac{\Delta V_{out}}{\Delta V_{in}} = \frac{2.8-0.6}{0.8-0} = 2.75 = \frac{R_f}{R_{n1}}\ \Rightarrow\ R_f = 27.5\ \text{k}\Omega\ \text{for}\ R_{n1} = 10\ \text{k}\Omega\]</span></p>
+<p><strong>2. Offset.</strong> At UV 0 the sensor voltage is 0, so the output there is the offset itself, 2.8 V:</p>
+<p><span class="math display">\[(1+G)\,V_+ = 2.8\ \Rightarrow\ V_+ = \frac{2.8}{1+2.75} = 0.747\ \text{V}\]</span></p>
+<p><strong>3. Offset resistors.</strong> With <span class="math inline">\(V_{p1} = 5\)</span> V and <span class="math inline">\(R_g = 10\ \text{k}\Omega\)</span>:</p>
+<p><span class="math display">\[V_+ = 5\,\frac{R_g}{R_g+R_{p1}}\ \Rightarrow\ R_{p1} = 57.0\ \text{k}\Omega\]</span></p>
+<p><strong>4. Built values.</strong> I used <span class="math inline">\(R_f = 27\ \text{k}\Omega\)</span> (gain 2.7), <span class="math inline">\(R_{n1} = 10\ \text{k}\Omega\)</span>, <span class="math inline">\(R_{p1} = 57\ \text{k}\Omega\)</span> (a 47 kΩ and a 10 kΩ resistor in series) and <span class="math inline">\(R_g = 10\ \text{k}\Omega\)</span>. Those give an actual offset of 2.76 V and <span class="math inline">\(V_{out} = 2.76 - 2.7\,V_{in}\)</span>.</p>
+<p><strong>Breadboard check.</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>UV index</th>
+<th>Predicted output</th>
+<th>Measured output</th>
+<th>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>2.76 V</td>
+<td>2.75 V</td>
+<td>0.4%</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>0.60 V</td>
+<td>0.66 V</td>
+<td>8.9%</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="hc">
+<summary>
+Battery life
+</summary>
+<p>The motors draw the most current, and in Lab 0 each motor pulled less than 500 mA. With two motors and a 3300 mAh battery:</p>
+<p><span class="math display">\[t = \frac{3300\ \text{mAh}}{2\times 500\ \text{mA}} = 3.3\ \text{hours}\]</span></p>
+</details>
+</section>
+<section id="problems-and-how-we-handled-them" class="level2">
+<h2 class="anchored" data-anchor-id="problems-and-how-we-handled-them">Problems and how we handled them</h2>
+<ul>
+<li><strong>Motor noise in the temperature signal.</strong> Salt water is conductive, so the motors’ electromagnetic interference swamped the thermistor. We programmed a 4-second motor stop at each waypoint and read temperature only during those gaps.</li>
+<li><strong>Buoyancy changed with depth.</strong> The robot was neutral at the surface but became heavier as pressure rose, so it sank at the last waypoint and could not resurface alone.</li>
+<li><strong>Saltwater ballast.</strong> The extra density of seawater changed how much ballast we needed, so we trimmed it on site before the dive.</li>
+</ul>
 </section>
 <section id="deployment" class="level2">
 <h2 class="anchored" data-anchor-id="deployment">Deployment</h2>

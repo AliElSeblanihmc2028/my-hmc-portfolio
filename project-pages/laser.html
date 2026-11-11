@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Flexible Measuring Laser – Ali El Seblani</title>
+<title>SEM Sample Height Measuring Jig – Ali El Seblani</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -138,7 +138,7 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Flexible Measuring Laser</h1>
+<h1 class="title">SEM Sample Height Measuring Jig</h1>
 </div>
 
 
@@ -173,15 +173,16 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 </style>
 <div class="lz-hero">
   <figure style="margin:0" class="figure">
-    <img src="../images/web/laser_calel.jpg" alt="Final prototype of the SEM sample height gauge" class="figure-img">
+    <img src="../images/web/laser_calel.jpg" alt="Final prototype of the SEM sample height measuring jig" class="figure-img">
     <div class="lz-cap">The final prototype (CALEL), printed in PLA.</div>
   </figure>
   <div>
-    <p><b>Summary.</b> In Engineering Design &amp; Manufacturing (E4), our team designed a hand-operated gauge that lets Scanning Electron Microscope (SEM) users find the tallest point of a mounted sample <b>without touching it</b>. A rack and pinion raises a laser to the sample's height, and a slew bearing sweeps the beam around it to find the highest peak. The user then reads the height off digital calipers.</p>
+    <p><b>Summary.</b> In Engineering Design &amp; Manufacturing (E4), our team designed a hand-operated jig that lets Scanning Electron Microscope (SEM) users find the tallest point of a mounted sample <b>without touching it</b>. A rack and pinion raises a laser to the sample's height, and a slew bearing sweeps the beam around it to find the highest peak. The user then reads the height off digital calipers.</p>
     <div class="lz-facts">
       <p><b>Course:</b> E4 Engineering Design &amp; Manufacturing, Fall 2025</p>
       <p><b>Team:</b> Team BTE</p>
       <p><b>Client:</b> an SEM research lab, based in Australia</p>
+      <p><b>Budget:</b> $50 limit, $26 spent</p>
       <p><b>Tools:</b> SolidWorks, 3D printing (PLA), digital calipers</p>
     </div>
   </div>
@@ -189,14 +190,88 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 <section id="the-problem" class="level2">
 <h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
 <p>SEM users had to estimate sample height by eye against a ruler, and then type that number into the microscope. A wrong height can crash a sample into the chamber and damage sensitive detectors, and the client said repairs can take months. The top of each sample also carries a conductive coating only nanometers thick, so anything that touches it can ruin it.</p>
-<p>The client’s requirements, in her priority order:</p>
-<ul>
-<li>Setup in under 30 seconds.</li>
-<li>No contact with the sample.</li>
-<li>Measurement increments of 1 mm or better.</li>
-<li>Fit a 10 cm sample holder with seven 26 mm samples.</li>
-<li>Measure up to a 50 mm height offset.</li>
-</ul>
+<section id="constraints-hard-limits-in-priority-order" class="level3">
+<h3 class="anchored" data-anchor-id="constraints-hard-limits-in-priority-order">Constraints (hard limits, in priority order)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Constraint</th>
+<th>How we met it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Set up in under 30 seconds</td>
+<td>10 to 15 seconds on average in testing</td>
+</tr>
+<tr class="even">
+<td>Never touch the sample</td>
+<td>The bearing’s center hole is 3 mm wider than the platform, so nothing can reach a sample on it</td>
+</tr>
+<tr class="odd">
+<td>Measure in increments of 1 mm or better</td>
+<td>0.39 mm average error, read on calipers accurate to 0.02 mm</td>
+</tr>
+<tr class="even">
+<td>Fit a 10 cm holder with seven 26 mm samples</td>
+<td>The 100 mm platform takes the largest holder exactly, and smaller ones too</td>
+</tr>
+<tr class="odd">
+<td>Handle a 50 mm height offset</td>
+<td>Measures up to 184 mm</td>
+</tr>
+<tr class="even">
+<td>Stay within a $50 project budget</td>
+<td>We spent $26</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="objectives-what-we-tried-to-maximize-in-priority-order" class="level3">
+<h3 class="anchored" data-anchor-id="objectives-what-we-tried-to-maximize-in-priority-order">Objectives (what we tried to maximize, in priority order)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Objective</th>
+<th>How we judged it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Measurement accuracy</td>
+<td>People outside the team measured five objects without knowing the true heights. Average error of 0.39 mm scored 4 out of 5 on our rubric</td>
+</tr>
+<tr class="even">
+<td>2. Durability</td>
+<td>The PLA prototype held up through repeated use by many people. The client can reprint in tougher nylon</td>
+</tr>
+<tr class="odd">
+<td>3. Replicability</td>
+<td>We delivered SolidWorks and STL files so her lab can print it. The non-printed parts are cheap and easy to find</td>
+</tr>
+<tr class="even">
+<td>4. Short setup time</td>
+<td>10 to 15 seconds to place a sample and reset the bearing</td>
+</tr>
+<tr class="odd">
+<td>5. User safety</td>
+<td>Every edge sanded smooth, non-toxic material, and a wall that blocks the laser from eyes</td>
+</tr>
+<tr class="even">
+<td>6. Readable measurement</td>
+<td>The digital caliper shows the height as a number</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="what-i-was-responsible-for" class="level2">
 <h2 class="anchored" data-anchor-id="what-i-was-responsible-for">What I was responsible for</h2>
@@ -223,7 +298,7 @@ gtag('config', 'G-6CHDXZMNVL', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="design-decisions">Design decisions</h2>
 <ul>
 <li><strong>Choosing a concept.</strong> We generated five alternatives from a morphological chart: a flexible measuring laser, a circular aluminum gauge ring, a micrometer ruler, a LIDAR scanner and an inductive scanner. The LIDAR scanner failed the 30-second setup constraint. The inductive scanner scored highest overall but cost much more, and we asked for a budget increase to test it. The laser design, the lower-cost option, became our prototype.</li>
-<li><strong>Material.</strong> We printed in PLA because it was free and easy to get. We recommended nylon to the client for its low friction and wear resistance, and she may have access to it.</li>
+<li><strong>Material.</strong> We printed in PLA because it was free and easy to get, which mattered under a $50 budget. We finished at $26. We recommended nylon to the client for its low friction and wear resistance, and she may have access to it.</li>
 <li><strong>Replicability.</strong> The client asked for files, not a physical unit, so we delivered SolidWorks and STL packages that her team can print. The non-printed parts are cheap and easy to find, and cost about a third of our E4 budget.</li>
 <li><strong>Safety.</strong> We sanded every sharp edge, including the cut threaded rod, and the material is non-toxic.</li>
 </ul>
