@@ -30,10 +30,10 @@ format:
   </a>
 
   <a class="feature-card" href="project-pages/laser.html">
-    <img src="images/web/laser_calel.jpg" alt="Flexible Measuring Laser"/>
+    <img src="images/web/laser_calel.jpg" alt="SEM Sample Height Measuring Jig"/>
     <div class="feature-body">
       <p class="feature-kicker">E4 Engineering Design &amp; Manufacturing · Oct – Dec 2025</p>
-      <h3>Flexible Measuring Laser</h3>
+      <h3>SEM Sample Height Measuring Jig</h3>
       <p class="feature-impact">0.39 mm average error · no contact with the sample</p>
       <div class="chips"><span>CAD</span><span>SolidWorks</span><span>Rack and pinion</span><span>Slew bearing</span><span>3D printing (PLA)</span></div>
     </div>

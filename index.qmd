@@ -24,7 +24,7 @@ toc: false
   <a class="feature-card" href="racing.html">
     <img src="images/web/FSAEteampic.jpg" alt="Harvey Mudd Racing team"/>
     <div class="feature-body">
-      <h3>Harvey Mudd Racing</h3>
+      <h3>Harvey Mudd Racing &#124; Powertrain Lead</h3>
       <p class="feature-impact">Leading a 7+ person powertrain team · first competition May 2027</p>
     </div>
   </a>
@@ -32,7 +32,7 @@ toc: false
   <a class="feature-card" href="project-pages/GeneralMotors.html">
     <img src="images/GenMotors.jpg" alt="General Motors"/>
     <div class="feature-body">
-      <h3>General Motors Internship</h3>
+      <h3>General Motors &#124; Manufacturing Engineering Intern</h3>
       <p class="feature-impact">63% fewer material touches · ~$1M/yr projected savings</p>
     </div>
   </a>
@@ -45,11 +45,11 @@ toc: false
     </div>
   </a>
 
-  <a class="feature-card" href="project-pages/laser.html">
-    <img src="images/web/laser_calel.jpg" alt="Flexible Measuring Laser"/>
+  <a class="feature-card" href="project-pages/machineshop.html">
+    <img src="images/web/machine-shopPic.jpg" alt="Machine Shop Proctor" style="object-position: center 25%;"/>
     <div class="feature-body">
-      <h3>Flexible Measuring Laser</h3>
-      <p class="feature-impact">0.39 mm average error · no contact with the sample</p>
+      <h3>Machine Shop Proctor</h3>
+      <p class="feature-impact">Promoting safe machine use for 80+ students each semester</p>
     </div>
   </a>
 

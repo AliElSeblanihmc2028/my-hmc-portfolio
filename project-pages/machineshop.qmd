@@ -24,6 +24,22 @@ toc: false
 
 ---
 
+## Related project
+
+```{=html}
+<div class="feature-grid" style="grid-template-columns: minmax(0, 340px);">
+  <a class="feature-card" href="hammer.html">
+    <img src="../images/web/Hammer-front.jpg" alt="Machinist's Hammer"/>
+    <div class="feature-body">
+      <p class="feature-kicker">E4 Engineering Design &amp; Manufacturing · Sep – Oct 2025</p>
+      <h3>Machinist's Hammer</h3>
+      <p class="feature-impact">Machined to within thousandths of an inch</p>
+      <div class="chips"><span>Lathe</span><span>Mill</span><span>Heat treatment</span><span>GD&amp;T</span></div>
+    </div>
+  </a>
+</div>
+```
+
 ## Links
 
 [HMC Machine Shop](https://sites.google.com/g.hmc.edu/hmc-machine-shop/home?authuser=0)
