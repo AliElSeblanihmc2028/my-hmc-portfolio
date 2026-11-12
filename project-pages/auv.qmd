@@ -20,6 +20,7 @@ toc: false
 @media (max-width:800px){ .auv-hero{ grid-template-columns:1fr; gap:1.2rem; } }
 details.hc { border:1px solid #dde3ea; border-radius:8px; padding:0.3rem 1rem; margin:0.7rem 0; background:#fff; }
 details.hc summary { font-weight:600; cursor:pointer; padding:0.5rem 0; }
+.auv-eq { display:block; margin:0.5rem 0 0.2rem; font-family:"Cambria Math","STIX Two Math",Georgia,serif; font-size:0.9rem; font-weight:600; color:inherit; }
 </style>
 
 ```{=html}
@@ -35,6 +36,7 @@ details.hc summary { font-weight:600; cursor:pointer; padding:0.5rem 0; }
       <p><b>Team:</b> Ali El Seblani, Carolyn Davis, Keegan Cabrera, Jessica Li</p>
       <p><b>Sensors:</b> MPX5700 pressure, Murata NXFT15WB473FA2B150 thermistor, GUVA-S12SD UV</p>
       <p><b>Constraint:</b> $50 budget for sensors</p>
+      <p><b>Size:</b> 42 × 42 × 48 cm PVC frame</p>
       <p><b>Controller:</b> Teensy 4.0, 10 Hz logging to SD card</p>
     </div>
   </div>
@@ -74,6 +76,14 @@ The robot also had clear limits. At greater depth it lost neutral buoyancy and b
 
 ## Design decisions
 
+```{=html}
+<figure style="margin:1rem auto;max-width:560px;text-align:center">
+  <img src="../images/web/auv_schematic_v2.jpg" alt="Hand-drawn schematic of the AUV with labeled parts and dimensions" style="width:100%;height:auto;border-radius:6px">
+  <figcaption class="auv-cap">Layout sketch of the robot: a 42 × 42 × 48 cm PVC frame with the electronics box and UV sensor on top, floats at the top, two motors mid-frame, the pressure tube and thermistor on the sides, and ballast at the bottom.</figcaption>
+</figure>
+```
+
+
 - **Why UV and temperature.** We compared four concepts: a surface vehicle with a UV and temperature heat map, a salinity profiler, a current-and-depth profiler, and a surface vehicle with a tethered AUV. We chose the depth profile of UV and temperature because both come from the sun and it needed only three added sensors, which fit the $50 sensor limit.
 - **Sensor ranges.** Each sensor was scaled to 0.3 to 3 V so the Teensy's 0 to 3.3 V input never clipped, and so each signal used the full range for better resolution. Pressure used a gain of about 10 with inverted output, mapping 0 m to high voltage and 3 m to low.
 - **Calibration.** I calibrated depth against voltage with a meter stick in 0.1 m steps, then repeated it at Dana Point because saltwater (about 1020 kg/m³) differs from fresh water. A best-fit line through the 0 to 1 m data gave depth = −1.9 × voltage + 5.17 (depth in meters, voltage in volts). I calibrated the thermistor against a thermometer across 10 to 20 °C.
@@ -102,7 +112,15 @@ The robot also had clear limits. At greater depth it lost neutral buoyancy and b
 
 ## Hand calculations
 
-I sized the robot and its circuits by hand before building anything. Each calculation opens to show the steps.
+I sized the robot and its circuits by hand before building anything. I then built each circuit in a Falstad simulation to test my hand calculations and to debug them before touching the breadboard. Each calculation below opens to show the steps.
+
+```{=html}
+<figure style="margin:1rem auto;max-width:720px;text-align:center">
+  <img src="../images/web/auv_falstad_v3.jpg" alt="Falstad simulation of the buffer and inverting offset amplifier" style="width:100%;height:auto;border-radius:6px">
+  <figcaption class="auv-cap">Falstad simulation of the final thermistor circuit (R<sub>n1</sub> = 10 kΩ, R<sub>f</sub> = 47 kΩ, R<sub>p1</sub> = 16.6 kΩ, R<sub>g</sub> = 10 kΩ). A 40 Hz sine standing in for the thermistor voltage swings from 1.637 V to 2.21 V (10 to 20 °C) on the left scope. The output on the right scope is flipped and scaled to 0.327 V to 3.02 V, matching the hand calculation.</figcaption>
+</figure>
+```
+
 
 <details class="hc" open>
 <summary>Stability: keeping the center of buoyancy above the center of mass</summary>
@@ -274,6 +292,18 @@ The motors draw the most current, and in Lab 0 each motor pulled less than 500 m
 $$t = \frac{3300\ \text{mAh}}{2\times 500\ \text{mA}} = 3.3\ \text{hours}$$
 
 </details>
+
+## Calibration and validation
+
+Before the deployment I calibrated each sensor against a known reference and checked it against the conditions I expected at Dana Point.
+
+```{=html}
+<div class="auv-row">
+  <figure><img src="../images/web/auv_cal_temp.jpg" alt="Thermistor calibration curve"><figcaption><b>Thermistor.</b> I measured water at temperatures across the 10 to 20 °C range expected at Dana Point against a thermometer. Best fit, with <i>T</i> in °C and <i>V</i> in volts:</figcaption><span class="auv-eq"><i>T</i> = −3.91<i>V</i> + 21.1</span></figure>
+  <figure><img src="../images/web/auv_cal_depth.jpg" alt="Pressure sensor depth calibration curve"><figcaption><b>Pressure sensor.</b> I measured depth against voltage in saltwater at Dana Point, so the calibration accounts for seawater's higher density. Best fit, with <i>d</i> in meters and <i>V</i> in volts:</figcaption><span class="auv-eq"><i>d</i> = −1.9<i>V</i> + 5.17</span></figure>
+  <figure><img src="../images/web/auv_uv_check.jpg" alt="UV index sanity check"><figcaption><b>UV sensor.</b> A sanity check that the sensor really sees UV. It first read about 4.4, in line with that day's forecast. Then I covered it with my hand to block the sun and the reading fell to about 0.25.</figcaption></figure>
+</div>
+```
 
 ## Problems and how we handled them
 
